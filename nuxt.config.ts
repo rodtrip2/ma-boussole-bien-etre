@@ -7,31 +7,17 @@ export default defineNuxtConfig({
     client: false,
     server: false
   },
-  $production: {
-    scripts: {
-      registry: {
-        googleAnalytics: {
-          id: 'G-TMXBQDETE3',
-        }
-      }
-    }
-  },
   runtimeConfig: {
     public: {
-      baseUrl: process.env.VITE_BASE_URL || 'https://anxietyaidtools.com'
+      baseUrl: process.env.NUXT_SITE_URL || 'http://localhost:3000'
     }
   },
 
   nitro: {
-    preset: "cloudflare_pages",
-    cloudflare: {
-      deployConfig: true,
-      nodeCompat: true,
-    },
-    compressPublicAssets: true,
+    preset: "static",
     logLevel: 4,
     prerender: {
-      autoSubfolderIndex: false,
+      autoSubfolderIndex: true,
       crawlLinks: true,
       failOnError: false,
       routes: ['/']
@@ -50,12 +36,9 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxtjs/tailwindcss",
     "@nuxtjs/color-mode",
-    "@nuxtjs/google-fonts",
     "@nuxtjs/seo",
     "@nuxtjs/i18n",
-    '@sentry/nuxt/module',
     "@vite-pwa/nuxt",
-    '@nuxt/scripts',
   ],
 
   tailwindcss: {
@@ -107,22 +90,26 @@ export default defineNuxtConfig({
     }
   },
 
-  googleFonts: {
-    families: {
-      Inter: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+  // Police Inter embarquée localement (aucun appel à Google Fonts)
+  css: ['@fontsource-variable/inter'],
+
+  // Icônes intégrées au bundle (aucun appel à l'API Iconify)
+  icon: {
+    provider: 'none',
+    fallbackToApi: false,
+    clientBundle: {
+      scan: { globInclude: ['components/**', 'pages/**', 'composables/**', 'layouts/**', '*.vue'] },
+      icons: ['material-symbols:landscape'],
     },
-    display: "swap",
-    prefetch: true,
-    preconnect: true,
   },
 
   site: {
-    url: 'https://anxietyaidtools.com',
+    url: process.env.NUXT_SITE_URL || 'http://localhost:3000',
     name: 'Anxiety Aid Tools',
   },
 
   ogImage: {
-    enabled: true,
+    enabled: false,
     defaults: {
       component: 'NuxtSeo',
     },
@@ -130,7 +117,7 @@ export default defineNuxtConfig({
 
   seo: {
     meta: {
-      ogImage: 'https://anxietyaidtools.com/og.png',
+      ogImage: '/og.png',
       twitterCard: 'summary_large_image',
       themeColor: '#9333ea',
       robots: 'index, follow',
@@ -142,18 +129,11 @@ export default defineNuxtConfig({
   },
 
   i18n: {
-    baseUrl: 'https://anxietyaidtools.com',
+    baseUrl: process.env.NUXT_SITE_URL || 'http://localhost:3000',
     compilation: {
       strictMessage: false,
     },
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: 'i18n_redirected',
-      redirectOn: 'root',
-      alwaysRedirect: false,
-      cookieCrossOrigin: false,
-      cookieSecure: true
-    },
+    detectBrowserLanguage: false,
     locales: [
       {
         code: 'en',
@@ -204,24 +184,12 @@ export default defineNuxtConfig({
         ]
       }
     ],
-    defaultLocale: 'en',
+    defaultLocale: 'fr',
     strategy: 'prefix_except_default'
   },
 
   compatibilityDate: "2024-12-26",
 
-  sentry: {
-    enabled: process.env.NODE_ENV === 'production',
-    sourceMapsUploadOptions: {
-      telemetry: false,
-      org: 'boring-dystopia-development',
-      project: 'anxietyaidtools',
-    },
-  },
-
-  sourcemap: {
-    client: 'hidden',
-  },
 
   pwa: {
     registerType: 'autoUpdate',

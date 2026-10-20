@@ -27,7 +27,7 @@
         
         
         <a 
-          href="https://github.com/alvinunreal/anxiety-aid-tools" 
+          href="https://github.com/rodtrip2/anxiety-aid-tools" 
           target="_blank"
           rel="noopener noreferrer nofollow"
           class="flex items-center text-sm px-2 py-1 border border-gray-300 dark:border-slate-600 rounded text-gray-700 dark:text-slate-300 hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors duration-200"

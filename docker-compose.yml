@@ -1,9 +1,6 @@
-version: '3.9'
 services:
-    anxiety-aid-tools:
-        image: 'anxiety-aid-tools:v1.1.0'
-        ports:
-            - '3000:3000'
-        tty: true
-        stdin_open: true
-
+  anxiety-aid-tools:
+    build: .
+    ports:
+      - "8080:80"
+    restart: unless-stopped

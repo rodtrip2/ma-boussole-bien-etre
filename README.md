@@ -16,6 +16,14 @@
 
 </div>
 
+> **Version sans pistage (fork)** — Ce fork reprend la dernière version libre et gratuite du projet (licence GPL-3.0), sans inscription ni option payante.
+> Modifications apportées :
+> - suppression de Google Analytics et de Sentry (aucune donnée envoyée à un tiers) ;
+> - police Inter et icônes embarquées : le site ne fait **aucune requête externe** ;
+> - génération en site HTML statique (`npx nuxt generate` → dossier `.output/public`), hébergeable n'importe où ;
+> - français par défaut (anglais, portugais et chinois via le sélecteur de langue) ;
+> - publication automatique possible sur GitHub Pages (`.github/workflows/pages.yml`) et image Docker/nginx (`docker compose up -d` → http://localhost:8080).
+
 ---
 
 ## What Makes This Special

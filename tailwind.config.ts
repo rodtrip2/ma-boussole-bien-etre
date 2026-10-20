@@ -6,11 +6,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter"],
+        sans: ["Inter Variable", "Inter", "system-ui", "sans-serif"],
         serif: ["serif"],
         mono: ["monospace"],
-        display: ["Inter"],
-        body: ["Inter"],
+        display: ["Inter Variable", "Inter", "system-ui", "sans-serif"],
+        body: ["Inter Variable", "Inter", "system-ui", "sans-serif"],
       },
       spacing: {
         "8xl": "96rem",
