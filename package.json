@@ -16,7 +16,8 @@
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --write . --fix",
     "sync-locales": "node scripts/sync-locales.js",
-    "generate:peaceful-visualization": "node scripts/generate-peaceful-visualization-audio.mjs"
+    "generate:peaceful-visualization": "node scripts/generate-peaceful-visualization-audio.mjs",
+    "test": "node --test tests/assessments.test.mjs"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.27.1",

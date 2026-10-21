@@ -24,6 +24,7 @@
 > - liens vers l'application mobile et le forum du projet d'origine retirés ;
 > - corrections : toupie (fonction `stop()` manquante), icône manquante, chemins audio en sous-dossier ;
 > - mode hors ligne limité aux pages françaises (≈ 12 Mo au lieu de 78 Mo) ;
+> - questionnaires d’auto-évaluation en versions françaises validées (PHQ-9, GAD-7, WHO-5, AUDIT, Rosenberg), sans enregistrement des réponses, avec message d’aide (3114) ; tests : `npm test` ;
 > - publication automatique sur GitHub Pages (`.github/workflows/pages.yml`) et image Docker/nginx (`docker compose up -d` → http://localhost:8080).
 
 ---

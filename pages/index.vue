@@ -20,6 +20,27 @@
       </div>
     </section>
 
+    <!-- Questionnaires d'auto-évaluation -->
+    <section id="self-tests" class="pt-12">
+      <div class="mx-auto max-w-6xl sektion">
+        <NuxtLink
+          :to="localePath('/self-tests')"
+          class="group flex flex-col gap-4 border border-gray-200 bg-white p-6 transition-all duration-200 hover:shadow-md dark:border-slate-600 dark:bg-slate-800 sm:flex-row sm:items-center"
+        >
+          <span class="flex h-14 w-14 flex-shrink-0 items-center justify-center bg-blue-100 dark:bg-blue-900/30">
+            <Icon name="ph:clipboard-text" class="text-3xl text-blue-600 dark:text-blue-400" />
+          </span>
+          <span class="flex-1">
+            <span class="mb-1 block text-xl font-semibold text-gray-800 group-hover:underline dark:text-slate-100">{{ $t("selfTests.homeTitle") }}</span>
+            <span class="block text-gray-600 dark:text-slate-300">{{ $t("selfTests.homeText") }}</span>
+          </span>
+          <span class="inline-flex items-center gap-1 font-medium text-blue-600 dark:text-blue-400">
+            {{ $t("selfTests.homeCta") }} <Icon name="ph:arrow-right" />
+          </span>
+        </NuxtLink>
+      </div>
+    </section>
+
     <!-- About Section -->
     <section id="about" class="pt-12">
       <div class="mx-auto max-w-6xl">
@@ -126,6 +147,7 @@
 
 <script setup>
 const { allTechniques } = useTechniques();
+const localePath = useLocalePath();
 const { t, tm, rt } = useI18n();
 
 useSeoMeta({

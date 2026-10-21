@@ -103,7 +103,7 @@ export default defineNuxtConfig({
     provider: 'none',
     fallbackToApi: false,
     clientBundle: {
-      scan: { globInclude: ['components/**', 'pages/**', 'composables/**', 'layouts/**', 'utils/**', '*.vue'] },
+      scan: { globInclude: ['components/**', 'pages/**', 'composables/**', 'layouts/**', 'utils/**', 'data/**', '*.vue'] },
       icons: ['material-symbols:landscape'],
     },
   },
@@ -163,7 +163,8 @@ export default defineNuxtConfig({
           'de/sound-therapy.json',
           'de/stress-relief-bubbles.json',
           'de/thought-labeling.json',
-          'de/fidget-spinner.json'
+          'de/fidget-spinner.json',
+          'en/self-tests.json'
         ]
       },
       {
@@ -184,7 +185,8 @@ export default defineNuxtConfig({
           'en/sound-therapy.json',
           'en/stress-relief-bubbles.json',
           'en/thought-labeling.json',
-          'en/fidget-spinner.json'
+          'en/fidget-spinner.json',
+          'en/self-tests.json'
         ]
       },
       {
@@ -205,7 +207,8 @@ export default defineNuxtConfig({
           'es/sound-therapy.json',
           'es/stress-relief-bubbles.json',
           'es/thought-labeling.json',
-          'es/fidget-spinner.json'
+          'es/fidget-spinner.json',
+          'en/self-tests.json'
         ]
       },
       {
@@ -226,7 +229,8 @@ export default defineNuxtConfig({
           'fr/sound-therapy.json',
           'fr/stress-relief-bubbles.json',
           'fr/thought-labeling.json',
-          'fr/fidget-spinner.json'
+          'fr/fidget-spinner.json',
+          'fr/self-tests.json'
         ]
       },
       {
@@ -247,7 +251,8 @@ export default defineNuxtConfig({
           'he/sound-therapy.json',
           'he/stress-relief-bubbles.json',
           'he/thought-labeling.json',
-          'he/fidget-spinner.json'
+          'he/fidget-spinner.json',
+          'en/self-tests.json'
         ]
       },
       {
@@ -268,7 +273,8 @@ export default defineNuxtConfig({
           'hi/sound-therapy.json',
           'hi/stress-relief-bubbles.json',
           'hi/thought-labeling.json',
-          'hi/fidget-spinner.json'
+          'hi/fidget-spinner.json',
+          'en/self-tests.json'
         ]
       },
       {
@@ -289,7 +295,8 @@ export default defineNuxtConfig({
           'it/sound-therapy.json',
           'it/stress-relief-bubbles.json',
           'it/thought-labeling.json',
-          'it/fidget-spinner.json'
+          'it/fidget-spinner.json',
+          'en/self-tests.json'
         ]
       },
       {
@@ -310,7 +317,8 @@ export default defineNuxtConfig({
           'nl/sound-therapy.json',
           'nl/stress-relief-bubbles.json',
           'nl/thought-labeling.json',
-          'nl/fidget-spinner.json'
+          'nl/fidget-spinner.json',
+          'en/self-tests.json'
         ]
       },
       {
@@ -331,7 +339,8 @@ export default defineNuxtConfig({
           'pt/sound-therapy.json',
           'pt/stress-relief-bubbles.json',
           'pt/thought-labeling.json',
-          'pt/fidget-spinner.json'
+          'pt/fidget-spinner.json',
+          'en/self-tests.json'
         ]
       },
       {
@@ -352,7 +361,8 @@ export default defineNuxtConfig({
           'ru/sound-therapy.json',
           'ru/stress-relief-bubbles.json',
           'ru/thought-labeling.json',
-          'ru/fidget-spinner.json'
+          'ru/fidget-spinner.json',
+          'en/self-tests.json'
         ]
       },
       {
@@ -373,7 +383,8 @@ export default defineNuxtConfig({
           'zh/sound-therapy.json',
           'zh/stress-relief-bubbles.json',
           'zh/thought-labeling.json',
-          'zh/fidget-spinner.json'
+          'zh/fidget-spinner.json',
+          'en/self-tests.json'
         ]
       },
     ],

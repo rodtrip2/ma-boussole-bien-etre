@@ -53,10 +53,10 @@
                     {{ $t("support.help.website.title") }}
                   </h3>
                   <a
-                    href="https://anxietyaidtools.com"
+                    href="https://rodtrip2.github.io/anxiety-aid-tools/"
                     class="text-blue-600 dark:text-blue-400 hover:underline"
                   >
-                    anxietyaidtools.com
+                    rodtrip2.github.io/anxiety-aid-tools
                   </a>
                 </div>
                 <div>

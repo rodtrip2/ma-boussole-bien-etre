@@ -4,7 +4,7 @@ const switchLocalePath = useSwitchLocalePath()
 </script>
 
 <template>
-  <footer class="py-8 px-4 border-t border-gray-300 dark:border-slate-600 bg-gray-50 dark:bg-slate-800 transition-colors duration-300">
+  <footer class="app-footer py-8 px-4 border-t border-gray-300 dark:border-slate-600 bg-gray-50 dark:bg-slate-800 transition-colors duration-300">
     <div class="sektion">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
         <div class="text-center md:text-left">
