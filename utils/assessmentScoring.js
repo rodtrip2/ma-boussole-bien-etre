@@ -59,3 +59,25 @@ export function computeScore(def, answers) {
 export function needsSupport(def, answers) {
   return def.items.some((item, i) => item.support && answers[i] > 0)
 }
+
+/**
+ * Détail par question pour l'export : réponse choisie et points comptés
+ * (après inversion éventuelle) ; les questions sautées sont signalées.
+ */
+export function itemDetails(def, answers) {
+  const asked = new Set(askedPath(def, answers))
+  return def.items.map((item, i) => {
+    if (!asked.has(i)) return { number: i + 1, text: item.text, skipped: true, points: 0 }
+    const options = optionsFor(def, i)
+    const values = options.map((o) => o.value)
+    const value = answers[i]
+    const points = item.reverse ? Math.min(...values) + Math.max(...values) - value : value
+    return {
+      number: i + 1,
+      text: item.text,
+      answer: options.find((o) => o.value === value)?.label ?? '—',
+      points,
+      reversed: !!item.reverse,
+    }
+  })
+}

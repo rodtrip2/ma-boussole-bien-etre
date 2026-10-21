@@ -129,6 +129,7 @@
             <div v-if="support"><CrisisNotice strong /></div>
 
             <div class="border border-gray-200 bg-white p-6 dark:border-slate-600 dark:bg-slate-800">
+              <p class="print-only mb-3 text-sm text-gray-600">Rempli le {{ new Date().toLocaleString('fr-FR', { dateStyle: 'long', timeStyle: 'short' }) }}<template v-if="reportName.trim()"> — {{ reportName.trim() }}</template></p>
               <p class="mb-1 text-sm uppercase tracking-wide text-gray-500 dark:text-slate-400">Votre score</p>
               <p class="mb-4 text-4xl font-bold text-gray-800 dark:text-slate-100">
                 {{ result.score }}<span class="text-xl font-normal text-gray-500"> / {{ def.score.max }}{{ def.score.unit ? ' ' + def.score.unit : '' }}</span>
@@ -157,7 +158,7 @@
               professionnel de santé mentale.
             </div>
 
-            <details class="border border-gray-200 bg-white p-4 dark:border-slate-600 dark:bg-slate-800">
+            <details ref="answersDetails" class="border border-gray-200 bg-white p-4 dark:border-slate-600 dark:bg-slate-800">
               <summary class="cursor-pointer font-medium text-gray-800 dark:text-slate-100">Revoir mes réponses</summary>
               <ol class="mt-4 space-y-3 text-sm">
                 <li v-for="i in askedPath(def, answers)" :key="i" class="text-gray-700 dark:text-slate-300">
@@ -167,10 +168,41 @@
               </ol>
             </details>
 
+            <!-- Export -->
+            <div class="no-print border border-gray-200 bg-white p-6 dark:border-slate-600 dark:bg-slate-800">
+              <h2 class="mb-1 text-lg font-semibold text-gray-800 dark:text-slate-100">Garder ou partager mes résultats</h2>
+              <p class="mb-4 text-sm text-gray-600 dark:text-slate-300">
+                Le document contient la date, le score, l’interprétation et toutes vos réponses. Il est créé sur votre
+                appareil : rien n’est envoyé sur internet. Vous pouvez l’apporter à votre médecin ou à votre soignant.
+              </p>
+              <label for="report-name" class="mb-1 block text-sm font-medium text-gray-700 dark:text-slate-300">
+                Nom ou initiales à faire figurer sur le document (facultatif)
+              </label>
+              <input
+                id="report-name"
+                v-model="reportName"
+                type="text"
+                maxlength="80"
+                autocomplete="off"
+                class="mb-4 w-full max-w-sm border border-gray-300 bg-white px-3 py-2 text-gray-800 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-300 dark:border-slate-600 dark:bg-slate-900 dark:text-slate-100"
+              />
+              <div class="flex flex-wrap gap-3">
+                <button
+                  type="button"
+                  class="inline-flex items-center gap-2 bg-blue-600 px-4 py-2 font-medium text-white hover:bg-blue-700 disabled:opacity-60"
+                  :disabled="exporting"
+                  @click="exportPdf"
+                >
+                  <Icon name="ph:file-pdf" /> {{ exporting ? 'Création du PDF…' : 'Télécharger en PDF' }}
+                </button>
+                <button type="button" class="inline-flex items-center gap-2 border border-gray-300 bg-white px-4 py-2 text-gray-800 hover:bg-gray-50 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100" @click="print">
+                  <Icon name="ph:printer" /> Imprimer
+                </button>
+              </div>
+              <p v-if="exportError" class="mt-3 text-sm text-red-700 dark:text-red-300">{{ exportError }}</p>
+            </div>
+
             <div class="no-print flex flex-wrap gap-3">
-              <button type="button" class="inline-flex items-center gap-2 border border-gray-300 bg-white px-4 py-2 text-gray-800 hover:bg-gray-50 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100" @click="print">
-                <Icon name="ph:printer" /> Imprimer
-              </button>
               <button type="button" class="inline-flex items-center gap-2 border border-gray-300 bg-white px-4 py-2 text-gray-800 hover:bg-gray-50 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100" @click="restart">
                 <Icon name="ph:arrow-counter-clockwise" /> Recommencer
               </button>
@@ -196,6 +228,7 @@
 <script setup>
 import { getAssessment } from '~/data/assessments'
 import { optionsFor, nextIndex, askedPath, computeScore, needsSupport } from '~/utils/assessmentScoring'
+import { buildReport, downloadReportPdf } from '~/utils/assessmentExport'
 
 const route = useRoute()
 const { locale } = useI18n()
@@ -276,6 +309,7 @@ function restart() {
   answers.value = []
   history.value = []
   extraAnswer.value = null
+  reportName.value = ''
   window.scrollTo({ top: 0 })
 }
 
@@ -283,7 +317,28 @@ function labelFor(i) {
   return optionsFor(def, i).find((o) => o.value === answers.value[i])?.label ?? '—'
 }
 
+const answersDetails = ref(null)
+const reportName = ref('')
+const exporting = ref(false)
+const exportError = ref('')
+
+async function exportPdf() {
+  exporting.value = true
+  exportError.value = ''
+  try {
+    const report = buildReport(def, answers.value, { extraAnswer: extraAnswer.value, name: reportName.value })
+    await downloadReportPdf(report, def.shortName)
+  } catch (e) {
+    console.error(e)
+    exportError.value = 'Le PDF n’a pas pu être créé. Utilisez « Imprimer », puis « Enregistrer au format PDF ».'
+  } finally {
+    exporting.value = false
+  }
+}
+
 function print() {
+  // affiche les réponses dans la version imprimée
+  if (answersDetails.value) answersDetails.value.open = true
   window.print()
 }
 
@@ -302,7 +357,13 @@ onUnmounted(() => {
 </script>
 
 <style>
+.print-only {
+  display: none;
+}
 @media print {
+  .print-only {
+    display: block !important;
+  }
   header,
   footer.app-footer,
   .no-print {

@@ -100,3 +100,35 @@ test('Rosenberg : items 3, 5, 8, 9, 10 inversés, score 10 à 40', () => {
   assert.equal(score('rosenberg', [1, 1, 4, 1, 4, 1, 1, 4, 4, 4]), 10)
   assert.equal(band('rosenberg', fill(10, 4)), undefined) // pas de seuil officiel
 })
+
+test('export : contenu du rapport', async () => {
+  const { buildReport } = await import('../utils/assessmentExport.js')
+  const phq = getAssessment('phq-9')
+  const r = buildReport(phq, [...fill(8, 0), 1], {
+    extraAnswer: phq.extra.options[1],
+    name: '  R. R.  ',
+    date: new Date(2026, 9, 21, 9, 5),
+  })
+  assert.equal(r.date, '21/10/2026 à 09 h 05')
+  assert.equal(r.fileDate, '2026-10-21')
+  assert.equal(r.name, 'R. R.')
+  assert.equal(r.score, '1 / 27')
+  assert.match(r.support, /3114/)
+  assert.match(r.extra, /Assez difficile/)
+  assert.equal(r.items.length, 9)
+  assert.deepEqual(r.items[8], { number: 9, text: phq.items[8].text, answer: 'Plusieurs jours', points: 1, reversed: false })
+
+  // AUDIT : questions sautées signalées
+  const audit = buildReport(getAssessment('audit'), Object.assign([0], { 8: 0, 9: 2 }))
+  assert.equal(audit.items.filter((i) => i.skipped).length, 7)
+  assert.equal(audit.score, '2 / 40')
+
+  // Rosenberg : points après inversion
+  const rses = buildReport(getAssessment('rosenberg'), fill(10, 4))
+  assert.equal(rses.items[2].points, 1)
+  assert.equal(rses.items[2].reversed, true)
+  assert.equal(rses.interpretation, getAssessment('rosenberg').resultText)
+
+  // WHO-5 : unité
+  assert.equal(buildReport(getAssessment('who-5'), fill(5, 5)).score, '100 / 100 %')
+})
