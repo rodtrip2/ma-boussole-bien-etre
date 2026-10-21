@@ -35,18 +35,8 @@ const switchLocalePath = useSwitchLocalePath()
             </a>
           </div>
         </div>
-        
-        <div class="text-center md:text-right">
-          <a 
-            href="https://www.reddit.com/user/alvinunreal/" 
-            rel="noopener noreferrer nofollow"
-            target="_blank"
-            class="text-sm font-medium text-gray-700 dark:text-slate-200 hover:text-gray-900 dark:hover:text-slate-100 transition-colors duration-200"
-          >
-            Alvin Unreal
-          </a>
-        </div>
       </div>
+      
       
       <div class="py-4 border-t border-gray-200 dark:border-slate-600">
         <div class="flex justify-center">
@@ -64,16 +54,27 @@ const switchLocalePath = useSwitchLocalePath()
         </div>
       </div>
       
-      <div class="pt-4 border-t border-gray-200 dark:border-slate-600">
+      <div class="py-4 border-t border-gray-200 dark:border-slate-600">
         <div class="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
           <p class="text-xs text-gray-500 dark:text-slate-400 text-center md:text-left max-w-2xl">
             {{ $t('footer.disclaimer') }}
           </p>
-          <p class="text-xs text-gray-500 dark:text-slate-400">
-            Open Source • GPL License
-          </p>
+          <div class="flex items-center gap-3 text-xs text-gray-500 dark:text-slate-400">
+            <NuxtLink to="/privacy" class="hover:text-gray-700 dark:hover:text-slate-200 transition-colors duration-200">
+              Privacy
+            </NuxtLink>
+            <span>•</span>
+            <NuxtLink to="/terms" class="hover:text-gray-700 dark:hover:text-slate-200 transition-colors duration-200">
+              Terms
+            </NuxtLink>
+            <span>•</span>
+            <NuxtLink to="/support" class="hover:text-gray-700 dark:hover:text-slate-200 transition-colors duration-200">
+              Support
+            </NuxtLink>
+          </div>
         </div>
       </div>
+
     </div>
   </footer>
 </template>

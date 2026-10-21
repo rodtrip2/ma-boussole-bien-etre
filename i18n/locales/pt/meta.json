@@ -32,6 +32,10 @@
       "title": "Bolhas anti-estresse - jogo interativo",
       "description": "Jogo interativo de estourar bolhas para alívio do estresse e manejo da ansiedade. Experiência sensorial satisfatória para liberação de tensão."
     },
+    "fidgetSpinner": {
+      "title": "Fidget Spinner Online - Movimento Calmante para Energia Inquieta",
+      "description": "Fidget spinner virtual minimalista com impulso realista. Arraste para girar, solte para ele assentar e dê às mãos inquietas uma saída estável."
+    },
     "soundTherapy": {
       "title": "Terapia sonora - frequências de cura para ansiedade",
       "description": "Terapia sonora gratuita com frequências de cura e sons binaurais. Áudio para relaxamento profundo e alívio da ansiedade e do estresse."
@@ -39,6 +43,22 @@
     "stressBall": {
       "title": "Bola anti-estresse interativa - arraste e jogue para alívio da ansiedade",
       "description": "Jogo interativo de bola anti-estresse virtual. Arraste, jogue e faça quicar para alívio imediato do estresse e manejo da ansiedade. Ferramenta terapêutica gratuita."
+    },
+    "privacy": {
+      "title": "Política de Privacidade - Anxiety Aid Tools",
+      "description": "Política de privacidade para Anxiety Aid Tools. Saiba como protegemos seus dados com análise mínima e armazenamento apenas local."
+    },
+    "terms": {
+      "title": "Termos de Serviço - Anxiety Aid Tools",
+      "description": "Termos de serviço para Anxiety Aid Tools. Aplicação de gerenciamento de ansiedade de código aberto licenciada GPL."
+    },
+    "support": {
+      "title": "Suporte - Anxiety Aid Tools",
+      "description": "Obtenha ajuda com Anxiety Aid Tools. FAQ, informações de contato e solução de problemas para nosso aplicativo de gerenciamento de ansiedade."
+    },
+    "mobile": {
+      "title": "Apps Móveis - Anxiety Aid Tools para iOS e Android",
+      "description": "Baixe o app móvel Anxiety Aid Tools para iOS e Android. Técnicas gratuitas de alívio de ansiedade em movimento - exercícios de respiração, ancoragem e mais."
     }
   }
 }

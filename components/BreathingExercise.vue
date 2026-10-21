@@ -36,6 +36,11 @@
           </div>
         </div>
 
+        <AudioControl
+          :enabled="audioEnabled"
+          @toggle="toggleAudio"
+        />
+
         <button
           @click="startExercise"
           class="mx-auto flex items-center gap-2 bg-cyan-600 hover:bg-cyan-700 dark:bg-cyan-500 dark:hover:bg-cyan-600 px-8 py-4 text-lg font-medium text-white transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2"
@@ -135,6 +140,10 @@
           </div>
 
           <!-- Controls -->
+          <AudioControl
+            :enabled="audioEnabled"
+            @toggle="toggleAudio"
+          />
           <div class="flex gap-3">
             <button
               @click="stopExercise"
@@ -196,8 +205,10 @@
 
 <script setup>
 import { vAutoAnimate } from '@formkit/auto-animate/vue'
+import { breathingAudio } from '~/utils/breathingAudio'
 
 const exerciseActive = ref(false);
+const audioEnabled = ref(false);
 const exerciseCompleted = ref(false);
 const currentBreath = ref(0);
 const totalBreaths = 12;
@@ -209,6 +220,8 @@ const elapsedTime = ref(0);
 const totalSessionTime = ref(0);
 let breathTimer = null;
 let elapsedTimer = null;
+let inhaleTimeout = null;
+let exhaleTimeout = null;
 
 const formatTime = (ms) => {
   const minutes = Math.floor(ms / 60000);
@@ -218,12 +231,24 @@ const formatTime = (ms) => {
 
 const exerciseSection = ref(null);
 
-const startExercise = () => {
+const toggleAudio = async (enabled) => {
+  audioEnabled.value = enabled;
+  await breathingAudio.setEnabled(enabled, 'simple');
+};
+
+const startExercise = async () => {
   exerciseActive.value = true;
   exerciseCompleted.value = false;
   currentBreath.value = 0;
   elapsedTime.value = 0;
+  breathProgress.value = 0;
+  remainingTime.value = 0;
   breathingText.value = "Breathe In";
+
+  // Ensure audio is loaded and primed if enabled
+  if (audioEnabled.value) {
+    await breathingAudio.setEnabled(true, 'simple');
+  }
 
   // Scroll to exercise header
   nextTick(() => {
@@ -290,20 +315,30 @@ const startBreathingCycle = () => {
     return;
   }
 
-  // Exhale phase (start with this)
+  // Inhale phase
   breathingPhase.value = "inhale";
   breathingText.value = "Breathe In";
   updateBreathProgress(4000, "inhale");
 
-  setTimeout(() => {
+  // Play inhale audio cue
+  if (audioEnabled.value) {
+    breathingAudio.playInhaleCue();
+  }
+
+  inhaleTimeout = setTimeout(() => {
     if (!exerciseActive.value) return;
 
-    // Inhale phase
+    // Exhale phase
     breathingPhase.value = "exhale";
     breathingText.value = "Breathe Out";
     updateBreathProgress(6000, "exhale");
 
-    setTimeout(() => {
+    // Play exhale audio cue
+    if (audioEnabled.value) {
+      breathingAudio.playExhaleCue();
+    }
+
+    exhaleTimeout = setTimeout(() => {
       if (exerciseActive.value) {
         currentBreath.value++;
         startBreathingCycle();
@@ -319,6 +354,10 @@ const stopExercise = () => {
   breathProgress.value = 0;
   breathingText.value = "Ready to Begin";
   elapsedTime.value = 0;
+  remainingTime.value = 0;
+
+  // Stop any playing audio immediately
+  breathingAudio.stop();
 
   if (breathTimer) {
     clearInterval(breathTimer);
@@ -328,6 +367,16 @@ const stopExercise = () => {
   if (elapsedTimer) {
     clearInterval(elapsedTimer);
     elapsedTimer = null;
+  }
+
+  if (inhaleTimeout) {
+    clearTimeout(inhaleTimeout);
+    inhaleTimeout = null;
+  }
+
+  if (exhaleTimeout) {
+    clearTimeout(exhaleTimeout);
+    exhaleTimeout = null;
   }
 };
 
@@ -345,6 +394,16 @@ const completeExercise = () => {
   if (elapsedTimer) {
     clearInterval(elapsedTimer);
     elapsedTimer = null;
+  }
+
+  if (inhaleTimeout) {
+    clearTimeout(inhaleTimeout);
+    inhaleTimeout = null;
+  }
+
+  if (exhaleTimeout) {
+    clearTimeout(exhaleTimeout);
+    exhaleTimeout = null;
   }
 };
 
@@ -365,6 +424,21 @@ onUnmounted(() => {
   }
   if (elapsedTimer) {
     clearInterval(elapsedTimer);
+  }
+  if (inhaleTimeout) {
+    clearTimeout(inhaleTimeout);
+  }
+  if (exhaleTimeout) {
+    clearTimeout(exhaleTimeout);
+  }
+  breathingAudio.stopAll();
+  // Don't fully cleanup as other exercises might use the same audio instance
+});
+
+// Stop audio when exercise is no longer active
+watch(exerciseActive, (isActive) => {
+  if (!isActive) {
+    breathingAudio.stop();
   }
 });
 </script>

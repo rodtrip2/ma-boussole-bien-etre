@@ -1,12 +1,11 @@
 {
   "navigation": {
     "techniques": "Toutes les techniques",
-    "about": "À propos de l'anxiété",
-    "resources": "Ressources",
     "github": "GitHub",
-    "openMobileMenu": "Ouvrir le menu de navigation",
-    "closeMobileMenu": "Fermer le menu de navigation",
-    "mobileMenuLabel": "Navigation principale",
+    "mobile": "Application Mobile",
+    "menu": "Menu",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
     "skipToMain": "Aller au contenu principal"
   },
   "header": {
@@ -18,7 +17,8 @@
     "description": "Outils gratuits pour vous aider lorsque vous vous sentez anxieux. Ces exercices sont simples à suivre et ne nécessitent aucun équipement particulier, utilisez-les dès que votre esprit est trop agité ou lorsque vous avez besoin d'un moment de calme."
   },
   "breadcrumb": {
-    "backToHome": "Retour à l'accueil"
+    "backToHome": "Retour à l'accueil",
+    "back": "Retour"
   },
   "relatedTechniques": {
     "title": "À essayer ensuite",

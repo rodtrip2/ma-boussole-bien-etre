@@ -1,12 +1,11 @@
 {
   "navigation": {
     "techniques": "Todas as técnicas",
-    "about": "Sobre a ansiedade",
-    "resources": "Recursos",
     "github": "GitHub",
-    "openMobileMenu": "Abrir menu de navegação",
-    "closeMobileMenu": "Fechar menu de navegação",
-    "mobileMenuLabel": "Navegação principal",
+    "mobile": "Aplicativo Móvel",
+    "menu": "Menu",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
     "skipToMain": "Pular para o conteúdo principal"
   },
   "header": {
@@ -18,7 +17,8 @@
     "description": "Ferramentas gratuitas para ajudar quando você se sentir ansioso. Esses exercícios são simples de seguir e não requerem nenhum equipamento especial - use-os sempre que sua mente estiver muito agitada ou quando precisar de um momento de calma."
   },
   "breadcrumb": {
-    "backToHome": "Voltar ao início"
+    "backToHome": "Voltar ao início",
+    "back": "Voltar"
   },
   "relatedTechniques": {
     "title": "Experimente esses depois",

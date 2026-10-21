@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     client: false,
     server: false
   },
+
   runtimeConfig: {
     public: {
       baseUrl: process.env.NUXT_SITE_URL || 'http://localhost:3000'
@@ -26,7 +27,11 @@ export default defineNuxtConfig({
   vite: {
     server: {
       allowedHosts: true
-    }
+    },
+    define: {
+      // URL de base (sous-dossier éventuel), utilisée par utils/asset.js
+      __APP_BASE_URL__: JSON.stringify(process.env.NUXT_APP_BASE_URL || '/'),
+    },
   },
 
   modules: [
@@ -98,7 +103,7 @@ export default defineNuxtConfig({
     provider: 'none',
     fallbackToApi: false,
     clientBundle: {
-      scan: { globInclude: ['components/**', 'pages/**', 'composables/**', 'layouts/**', '*.vue'] },
+      scan: { globInclude: ['components/**', 'pages/**', 'composables/**', 'layouts/**', 'utils/**', '*.vue'] },
       icons: ['material-symbols:landscape'],
     },
   },
@@ -124,6 +129,11 @@ export default defineNuxtConfig({
     }
   },
 
+  // robots.txt impossible à générer quand le site est dans un sous-dossier
+  robots: {
+    robotsTxt: !process.env.NUXT_APP_BASE_URL || process.env.NUXT_APP_BASE_URL === '/',
+  },
+
   schemaOrg: {
     identity: 'Organization',
   },
@@ -136,15 +146,66 @@ export default defineNuxtConfig({
     detectBrowserLanguage: false,
     locales: [
       {
+        code: 'de',
+        language: 'de-DE',
+        name: 'Deutsch',
+        files: [
+          'de/navigation.json',
+          'de/techniques.json',
+          'de/pages.json',
+          'de/meta.json',
+          'en/legal.json',
+          'de/breathing.json',
+          'de/guided-breathing.json',
+          'de/grounding.json',
+          'de/peaceful-visualization.json',
+          'de/progressive-muscle-relaxation.json',
+          'de/sound-therapy.json',
+          'de/stress-relief-bubbles.json',
+          'de/thought-labeling.json',
+          'de/fidget-spinner.json'
+        ]
+      },
+      {
         code: 'en',
         language: 'en-US',
         name: 'English',
         files: [
           'en/navigation.json',
           'en/techniques.json',
-          'en/exercises.json',
           'en/pages.json',
-          'en/meta.json'
+          'en/meta.json',
+          'en/legal.json',
+          'en/breathing.json',
+          'en/guided-breathing.json',
+          'en/grounding.json',
+          'en/peaceful-visualization.json',
+          'en/progressive-muscle-relaxation.json',
+          'en/sound-therapy.json',
+          'en/stress-relief-bubbles.json',
+          'en/thought-labeling.json',
+          'en/fidget-spinner.json'
+        ]
+      },
+      {
+        code: 'es',
+        language: 'es-ES',
+        name: 'Español',
+        files: [
+          'es/navigation.json',
+          'es/techniques.json',
+          'es/pages.json',
+          'es/meta.json',
+          'en/legal.json',
+          'es/breathing.json',
+          'es/guided-breathing.json',
+          'es/grounding.json',
+          'es/peaceful-visualization.json',
+          'es/progressive-muscle-relaxation.json',
+          'es/sound-therapy.json',
+          'es/stress-relief-bubbles.json',
+          'es/thought-labeling.json',
+          'es/fidget-spinner.json'
         ]
       },
       {
@@ -154,9 +215,102 @@ export default defineNuxtConfig({
         files: [
           'fr/navigation.json',
           'fr/techniques.json',
-          'fr/exercises.json',
           'fr/pages.json',
-          'fr/meta.json'
+          'fr/meta.json',
+          'en/legal.json',
+          'fr/breathing.json',
+          'fr/guided-breathing.json',
+          'fr/grounding.json',
+          'fr/peaceful-visualization.json',
+          'fr/progressive-muscle-relaxation.json',
+          'fr/sound-therapy.json',
+          'fr/stress-relief-bubbles.json',
+          'fr/thought-labeling.json',
+          'fr/fidget-spinner.json'
+        ]
+      },
+      {
+        code: 'he',
+        language: 'he',
+        name: 'עברית',
+        files: [
+          'he/navigation.json',
+          'he/techniques.json',
+          'he/pages.json',
+          'he/meta.json',
+          'en/legal.json',
+          'he/breathing.json',
+          'he/guided-breathing.json',
+          'he/grounding.json',
+          'he/peaceful-visualization.json',
+          'he/progressive-muscle-relaxation.json',
+          'he/sound-therapy.json',
+          'he/stress-relief-bubbles.json',
+          'he/thought-labeling.json',
+          'he/fidget-spinner.json'
+        ]
+      },
+      {
+        code: 'hi',
+        language: 'hi-IN',
+        name: 'हिन्दी',
+        files: [
+          'hi/navigation.json',
+          'hi/techniques.json',
+          'hi/pages.json',
+          'hi/meta.json',
+          'en/legal.json',
+          'hi/breathing.json',
+          'hi/guided-breathing.json',
+          'hi/grounding.json',
+          'hi/peaceful-visualization.json',
+          'hi/progressive-muscle-relaxation.json',
+          'hi/sound-therapy.json',
+          'hi/stress-relief-bubbles.json',
+          'hi/thought-labeling.json',
+          'hi/fidget-spinner.json'
+        ]
+      },
+      {
+        code: 'it',
+        language: 'it-IT',
+        name: 'Italiano',
+        files: [
+          'it/navigation.json',
+          'it/techniques.json',
+          'it/pages.json',
+          'it/meta.json',
+          'en/legal.json',
+          'it/breathing.json',
+          'it/guided-breathing.json',
+          'it/grounding.json',
+          'it/peaceful-visualization.json',
+          'it/progressive-muscle-relaxation.json',
+          'it/sound-therapy.json',
+          'it/stress-relief-bubbles.json',
+          'it/thought-labeling.json',
+          'it/fidget-spinner.json'
+        ]
+      },
+      {
+        code: 'nl',
+        language: 'nl',
+        name: 'Nederlands',
+        files: [
+          'nl/navigation.json',
+          'nl/techniques.json',
+          'nl/pages.json',
+          'nl/meta.json',
+          'en/legal.json',
+          'nl/breathing.json',
+          'nl/guided-breathing.json',
+          'nl/grounding.json',
+          'nl/peaceful-visualization.json',
+          'nl/progressive-muscle-relaxation.json',
+          'nl/sound-therapy.json',
+          'nl/stress-relief-bubbles.json',
+          'nl/thought-labeling.json',
+          'nl/fidget-spinner.json'
         ]
       },
       {
@@ -166,9 +320,39 @@ export default defineNuxtConfig({
         files: [
           'pt/navigation.json',
           'pt/techniques.json',
-          'pt/exercises.json',
           'pt/pages.json',
-          'pt/meta.json'
+          'pt/meta.json',
+          'en/legal.json',
+          'pt/breathing.json',
+          'pt/guided-breathing.json',
+          'pt/grounding.json',
+          'pt/peaceful-visualization.json',
+          'pt/progressive-muscle-relaxation.json',
+          'pt/sound-therapy.json',
+          'pt/stress-relief-bubbles.json',
+          'pt/thought-labeling.json',
+          'pt/fidget-spinner.json'
+        ]
+      },
+      {
+        code: 'ru',
+        language: 'ru',
+        name: 'Русский',
+        files: [
+          'ru/navigation.json',
+          'ru/techniques.json',
+          'ru/pages.json',
+          'ru/meta.json',
+          'en/legal.json',
+          'ru/breathing.json',
+          'ru/guided-breathing.json',
+          'ru/grounding.json',
+          'ru/peaceful-visualization.json',
+          'ru/progressive-muscle-relaxation.json',
+          'ru/sound-therapy.json',
+          'ru/stress-relief-bubbles.json',
+          'ru/thought-labeling.json',
+          'ru/fidget-spinner.json'
         ]
       },
       {
@@ -178,11 +362,20 @@ export default defineNuxtConfig({
         files: [
           'zh/navigation.json',
           'zh/techniques.json',
-          'zh/exercises.json',
           'zh/pages.json',
-          'zh/meta.json'
+          'zh/meta.json',
+          'en/legal.json',
+          'zh/breathing.json',
+          'zh/guided-breathing.json',
+          'zh/grounding.json',
+          'zh/peaceful-visualization.json',
+          'zh/progressive-muscle-relaxation.json',
+          'zh/sound-therapy.json',
+          'zh/stress-relief-bubbles.json',
+          'zh/thought-labeling.json',
+          'zh/fidget-spinner.json'
         ]
-      }
+      },
     ],
     defaultLocale: 'fr',
     strategy: 'prefix_except_default'
@@ -190,12 +383,14 @@ export default defineNuxtConfig({
 
   compatibilityDate: "2024-12-26",
 
-
   pwa: {
     registerType: 'autoUpdate',
     workbox: {
-      navigateFallback: '/',
-      globPatterns: ['**/*.{js,css,html,png,svg,ico}'],
+      navigateFallback: null,
+      globPatterns: ['**/*.{js,css,html,png,svg,ico,woff2}'],
+      // Hors ligne : uniquement les pages françaises et les ressources communes
+      globIgnores: ['{de,en,es,he,hi,it,nl,pt,ru,zh}/**', '**/_payload.json', '200.html', '404.html'],
+      maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
     },
     client: {
       installPrompt: true,
@@ -207,22 +402,22 @@ export default defineNuxtConfig({
       theme_color: '#9333ea',
       background_color: '#ffffff',
       display: 'standalone',
-      scope: '/',
-      start_url: '/',
+      scope: process.env.NUXT_APP_BASE_URL || '/',
+      start_url: process.env.NUXT_APP_BASE_URL || '/',
       icons: [
         {
-          src: '/aat.svg',
+          src: 'aat.svg',
           sizes: 'any',
           type: 'image/svg+xml'
         },
         {
-          src: '/web-app-manifest-192x192.png',
+          src: 'web-app-manifest-192x192.png',
           sizes: '192x192',
           type: 'image/png',
           purpose: 'maskable'
         },
         {
-          src: '/web-app-manifest-512x512.png',
+          src: 'web-app-manifest-512x512.png',
           sizes: '512x512',
           type: 'image/png',
           purpose: 'maskable'
