@@ -1,7 +1,7 @@
 {
   "meta": {
     "home": {
-      "title": "Boîte à outils open source contre l'anxiété",
+      "title": "Exercices d'apaisement et questionnaires d'auto-évaluation",
       "description": "Outils communautaires pour soulager l'anxiété, incluant des techniques de respiration, d'ancrage et de relaxation musculaire."
     },
     "breathing": {
@@ -45,20 +45,20 @@
       "description": "Jeu de balle anti-stress virtuelle interactive. Glissez, lancez et rebondissez pour un soulagement immédiat du stress et une gestion de l'anxiété. Outil thérapeutique gratuit."
     },
     "privacy": {
-      "title": "Politique de confidentialité - Anxiety Aid Tools",
-      "description": "Politique de confidentialité pour Anxiety Aid Tools. Découvrez comment nous protégeons vos données avec des analyses minimales et un stockage local uniquement."
+      "title": "Politique de confidentialité",
+      "description": "Politique de confidentialité pour Ma boussole bien-être. Découvrez comment nous protégeons vos données avec des analyses minimales et un stockage local uniquement."
     },
     "terms": {
-      "title": "Conditions d'utilisation - Anxiety Aid Tools",
-      "description": "Conditions d'utilisation pour Anxiety Aid Tools. Application de gestion de l'anxiété sous licence GPL open source."
+      "title": "Conditions d'utilisation",
+      "description": "Conditions d'utilisation pour Ma boussole bien-être. Application de gestion de l'anxiété sous licence GPL open source."
     },
     "support": {
-      "title": "Support - Anxiety Aid Tools",
-      "description": "Obtenez de l'aide avec Anxiety Aid Tools. FAQ, coordonnées et dépannage pour notre application de gestion de l'anxiété."
+      "title": "Support",
+      "description": "Obtenez de l'aide avec Ma boussole bien-être. FAQ, coordonnées et dépannage pour notre application de gestion de l'anxiété."
     },
     "mobile": {
-      "title": "Applications Mobiles - Anxiety Aid Tools pour iOS et Android",
-      "description": "Téléchargez l'application mobile Anxiety Aid Tools pour iOS et Android. Techniques gratuites de soulagement de l'anxiété en déplacement - exercices de respiration, ancrage et plus."
+      "title": "Applications Mobiles",
+      "description": "Téléchargez l'application mobile Ma boussole bien-être pour iOS et Android. Techniques gratuites de soulagement de l'anxiété en déplacement - exercices de respiration, ancrage et plus."
     }
   }
 }

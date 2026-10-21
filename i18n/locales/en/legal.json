@@ -5,7 +5,7 @@
     "date": "January 2025",
     "overview": {
       "title": "Overview",
-      "description": "Anxiety Aid Tools is built with privacy as a core principle. We collect minimal data, store everything locally on your device, and use no analytics or tracking of any kind. No personal information is collected or shared."
+      "description": "Ma boussole bien-être is built with privacy as a core principle. We collect minimal data, store everything locally on your device, and use no analytics or tracking of any kind. No personal information is collected or shared."
     },
     "dataCollection": {
       "title": "Data Collection",
@@ -48,11 +48,11 @@
     "date": "January 2025",
     "acceptance": {
       "title": "Acceptance of Terms",
-      "description": "By using Anxiety Aid Tools, you agree to these terms. If you do not agree, please do not use this application."
+      "description": "By using Ma boussole bien-être, you agree to these terms. If you do not agree, please do not use this application."
     },
     "medicalDisclaimer": {
       "title": "Medical Disclaimer",
-      "description": "Anxiety Aid Tools provides general anxiety management techniques and educational information. It is NOT a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of a qualified healthcare provider with any questions regarding a medical or mental health condition. Never disregard professional medical advice or delay seeking it because of something you have learned through this app. If you are experiencing a mental health crisis, please contact emergency services or a crisis hotline immediately."
+      "description": "Ma boussole bien-être provides general anxiety management techniques and educational information. It is NOT a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of a qualified healthcare provider with any questions regarding a medical or mental health condition. Never disregard professional medical advice or delay seeking it because of something you have learned through this app. If you are experiencing a mental health crisis, please contact emergency services or a crisis hotline immediately."
     },
     "license": {
       "title": "Use License",
@@ -65,7 +65,7 @@
     },
     "liability": {
       "title": "Limitation of Liability",
-      "description": "Anxiety Aid Tools is provided \"as is\" without warranties of any kind. We are not liable for any outcomes resulting from the use of this application. The techniques provided are general wellness tools and may not be suitable for everyone."
+      "description": "Ma boussole bien-être is provided \"as is\" without warranties of any kind. We are not liable for any outcomes resulting from the use of this application. The techniques provided are general wellness tools and may not be suitable for everyone."
     },
     "opensource": {
       "title": "Open Source",
@@ -85,10 +85,10 @@
 
   "support": {
     "title": "Support",
-    "description": "Get help with Anxiety Aid Tools. Available on web and iOS.",
+    "description": "Get help with Ma boussole bien-être. Available on web and iOS.",
     "about": {
-      "title": "About Anxiety Aid Tools",
-      "description": "Anxiety Aid Tools is a free, open-source application providing evidence-based anxiety management techniques. No ads, no accounts, no tracking.",
+      "title": "About Ma boussole bien-être",
+      "description": "Ma boussole bien-être is a free, open-source application providing evidence-based anxiety management techniques. No ads, no accounts, no tracking.",
       "available": "Available as a web application and iOS app."
     },
     "features": {

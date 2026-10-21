@@ -156,7 +156,7 @@ useSeoMeta({
   ogTitle: () => t("meta.home.title"),
   ogDescription: () => t("meta.home.description"),
   ogType: "website",
-  ogSiteName: "Anxiety Aid Tools",
+  ogSiteName: () => t('header.title'),
   twitterCard: "summary_large_image",
 });
 </script>

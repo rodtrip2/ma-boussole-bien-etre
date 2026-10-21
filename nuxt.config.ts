@@ -110,7 +110,7 @@ export default defineNuxtConfig({
 
   site: {
     url: process.env.NUXT_SITE_URL || 'http://localhost:3000',
-    name: 'Anxiety Aid Tools',
+    name: 'Ma boussole bien-être',
   },
 
   ogImage: {
@@ -407,9 +407,9 @@ export default defineNuxtConfig({
       installPrompt: true,
     },
     manifest: {
-      name: 'Anxiety Aid Tools',
-      short_name: 'AAT',
-      description: 'Evidence-based techniques to find calm when you need it most',
+      name: 'Ma boussole bien-être',
+      short_name: 'Ma boussole',
+      description: "Exercices d'apaisement et questionnaires d'auto-évaluation",
       theme_color: '#9333ea',
       background_color: '#ffffff',
       display: 'standalone',

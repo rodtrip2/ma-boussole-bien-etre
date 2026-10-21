@@ -89,7 +89,7 @@ useSeoMeta({
   ogTitle: () => t('meta.fidgetSpinner.title'),
   ogDescription: () => t('meta.fidgetSpinner.description'),
   ogType: 'website',
-  ogSiteName: 'Anxiety Aid Tools',
+  ogSiteName: () => t('header.title'),
   twitterCard: 'summary_large_image'
 })
 

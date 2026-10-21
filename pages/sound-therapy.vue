@@ -279,7 +279,7 @@ useSeoMeta({
   ogTitle: () => t("meta.soundTherapy.title"),
   ogDescription: () => t("meta.soundTherapy.description"),
   ogType: "website",
-  ogSiteName: "Anxiety Aid Tools",
+  ogSiteName: () => t('header.title'),
   twitterCard: "summary_large_image",
 });
 

@@ -5,7 +5,7 @@ defineProps({ error: { type: Object, default: null } });
   <div class="min-h-screen bg-white">
     <div class="sektion flex flex-col items-center justify-center py-20 text-center">
       <div class="w-16 h-16 flex items-center justify-center mb-6">
-        <img :src="asset('/aat.svg')" alt="AAT Logo" class="w-16 h-16 opacity-50" />
+        <img :src="asset('/aat.svg')" alt="Ma boussole bien-être" class="w-16 h-16 opacity-50" />
       </div>
       
       <p class="text-6xl font-bold text-gray-400 mb-4">

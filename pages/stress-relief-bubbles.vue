@@ -131,7 +131,7 @@ useSeoMeta({
   ogTitle: () => t("meta.stressReliefBubbles.title"),
   ogDescription: () => t("meta.stressReliefBubbles.description"),
   ogType: "website",
-  ogSiteName: "Anxiety Aid Tools",
+  ogSiteName: () => t('header.title'),
   twitterCard: "summary_large_image",
 });
 

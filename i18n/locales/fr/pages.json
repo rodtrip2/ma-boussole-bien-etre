@@ -58,10 +58,9 @@
     "cta": "En savoir plus",
     "dismiss": "Fermer"
   },
-
   "footer": {
-    "title": "Outils d'aide contre l'anxiété",
-    "description": "Outils gratuits et open source pour vous aider à retrouver votre calme quand vous en avez le plus besoin.",
+    "title": "Ma boussole bien-être",
+    "description": "Des exercices d'apaisement et des questionnaires d'auto-évaluation, gratuits et open source, pour faire le point et retrouver votre calme.",
     "disclaimer": "Ce site fournit des informations générales sur l'anxiété et ne remplace pas un avis, un diagnostic ou un traitement médical professionnel. Consultez toujours un professionnel de santé pour une anxiété persistante.",
     "contribute": {
       "title": "Contribuer",
@@ -69,10 +68,9 @@
       "discussions": "Discussions"
     }
   },
-
   "mobile": {
     "title": "Applications Mobiles",
-    "description": "Emportez Anxiety Aid Tools partout avec vous. Téléchargez notre application pour appareils iOS et Android.",
+    "description": "Emportez Ma boussole bien-être partout avec vous. Téléchargez notre application pour appareils iOS et Android.",
     "ios": {
       "title": "Application iOS",
       "subtitle": "Disponible sur l'App Store",
@@ -82,7 +80,7 @@
     "android": {
       "title": "Application Android",
       "subtitle": "Téléchargement Direct APK",
-      "description": "Obtenez la version Android d'Anxiety Aid Tools. Nous travaillons à rendre l'application disponible sur Google Play Store.",
+      "description": "Obtenez la version Android d'Ma boussole bien-être. Nous travaillons à rendre l'application disponible sur Google Play Store.",
       "status": {
         "title": "Bientôt sur Play Store",
         "description": "Nous travaillons à publier notre application sur Google Play Store. En attendant, vous pouvez télécharger le fichier APK directement et l'installer sur votre appareil Android."

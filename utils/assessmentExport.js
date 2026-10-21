@@ -95,7 +95,7 @@ export async function downloadReportPdf(report, shortName) {
   text('Source', { size: 9, style: 'bold', gap: 0.8 })
   for (const s of report.source) text(s, { size: 8, color: [110, 110, 110], gap: 0.8 })
   y += 2
-  text('Document généré localement par Anxiety Aid Tools ; aucune donnée n’a été transmise.', { size: 8, color: [110, 110, 110] })
+  text('Document généré localement par Ma boussole bien-être ; aucune donnée n’a été transmise.', { size: 8, color: [110, 110, 110] })
 
   doc.save(`${shortName}_${report.fileDate}.pdf`)
 }

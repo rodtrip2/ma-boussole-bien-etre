@@ -93,7 +93,7 @@ useSeoMeta({
   ogTitle: () => t("meta.peacefulVisualization.title"),
   ogDescription: () => t("meta.peacefulVisualization.description"),
   ogType: "website",
-  ogSiteName: "Anxiety Aid Tools",
+  ogSiteName: () => t('header.title'),
   twitterCard: "summary_large_image",
 });
 </script>

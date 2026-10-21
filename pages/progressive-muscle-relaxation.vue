@@ -77,7 +77,7 @@ useSeoMeta({
   ogTitle: () => t("meta.progressiveMuscleRelaxation.title"),
   ogDescription: () => t("meta.progressiveMuscleRelaxation.description"),
   ogType: "website",
-  ogSiteName: "Anxiety Aid Tools",
+  ogSiteName: () => t('header.title'),
   twitterCard: "summary_large_image",
 });
 </script>

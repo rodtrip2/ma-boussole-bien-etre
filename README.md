@@ -16,7 +16,7 @@
 
 </div>
 
-> **Version libre sans pistage (fork)** — Ce fork reprend la dernière version libre et gratuite du projet (v2.0, novembre 2025, licence GPL-3.0), sans inscription ni option payante.
+> **Ma boussole bien-être** — version libre sans pistage (fork) — Ce fork reprend la dernière version libre et gratuite du projet (v2.0, novembre 2025, licence GPL-3.0), sans inscription ni option payante.
 > Modifications apportées :
 > - police Inter et icônes embarquées : le site ne fait **aucune requête externe** ;
 > - génération en site HTML statique (`npx nuxt generate` → dossier `.output/public`), hébergeable n'importe où, y compris dans un sous-dossier ;
@@ -25,6 +25,7 @@
 > - corrections : toupie (fonction `stop()` manquante), icône manquante, chemins audio en sous-dossier ;
 > - mode hors ligne limité aux pages françaises (≈ 12 Mo au lieu de 78 Mo) ;
 > - questionnaires d’auto-évaluation en versions françaises validées (PHQ-9, GAD-7, WHO-5, AUDIT, Rosenberg), sans enregistrement des réponses, avec message d’aide (3114) ; tests : `npm test` ;
+> - site renommé « Ma boussole bien-être », logo lotus seul, icônes et image de partage régénérées ;
 > - publication automatique sur GitHub Pages (`.github/workflows/pages.yml`) et image Docker/nginx (`docker compose up -d` → http://localhost:8080).
 
 ---

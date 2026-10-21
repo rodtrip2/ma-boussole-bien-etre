@@ -66,7 +66,7 @@
   },
 
   "footer": {
-    "title": "Anxiety Aid Tools",
+    "title": "Ma boussole bien-être",
     "description": "Strumenti open source gratuiti per aiutarti a trovare la calma quando ne hai più bisogno.",
     "disclaimer": "Questo sito fornisce informazioni generali sull'ansia e non sostituisce consulenza, diagnosi o trattamento medico professionale. Consultare sempre un operatore sanitario per l'ansia persistente.",
     "contribute": {
@@ -78,7 +78,7 @@
 
   "mobile": {
     "title": "App Mobile",
-    "description": "Porta Anxiety Aid Tools con te ovunque. Scarica la nostra app mobile per dispositivi iOS e Android.",
+    "description": "Porta Ma boussole bien-être con te ovunque. Scarica la nostra app mobile per dispositivi iOS e Android.",
     "ios": {
       "title": "App iOS",
       "subtitle": "Disponibile su App Store",
@@ -88,7 +88,7 @@
     "android": {
       "title": "App Android",
       "subtitle": "Download Diretto APK",
-      "description": "Ottieni la versione Android di Anxiety Aid Tools. Stiamo lavorando per rendere l'app disponibile su Google Play Store.",
+      "description": "Ottieni la versione Android di Ma boussole bien-être. Stiamo lavorando per rendere l'app disponibile su Google Play Store.",
       "status": {
         "title": "Presto su Play Store",
         "description": "Stiamo lavorando per pubblicare la nostra app su Google Play Store. Nel frattempo, puoi scaricare direttamente il file APK e installarlo sul tuo dispositivo Android."
