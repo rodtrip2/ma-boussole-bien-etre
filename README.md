@@ -1,246 +1,66 @@
 <div align="center">
 
-<img src="public/aat.svg" alt="Anxiety Aid Tools Logo" width="200" height="200" />
+<img src="public/aat.svg" alt="Logo Ma boussole bien-être" width="140" height="140" />
 
-# Anxiety Aid Tools
+# Ma boussole bien-être
 
-**Evidence-based techniques to find calm when you need it most**
+**Exercices d’apaisement et questionnaires d’auto-évaluation — gratuits, sans inscription, sans pistage**
 
-[![License: GPL](https://img.shields.io/badge/License-GPL-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Multilingual Support](https://img.shields.io/badge/Languages-4-blue?logo=google-translate)](https://github.com/alvinunreal/anxiety-aid-tools)
-[![GitHub Stars](https://img.shields.io/github/stars/alvinunreal/anxiety-aid-tools?style=social)](https://github.com/alvinunreal/anxiety-aid-tools/stargazers)
-
-[**Website**](https://anxietyaidtools.com/) · [**Mobile Apps**](https://anxietyaidtools.com/mobile) · [**Community**](https://www.reddit.com/r/AnxietyAidTools/) · [**Contribute**](#contributing)
-
-*Transform anxious moments into opportunities for calm with scientifically-backed breathing exercises, grounding techniques, and mindfulness tools.*
+[**Ouvrir le site**](https://rodtrip2.github.io/ma-boussole-bien-etre/) · Licence GPL-3.0
 
 </div>
 
-> **Ma boussole bien-être** — version libre sans pistage (fork) — Ce fork reprend la dernière version libre et gratuite du projet (v2.0, novembre 2025, licence GPL-3.0), sans inscription ni option payante.
-> Modifications apportées :
-> - police Inter et icônes embarquées : le site ne fait **aucune requête externe** ;
-> - génération en site HTML statique (`npx nuxt generate` → dossier `.output/public`), hébergeable n'importe où, y compris dans un sous-dossier ;
-> - français par défaut (10 autres langues via le sélecteur) ;
-> - liens vers l'application mobile et le forum du projet d'origine retirés ;
-> - corrections : toupie (fonction `stop()` manquante), icône manquante, chemins audio en sous-dossier ;
-> - mode hors ligne limité aux pages françaises (≈ 12 Mo au lieu de 78 Mo) ;
-> - questionnaires d’auto-évaluation en versions françaises validées (PHQ-9, GAD-7, WHO-5, AUDIT, Rosenberg), sans enregistrement des réponses, avec message d’aide (3114) ; tests : `npm test` ;
-> - site renommé « Ma boussole bien-être », logo lotus seul, icônes et image de partage régénérées ;
-> - publication automatique sur GitHub Pages (`.github/workflows/pages.yml`) et image Docker/nginx (`docker compose up -d` → http://localhost:8080).
+## Ce que propose le site
 
----
+- **11 exercices** : respiration en 2 minutes, respiration guidée, ancrage 5-4-3-2-1, relaxation musculaire
+  progressive, visualisations apaisantes narrées en français, étiquetage des pensées, thérapie sonore, bulles,
+  balle anti-stress, toupie.
+- **5 questionnaires d’auto-évaluation** en versions françaises validées : PHQ-9 (humeur), GAD-7 (anxiété),
+  WHO-5 (bien-être), AUDIT (alcool), échelle d’estime de soi de Rosenberg. Résultat selon les seuils des auteurs,
+  export PDF, message d’aide (3114) pour la question 9 du PHQ-9.
+- **Respect de la vie privée** : aucune inscription, aucune statistique de visite, aucune requête vers un
+  service extérieur ; les réponses aux questionnaires ne sont jamais enregistrées.
+- Français par défaut, 10 autres langues pour les exercices ; utilisable hors ligne une fois visité.
 
-## What Makes This Special
+> Ce site aide à faire le point et à s’apaiser ; il ne remplace pas un avis médical.
 
-A collection of anxiety management techniques built around four core principles.
+## Installer ou héberger
 
-### 🚪 **No Barriers**
-- **No signup required** - Open the website and start immediately
-- **No ads** - Clean interface focused on what matters
-- **Works offline** - Available when you need it, regardless of connection
-- **Native mobile apps** - [iOS and Android apps](https://anxietyaidtools.com/mobile) for on-the-go access
+Le site est un ensemble de pages HTML statiques, hébergeables sur n’importe quel serveur web.
 
-### 🔒 **Privacy First**
-- **Minimal analytics** - Privacy-focused Cloudflare Web Analytics only
-- **No personal tracking** - No cookies, fingerprinting, or personal data collection
-- **Local storage only** - All preferences saved on your device
-- **Aggregate data only** - Analytics are anonymized and aggregated
-
-### 🧬 **Open Source**
-- **Code is public** - Anyone can inspect, improve, or adapt it
-- **Community maintained** - Built by people who understand anxiety
-- **GPL licensed** - Free to use, modify, and redistribute
-
-### 🧠 **Science-Based**
-- **Research-backed techniques** - Methods studied in clinical settings
-- **Educational content** - Understanding why techniques work
-- **Evidence references** - Links to supporting research where available
-
----
-
-## 🛠️ Interactive Techniques
-
-<div align="center">
-
-| 🫁 **Breathing** | ⚓ **Grounding** | 🧘 **Visualization** | 💭 **Mindfulness** |
-|:---:|:---:|:---:|:---:|
-| Guided breathing patterns | 5-4-3-2-1 sensory technique | Peaceful place imagery | Thought labeling |
-| 2-3 minutes | 3-5 minutes | 5-10 minutes | 5-10 minutes |
-
-</div>
-
-### 🌟 **Featured Techniques**
-
-- **🫁 Breathing Exercises** - Interactive animations guide your breath rhythm
-- **⚓ 5-4-3-2-1 Grounding** - Sensory awareness to anchor you in the present
-- **🎯 Guided Breathing** - Customizable breath patterns with visual cues
-- **💪 Progressive Muscle Relaxation** - Release physical tension systematically
-- **🌅 Peaceful Visualization** - Immersive guided imagery sessions
-- **🧠 Thought Labeling** - Cognitive techniques to reframe anxious thoughts
-- **🫧 Stress Relief Bubbles** - Interactive bubble-popping for instant relief
-- **🌀 Online Fidget Spinner** - Minimal virtual spinner with realistic momentum for restless energy
-- **🎵 Sound Therapy** - Calming ambient soundscapes
-- **⚾ Virtual Stress Ball** - Tactile relief through digital interaction
-
----
-
-## **Why Open Source Mental Health Matters**
-
-> **"Mental health tools should be accessible to everyone, everywhere, without barriers."**
-
-### **Our Mission**
-- **Remove barriers** to mental health support
-- **Democratize access** to evidence-based techniques
-- **Build trust** through transparency and community input
-- **Enable customization** for different cultures and needs
-
-### **Community Impact**
-- **Global reach** - No geographic restrictions
-- **Always free** - No premium features or paywalls
-- **Privacy respectful** - Minimal anonymized analytics to improve the service
-- **Community-driven** - Built by and for people who understand anxiety
-
----
-
-## **Quick Start**
-
-### 🌐 Web & Mobile
-- **Web**: Visit [anxietyaidtools.com](https://anxietyaidtools.com/)
-- **Mobile Apps**: Download for [iOS or Android](https://anxietyaidtools.com/mobile)
-
-### 🐳 Docker (Self-Hosted)
 ```bash
-# Quick run from Docker Hub
-docker run -p 3000:3000 alvinunreal/anxiety-aid-tools:latest
-
-# Or build and run with Docker Compose
-git clone https://github.com/alvinunreal/anxiety-aid-tools.git
-cd anxiety-aid-tools
-docker compose up
+npm ci
+npx nuxt generate        # site complet dans .output/public
+npm test                 # tests des calculs des questionnaires
 ```
 
-### 💻 Local Development
-```bash
-git clone https://github.com/alvinunreal/anxiety-aid-tools.git
-cd anxiety-aid-tools
-pnpm install
-pnpm run dev
-```
+- **GitHub Pages** : publication automatique à chaque modification de `main`
+  (`.github/workflows/pages.yml`, source « GitHub Actions » dans Settings → Pages).
+- **Sous-dossier** : compiler avec `NUXT_APP_BASE_URL=/nom-du-dossier/`.
+- **Docker** : `docker compose up -d`, puis http://localhost:8080.
+- **Développement** : `npm run dev`.
 
-## **For Contributors**
-```bash
-# Fork the repository
-gh repo fork alvinunreal/anxiety-aid-tools
+## Organisation du code
 
-# Make your improvements
-git checkout -b feature/your-improvement
+| Dossier | Contenu |
+| --- | --- |
+| `pages/` | Pages du site (exercices, `self-tests/` pour les questionnaires) |
+| `components/` | Composants des exercices, en-tête, pied de page, message d’aide |
+| `data/assessments.js` | Textes des questionnaires (versions validées, ne pas modifier sans vérifier la source) |
+| `utils/` | Calcul des scores, export PDF, sons |
+| `i18n/locales/` | Traductions |
+| `public/audios/` | Narrations et sons |
 
-# Sync translations (if you modified text)
-npm run sync-locales
+## Crédits
 
-# Submit your contribution
-gh pr create
-```
+Ce projet est dérivé d’[Anxiety Aid Tools](https://github.com/alvinunreal/anxiety-aid-tools)
+(Alvin Unreal et contributeurs), dont il reprend la dernière version libre (v2.0, novembre 2025) sous licence
+GPL-3.0. Narrations générées avec ElevenLabs par le projet d’origine. Les illustrations et sons du projet
+d’origine sont distribués sous la même licence GPL-3.0.
 
----
+Les questionnaires restent la propriété de leurs auteurs ; leurs sources et conditions d’utilisation sont
+indiquées sur chaque page du site.
 
-### **Clinical Disclaimer**
-This tool provides general anxiety management techniques and is not a substitute for professional mental health treatment. If you're experiencing persistent anxiety, please consult a healthcare provider.
+## Licence
 
----
-
-## **Contributing**
-
-We believe the best mental health tools are built by communities who understand the challenges firsthand.
-
-### **Ways to Help**
-- **Report bugs** - Help us improve reliability ([GitHub Issues](https://github.com/alvinunreal/anxiety-aid-tools/issues))
-- **Suggest features** - Share ideas for new techniques ([r/AnxietyAidTools](https://www.reddit.com/r/AnxietyAidTools/))
-- **Add translations** - Make it accessible to more people
-- **Improve content** - Enhance educational materials
-- **Design contributions** - Better UX for people in distress
-- **Share your story** - Help others by sharing how these tools helped you on [our subreddit](https://www.reddit.com/r/AnxietyAidTools/)
-
-### **Development Setup**
-```bash
-# Install dependencies
-pnpm install
-
-# Start development server
-pnpm dev
-
-# Run with HTTPS (for testing PWA features)
-pnpm dev-https
-
-# Build for production
-pnpm build
-
-# Check translations are in sync
-pnpm sync-locales
-
-# Generate scene narration (see "Peaceful Visualization Audio" below)
-pnpm generate:peaceful-visualization --lang en
-```
-
-### **Code Structure**
-```
-anxiety-aid-tools/
-├── components/          # Reusable Vue components
-│   ├── *Exercise.vue   # Interactive technique components
-│   └── TechniquesGrid.vue
-├── composables/        # Shared logic
-│   └── useTechniques.js # Technique data and utilities
-├── i18n/              # Internationalization
-│   └── locales/       # Translation files
-├── pages/             # Route components
-│   └── [technique].vue # Individual technique pages
-└── public/            # Static assets
-    └── aat.svg        # App logo
-```
-
-### **Peaceful Visualization Audio**
-
-We generate the narration tracks with the ElevenLabs Text-to-Speech API.
-
-1. Create an API key at [ElevenLabs](https://elevenlabs.io/app/settings/api-keys) and expose it before running the generator:
-   ```bash
-   export ELEVENLABS_API_KEY=sk-your-key-here
-   ```
-   You can also place it in a `.env` file that your shell loads.
-2. Run the helper script from the project root:
-   ```bash
-   pnpm generate:peaceful-visualization --lang en
-   ```
-   - Choose a single scene when prompted, or pass `--scene all` to batch the whole exercise.
-   - Use `--overwrite` to re-generate clips that already exist, or `--dry-run` to preview without hitting the API.
-3. Generated audio files are written to `public/audios/peaceful-visualization/<locale>/<scene>/<step>.mp3`.  
-   The Vue exercise automatically picks them up based on the current locale and scene.
-
-Repeat step 2 for each supported locale once you have suitable voices configured in ElevenLabs.
-
----
-
-## **Asset Attribution**
-- **Illustrations** - Generated using ChatGPT
-- **Audio Narration** - Generated using ElevenLabs Text-to-Speech API
-
----
-
-## **License**
-
-GPL License - feel free to use, modify, and distribute. Mental health tools should be open and accessible.
-
-### **Using Our Assets**
-All assets in this project (illustrations, audio, etc.) are included under the same GPL v3 license as the code. You're welcome to use them in your own projects. **Attribution is appreciated** — if you use our assets, please credit Anxiety Aid Tools.
-
----
-
-<div align="center">
-
-**If this project helped you, consider starring it to help others discover these techniques.**
-
-[**⭐ Star on GitHub**](https://github.com/alvinunreal/anxiety-aid-tools) • [**📱 Mobile Apps**](https://anxietyaidtools.com/mobile) • [**💬 r/AnxietyAidTools**](https://www.reddit.com/r/AnxietyAidTools/) • [**🐛 Report Issues**](https://github.com/alvinunreal/anxiety-aid-tools/issues)
-
-*Remember: You're stronger than your anxiety, and you're not alone in this journey.*
-
-</div>
+GPL-3.0 : vous pouvez utiliser, modifier et redistribuer ce projet, à condition de conserver la même licence.

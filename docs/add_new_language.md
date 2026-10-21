@@ -346,9 +346,9 @@ For planning purposes:
 
 ## Questions or Issues?
 
-- **General Questions:** [GitHub Discussions](https://github.com/alvinunreal/anxiety-aid-tools/discussions)
+- **General Questions:** [GitHub Discussions](https://github.com/rodtrip2/ma-boussole-bien-etre/discussions)
 - **Translation Help:** Check existing translations in `/i18n/locales/` for reference
-- **Technical Issues:** [GitHub Issues](https://github.com/alvinunreal/anxiety-aid-tools/issues)
+- **Technical Issues:** [GitHub Issues](https://github.com/rodtrip2/ma-boussole-bien-etre/issues)
 - **Community:** [r/AnxietyAidTools](https://www.reddit.com/r/AnxietyAidTools/)
 
 ---

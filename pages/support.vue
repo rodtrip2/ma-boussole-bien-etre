@@ -53,10 +53,10 @@
                     {{ $t("support.help.website.title") }}
                   </h3>
                   <a
-                    href="https://rodtrip2.github.io/anxiety-aid-tools/"
+                    href="https://rodtrip2.github.io/ma-boussole-bien-etre/"
                     class="text-blue-600 dark:text-blue-400 hover:underline"
                   >
-                    rodtrip2.github.io/anxiety-aid-tools
+                    rodtrip2.github.io/ma-boussole-bien-etre
                   </a>
                 </div>
                 <div>
@@ -64,7 +64,7 @@
                     {{ $t("support.help.github.title") }}
                   </h3>
                   <a
-                    href="https://github.com/rodtrip2/anxiety-aid-tools/discussions"
+                    href="https://github.com/rodtrip2/ma-boussole-bien-etre/discussions"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                     class="text-blue-600 dark:text-blue-400 hover:underline"
@@ -77,7 +77,7 @@
                     {{ $t("support.help.bugs.title") }}
                   </h3>
                   <a
-                    href="https://github.com/rodtrip2/anxiety-aid-tools/issues"
+                    href="https://github.com/rodtrip2/ma-boussole-bien-etre/issues"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                     class="text-blue-600 dark:text-blue-400 hover:underline"

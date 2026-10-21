@@ -58,7 +58,7 @@
               <p class="leading-relaxed">
                 {{ $t("terms.opensource.description") }}
                 <a
-                  href="https://github.com/rodtrip2/anxiety-aid-tools"
+                  href="https://github.com/rodtrip2/ma-boussole-bien-etre"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
                   class="text-blue-600 dark:text-blue-400 hover:underline"
@@ -84,7 +84,7 @@
               <p class="leading-relaxed">
                 {{ $t("terms.contact.description") }}
                 <a
-                  href="https://github.com/rodtrip2/anxiety-aid-tools/discussions"
+                  href="https://github.com/rodtrip2/ma-boussole-bien-etre/discussions"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
                   class="text-blue-600 dark:text-blue-400 hover:underline"

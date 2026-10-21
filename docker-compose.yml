@@ -1,5 +1,5 @@
 services:
-  anxiety-aid-tools:
+  ma-boussole-bien-etre:
     build: .
     ports:
       - "8080:80"
