@@ -16,6 +16,16 @@
 
 </div>
 
+> **Version libre sans pistage (fork)** — Ce fork reprend la dernière version libre et gratuite du projet (v2.0, novembre 2025, licence GPL-3.0), sans inscription ni option payante.
+> Modifications apportées :
+> - police Inter et icônes embarquées : le site ne fait **aucune requête externe** ;
+> - génération en site HTML statique (`npx nuxt generate` → dossier `.output/public`), hébergeable n'importe où, y compris dans un sous-dossier ;
+> - français par défaut (10 autres langues via le sélecteur) ;
+> - liens vers l'application mobile et le forum du projet d'origine retirés ;
+> - corrections : toupie (fonction `stop()` manquante), icône manquante, chemins audio en sous-dossier ;
+> - mode hors ligne limité aux pages françaises (≈ 12 Mo au lieu de 78 Mo) ;
+> - publication automatique sur GitHub Pages (`.github/workflows/pages.yml`) et image Docker/nginx (`docker compose up -d` → http://localhost:8080).
+
 ---
 
 ## What Makes This Special

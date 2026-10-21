@@ -16,7 +16,7 @@ const switchLocalePath = useSwitchLocalePath()
           <h4 class="text-sm font-medium text-gray-700 dark:text-slate-200 mb-2">{{ $t('footer.contribute.title') }}</h4>
           <div class="flex justify-center space-x-4">
             <a 
-              href="https://github.com/alvinunreal/anxiety-aid-tools" 
+              href="https://github.com/rodtrip2/anxiety-aid-tools" 
               rel="noopener noreferrer nofollow"
               target="_blank"
               class="flex items-center text-sm text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 hover:underline transition-colors duration-200"
@@ -25,7 +25,7 @@ const switchLocalePath = useSwitchLocalePath()
               {{ $t('footer.contribute.github') }}
             </a>
             <a 
-              href="https://github.com/alvinunreal/anxiety-aid-tools/discussions" 
+              href="https://github.com/rodtrip2/anxiety-aid-tools/discussions" 
               rel="noopener noreferrer nofollow"
               target="_blank"
               class="flex items-center text-sm text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 hover:underline transition-colors duration-200"

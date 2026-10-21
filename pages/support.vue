@@ -64,7 +64,7 @@
                     {{ $t("support.help.github.title") }}
                   </h3>
                   <a
-                    href="https://github.com/alvinunreal/anxiety-aid-tools/discussions"
+                    href="https://github.com/rodtrip2/anxiety-aid-tools/discussions"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                     class="text-blue-600 dark:text-blue-400 hover:underline"
@@ -77,7 +77,7 @@
                     {{ $t("support.help.bugs.title") }}
                   </h3>
                   <a
-                    href="https://github.com/alvinunreal/anxiety-aid-tools/issues"
+                    href="https://github.com/rodtrip2/anxiety-aid-tools/issues"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                     class="text-blue-600 dark:text-blue-400 hover:underline"

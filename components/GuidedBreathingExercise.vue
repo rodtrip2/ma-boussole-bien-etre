@@ -182,7 +182,7 @@
       </p>
       <div class="flex items-center justify-center gap-4 text-sm text-gray-500 dark:text-slate-400">
         <div class="flex items-center gap-1">
-          <Icon name="ph:lungs-fill" class="text-blue-400" />
+          <Icon name="ph:wind-fill" class="text-blue-400" />
           <span>{{ $t('guidedBreathing.interface.breathingOptimized') }}</span>
         </div>
         <div class="flex items-center gap-1">

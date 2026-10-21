@@ -268,7 +268,7 @@ const currentScene = computed(() => {
 });
 
 const defaultAudioLocale = 'en';
-const sceneAudioBasePath = (targetLocale) => `/audios/peaceful-visualization/${targetLocale}`;
+const sceneAudioBasePath = (targetLocale) => asset(`/audios/peaceful-visualization/${targetLocale}`);
 
 const buildSceneAudioPath = (sceneKey, index, targetLocale = locale.value) => {
   return `${sceneAudioBasePath(targetLocale)}/${sceneKey}/${String(index + 1).padStart(2, '0')}.mp3`;

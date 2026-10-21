@@ -5,7 +5,7 @@
     "date": "January 2025",
     "overview": {
       "title": "Overview",
-      "description": "Anxiety Aid Tools is built with privacy as a core principle. We collect minimal data, store everything locally on your device, and use only privacy-focused analytics. No personal information is collected or shared."
+      "description": "Anxiety Aid Tools is built with privacy as a core principle. We collect minimal data, store everything locally on your device, and use no analytics or tracking of any kind. No personal information is collected or shared."
     },
     "dataCollection": {
       "title": "Data Collection",
@@ -15,11 +15,10 @@
       },
       "analytics": {
         "title": "Analytics",
-        "description": "We use Cloudflare Web Analytics, a privacy-focused analytics service that collects only aggregated, anonymized data:",
+        "description": "This version of the site uses no analytics service. It makes no requests to third-party servers:",
         "items": [
-          "Page views and visit counts",
-          "Browser and device type (aggregated)",
-          "General geographic region (country-level only)",
+          "No page view or visit counting",
+          "No third-party fonts, scripts or icons (everything is served by this site)",
           "No cookies, fingerprinting, or personal tracking"
         ]
       },
@@ -137,7 +136,7 @@
         },
         {
           "q": "Is my data private?",
-          "a": "Yes. All preferences stay on your device. We use minimal privacy-focused analytics. See our privacy policy for details."
+          "a": "Yes. All preferences stay on your device. No analytics are used. See our privacy policy for details."
         },
         {
           "q": "Which technique should I start with?",

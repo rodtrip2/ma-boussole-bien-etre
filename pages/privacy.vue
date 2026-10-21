@@ -79,7 +79,7 @@
               <p class="leading-relaxed">
                 {{ $t("privacy.contact.description") }}
                 <a
-                  href="https://github.com/alvinunreal/anxiety-aid-tools/discussions"
+                  href="https://github.com/rodtrip2/anxiety-aid-tools/discussions"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
                   class="text-blue-600 dark:text-blue-400 hover:underline"

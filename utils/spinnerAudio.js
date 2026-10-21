@@ -1,3 +1,4 @@
+import { asset } from './asset'
 /**
  * Audio utility for fidget spinner - plays click sounds based on rotation
  */
@@ -21,7 +22,7 @@ export class SpinnerAudio {
 
   async loadClickSound() {
     try {
-      const response = await fetch('/audios/fidget-spinner/click.mp3')
+      const response = await fetch(asset('/audios/fidget-spinner/click.mp3'))
       const arrayBuffer = await response.arrayBuffer()
       this.clickBuffer = await this.audioContext.decodeAudioData(arrayBuffer)
     } catch (error) {
@@ -90,6 +91,11 @@ export class SpinnerAudio {
 
   reset() {
     this.accumulatedRotation = 0
+  }
+
+  // Les clics sont des sons courts : arrêter revient à réinitialiser le compteur
+  stop() {
+    this.reset()
   }
 
   setMuted(muted) {

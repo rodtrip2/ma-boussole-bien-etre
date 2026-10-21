@@ -10,20 +10,15 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      baseUrl: process.env.VITE_BASE_URL || 'https://anxietyaidtools.com'
+      baseUrl: process.env.NUXT_SITE_URL || 'http://localhost:3000'
     }
   },
 
   nitro: {
-    preset: "cloudflare_pages",
-    cloudflare: {
-      deployConfig: true,
-      nodeCompat: true,
-    },
-    compressPublicAssets: true,
+    preset: "static",
     logLevel: 4,
     prerender: {
-      autoSubfolderIndex: false,
+      autoSubfolderIndex: true,
       crawlLinks: true,
       failOnError: false,
       routes: ['/']
@@ -32,7 +27,11 @@ export default defineNuxtConfig({
   vite: {
     server: {
       allowedHosts: true
-    }
+    },
+    define: {
+      // URL de base (sous-dossier éventuel), utilisée par utils/asset.js
+      __APP_BASE_URL__: JSON.stringify(process.env.NUXT_APP_BASE_URL || '/'),
+    },
   },
 
   modules: [
@@ -42,7 +41,6 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxtjs/tailwindcss",
     "@nuxtjs/color-mode",
-    "@nuxtjs/google-fonts",
     "@nuxtjs/seo",
     "@nuxtjs/i18n",
     "@vite-pwa/nuxt",
@@ -97,22 +95,26 @@ export default defineNuxtConfig({
     }
   },
 
-  googleFonts: {
-    families: {
-      Inter: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+  // Police Inter embarquée localement (aucun appel à Google Fonts)
+  css: ['@fontsource-variable/inter'],
+
+  // Icônes intégrées au bundle (aucun appel à l'API Iconify)
+  icon: {
+    provider: 'none',
+    fallbackToApi: false,
+    clientBundle: {
+      scan: { globInclude: ['components/**', 'pages/**', 'composables/**', 'layouts/**', 'utils/**', '*.vue'] },
+      icons: ['material-symbols:landscape'],
     },
-    display: "swap",
-    prefetch: true,
-    preconnect: true,
   },
 
   site: {
-    url: 'https://anxietyaidtools.com',
+    url: process.env.NUXT_SITE_URL || 'http://localhost:3000',
     name: 'Anxiety Aid Tools',
   },
 
   ogImage: {
-    enabled: true,
+    enabled: false,
     defaults: {
       component: 'NuxtSeo',
     },
@@ -120,11 +122,16 @@ export default defineNuxtConfig({
 
   seo: {
     meta: {
-      ogImage: 'https://anxietyaidtools.com/og.png',
+      ogImage: '/og.png',
       twitterCard: 'summary_large_image',
       themeColor: '#9333ea',
       robots: 'index, follow',
     }
+  },
+
+  // robots.txt impossible à générer quand le site est dans un sous-dossier
+  robots: {
+    robotsTxt: !process.env.NUXT_APP_BASE_URL || process.env.NUXT_APP_BASE_URL === '/',
   },
 
   schemaOrg: {
@@ -132,18 +139,11 @@ export default defineNuxtConfig({
   },
 
   i18n: {
-    baseUrl: 'https://anxietyaidtools.com',
+    baseUrl: process.env.NUXT_SITE_URL || 'http://localhost:3000',
     compilation: {
       strictMessage: false,
     },
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: 'i18n_redirected',
-      redirectOn: 'root',
-      alwaysRedirect: false,
-      cookieCrossOrigin: false,
-      cookieSecure: true
-    },
+    detectBrowserLanguage: false,
     locales: [
       {
         code: 'de',
@@ -377,7 +377,7 @@ export default defineNuxtConfig({
         ]
       },
     ],
-    defaultLocale: 'en',
+    defaultLocale: 'fr',
     strategy: 'prefix_except_default'
   },
 
@@ -386,8 +386,11 @@ export default defineNuxtConfig({
   pwa: {
     registerType: 'autoUpdate',
     workbox: {
-      navigateFallback: '/',
-      globPatterns: ['**/*.{js,css,html,png,svg,ico}'],
+      navigateFallback: null,
+      globPatterns: ['**/*.{js,css,html,png,svg,ico,woff2}'],
+      // Hors ligne : uniquement les pages françaises et les ressources communes
+      globIgnores: ['{de,en,es,he,hi,it,nl,pt,ru,zh}/**', '**/_payload.json', '200.html', '404.html'],
+      maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
     },
     client: {
       installPrompt: true,
@@ -399,22 +402,22 @@ export default defineNuxtConfig({
       theme_color: '#9333ea',
       background_color: '#ffffff',
       display: 'standalone',
-      scope: '/',
-      start_url: '/',
+      scope: process.env.NUXT_APP_BASE_URL || '/',
+      start_url: process.env.NUXT_APP_BASE_URL || '/',
       icons: [
         {
-          src: '/aat.svg',
+          src: 'aat.svg',
           sizes: 'any',
           type: 'image/svg+xml'
         },
         {
-          src: '/web-app-manifest-192x192.png',
+          src: 'web-app-manifest-192x192.png',
           sizes: '192x192',
           type: 'image/png',
           purpose: 'maskable'
         },
         {
-          src: '/web-app-manifest-512x512.png',
+          src: 'web-app-manifest-512x512.png',
           sizes: '512x512',
           type: 'image/png',
           purpose: 'maskable'

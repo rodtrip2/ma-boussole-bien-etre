@@ -1,14 +1,6 @@
 services:
-    anxiety-aid-tools:
-        # Option 1: Use pre-built image from Docker Hub (when published)
-        # image: 'alvinunreal/anxiety-aid-tools:latest'
-
-        # # Option 2: Build locally from Dockerfile
-        build:
-            context: .
-            dockerfile: Dockerfile
-        image: 'anxiety-aid-tools:latest'
-
-        ports:
-            - '3000:3000'
-        restart: unless-stopped
+  anxiety-aid-tools:
+    build: .
+    ports:
+      - "8080:80"
+    restart: unless-stopped

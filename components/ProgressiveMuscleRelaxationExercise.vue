@@ -46,7 +46,7 @@
               class="mx-auto mb-4 flex h-64 w-64 items-center justify-center rounded-full"
             >
               <img
-                :src="`/pmr/${currentMuscleGroup.key}-${currentState === 'tense' ? 'a' : currentState === 'relax' ? 'b' : 'a'}.svg`"
+                :src="asset(`/pmr/${currentMuscleGroup.key}-${currentState === 'tense' ? 'a' : currentState === 'relax' ? 'b' : 'a'}.svg`)"
                 :alt="`${currentMuscleGroup.name} - ${currentState === 'tense' ? $t('progressiveMuscleRelaxation.interface.tensePhase') : currentState === 'relax' ? $t('progressiveMuscleRelaxation.interface.relaxPhase') : $t('progressiveMuscleRelaxation.interface.preparePhase')}`"
                 role="img"
                 :aria-label="`${currentMuscleGroup.name} muscle group illustration showing ${currentState === 'tense' ? 'tension' : currentState === 'relax' ? 'relaxation' : 'preparation'} phase`"

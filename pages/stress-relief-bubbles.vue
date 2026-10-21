@@ -98,7 +98,7 @@
 
     <audio ref="popAudio" preload="auto">
       <source
-        src="/audios/stress-relief-bubbles/pop.mp3"
+        :src="asset('/audios/stress-relief-bubbles/pop.mp3')"
         type="audio/mpeg"
       />
     </audio>
