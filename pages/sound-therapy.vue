@@ -168,9 +168,8 @@
     <InfoScienceBehind
       i18n-key="soundTherapy.science"
       :research-items="[
-        { key: 'proceduralAnxiety', icon: 'ph:hospital' },
-        { key: 'thetaBeatsAddiction', icon: 'ph:shield-check' },
-        { key: 'emergencyStaff', icon: 'ph:first-aid' }
+        { key: 'music', icon: 'ph:music-notes' },
+        { key: 'binaural', icon: 'ph:headphones' }
       ]"
     />
 

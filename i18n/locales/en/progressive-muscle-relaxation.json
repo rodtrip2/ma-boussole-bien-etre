@@ -21,8 +21,8 @@
       "relaxationSteps": "Relaxation Steps:"
     },
     "completion": {
-      "title": "Deep Relaxation Achieved",
-      "description": "You've systematically released tension throughout your entire body. Notice how different your muscles feel compared to when you started.",
+      "title": "Session Complete",
+      "description": "You released tension throughout your body. Notice how your muscles feel now compared with the start.",
       "benefits": {
         "tensionReleased": "Tension released",
         "bodyRelaxed": "Body relaxed"
@@ -299,42 +299,58 @@
     },
     "howItWorks": {
       "title": "How Progressive Muscle Relaxation Works",
-      "description1": "Progressive muscle relaxation teaches your body the difference between tension and relaxation by systematically tensing and then releasing muscle groups. When you deliberately tense a muscle and then let it go, the release creates a deeper state of relaxation than the muscle had before tensing.",
-      "description2": "This tension-release cycle activates your parasympathetic nervous system, which controls your body's rest-and-digest response. As each muscle group relaxes, your heart rate slows, blood pressure decreases, and stress hormones diminish, creating a cascade of calming effects throughout your entire body.",
-      "description3": "With regular practice, you develop greater body awareness and can recognize tension earlier. This allows you to release physical stress before it accumulates, giving you a powerful tool for managing anxiety in real-time.",
+      "description1": "Progressive muscle relaxation means tensing and then releasing different muscle groups, one after another. The contrast between tension and release helps you feel relaxation and recognise it better.",
+      "description2": "Anxiety often comes with tension we are not aware of: raised shoulders, a clenched jaw… As each area lets go, many people feel their body relax and their breathing slow down.",
+      "description3": "With regular practice, you notice tension building earlier and learn to release it before it accumulates.",
       "tensionContrast": {
-        "title": "Tension Contrast",
-        "description": "Deliberately tensing muscles makes the subsequent release more noticeable and effective"
+        "title": "Contrast",
+        "description": "Tensing first makes the release easier to feel."
       },
       "nervousSystemShift": {
-        "title": "Nervous System Shift",
-        "description": "Release triggers parasympathetic activation, slowing heart rate and reducing stress hormones"
+        "title": "Body relaxation",
+        "description": "Releasing the muscles often comes with calmer breathing and a sense of ease."
       },
       "bodyAwareness": {
-        "title": "Body Awareness",
-        "description": "Practice trains you to recognize and release tension automatically throughout your day"
+        "title": "Listening to your body",
+        "description": "Practice helps you spot tension during the day and let it go."
       }
     },
     "science": {
-      "title": "The Science Behind Progressive Muscle Relaxation",
-      "description": "Research consistently demonstrates that progressive muscle relaxation produces significant anxiety reduction across diverse populations and settings. In a <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7102525/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">randomized trial with 51 COVID-19 patients</a>, 30 minutes of daily practice over 5 days lowered State-Trait Anxiety Inventory scores from 57.88 to 44.96—a 22% reduction—while control group scores remained unchanged (p<0.001).",
+      "title": "What Studies Say",
+      "description": "Progressive muscle relaxation is one of the oldest and most studied relaxation techniques. Syntheses of studies show a medium effect on anxiety.",
+      "bottomLine": "progressive muscle relaxation is a safe technique that helps many people release tension and feel calmer. The effect is clearer with regular practice.",
       "research": {
-        "nurseStress": {
-          "title": "Large Effect In High-Stress Environments",
-          "description": "Among <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10844009/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">46 nurses in a 2022 randomized controlled trial</a>, progressive muscle relaxation significantly reduced anxiety scores on the DASS-21 with a large effect size of Cohen's d=1.61 compared to controls, demonstrating sustained benefits in demanding work settings."
+        "meta": {
+          "title": "What many studies show",
+          "type": "Synthesis of 27 studies",
+          "who": "About 1,000 adults: students, volunteers, patients with a medical illness or a psychological disorder.",
+          "what": "Researchers pooled 10 years of studies on relaxation techniques, progressive muscle relaxation being the most studied.",
+          "result": "Relaxation clearly reduced anxiety (medium effect). Longer programmes and home practice gave better results.",
+          "caution": "An older synthesis (2008), with studies of uneven quality.",
+          "url": "https://bmcpsychiatry.biomedcentral.com/articles/10.1186/1471-244X-8-41"
         },
-        "studentAnxiety": {
-          "title": "Shift From Moderate To Low Anxiety",
-          "description": "In <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC4280725/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">49 nursing students</a>, four supervised sessions plus daily practice shifted 91.7% of participants from moderate to low anxiety on the Sarason Test Anxiety Scale, with no comparable change in the 25-person control group (p=0.00)."
+        "hospital": {
+          "title": "In hospitalised patients",
+          "type": "Trial with a comparison group",
+          "who": "51 adults hospitalised with COVID-19, in China.",
+          "what": "20 to 30 minutes of progressive muscle relaxation with deep breathing, every day for 5 days, compared with usual care.",
+          "result": "After 5 days, anxiety had decreased and sleep had improved in the relaxation group, but not in the other group.",
+          "caution": "Small group, short duration, unclear method for allocating patients.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7102525/"
         },
-        "clinicalTraining": {
-          "title": "Major Reduction In Clinical Settings",
-          "description": "Among <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9047807/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">90 first-year nursing students during clinical training</a>, five 45-minute sessions targeting 13 muscle groups reduced State-Trait Anxiety Inventory scores from 55 to 24.4—a 56% decrease—with no adverse effects reported (t=30.783, p=0.001)."
+        "students": {
+          "title": "In nursing students",
+          "type": "Study without a comparison group",
+          "who": "90 first-year nursing students before their first placement, in Palestine.",
+          "what": "5 group sessions of 45 minutes, plus 10 to 15 minutes of daily practice at home.",
+          "result": "Students' anxiety had clearly decreased when they started their placement.",
+          "caution": "Without a comparison group, we cannot tell how much of the improvement is due to relaxation.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9047807/"
         }
       }
     },
     "whenToPractice": {
-      "title": "When To Practice",
+      "title": "When to Practice",
       "items": [
         "When you feel physical tension building in your body—tight shoulders, clenched jaw, or muscle stiffness",
         "Before stressful events like presentations, exams, or medical appointments to release anticipatory tension",
@@ -343,12 +359,12 @@
       ]
     },
     "whatYoullNotice": {
-      "title": "What You'll Notice",
+      "title": "What You Might Notice",
       "items": [
-        "Immediate awareness of tension you didn't realize you were holding in various muscle groups",
-        "Deep physical relaxation as each muscle group releases, creating a wave of calm through your body",
-        "Slower heart rate and deeper breathing as your parasympathetic nervous system activates",
-        "Greater ability to recognize and release tension throughout your day with continued practice"
+        "Tension you had not been aware of",
+        "Relaxation spreading through your body as each area lets go",
+        "Slower, deeper breathing",
+        "With practice, an easier time releasing tension during the day"
       ]
     },
     "tips": {

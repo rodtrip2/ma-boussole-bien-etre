@@ -10,11 +10,11 @@
     },
     "completion": {
       "title": "Visualization Complete",
-      "description": "You've successfully journeyed to peaceful places within your mind. This calm state is always accessible to you.",
+      "description": "You took a moment for yourself in a peaceful place. You can come back whenever you like.",
       "benefits": {
-        "mindCalmed": "Mind calmed",
-        "stressReduced": "Stress reduced",
-        "innerPeaceAchieved": "Inner peace achieved"
+        "mindCalmed": "Calmer mind",
+        "stressReduced": "Moment of relaxation",
+        "innerPeaceAchieved": "Time for yourself"
       }
     },
     "scenes": {
@@ -156,55 +156,71 @@
     },
     "howItWorks": {
       "title": "How Guided Visualization Works",
-      "description1": "Guided visualization activates the same neural pathways in your brain as actual experiences. When you vividly imagine peaceful scenes, your brain releases calming neurotransmitters and reduces stress hormone production, creating genuine physiological relaxation.",
-      "description2": "By engaging multiple senses—sight, sound, touch, smell—the visualization becomes more immersive and effective. This multisensory engagement strengthens the relaxation response and helps your nervous system shift from fight-or-flight mode into rest-and-digest mode.",
+      "description1": "Imagining a peaceful place in detail can bring real feelings of calm: the body partly responds to what we picture, just as it responds to a pleasant memory.",
+      "description2": "The more senses you involve — what you see, hear, smell, touch — the more present the scene becomes and the easier it is to relax. The narration guides you step by step.",
       "mentalImagery": {
-        "title": "Mental Imagery",
-        "description": "Brain processes imagined experiences similarly to real ones, triggering genuine relaxation responses"
+        "title": "Imagination",
+        "description": "Picturing a soothing scene can be enough to bring a sense of calm."
       },
       "sensoryEngagement": {
-        "title": "Sensory Engagement",
-        "description": "Multiple senses working together create deeper immersion and more effective stress reduction"
+        "title": "The senses",
+        "description": "Imagining sounds, smells and sensations makes the scene more vivid and relaxation deeper."
       },
       "neuralPathways": {
-        "title": "Neural Pathways",
-        "description": "Repeated visualization strengthens calming neural circuits, making relaxation easier to access over time"
+        "title": "Practice",
+        "description": "The more you practise, the easier it becomes to return to this inner place and the calm it brings."
       }
     },
     "science": {
-      "title": "The Science Behind Guided Visualization",
-      "description": "Extensive research demonstrates that guided imagery produces measurable reductions in anxiety across diverse populations. In a <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10871407/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">study of 20 generalized anxiety disorder patients</a>, guided imagery combined with standard treatment reduced anxiety scores from 21.30 to 5.90—a 72% improvement—compared to only 30% improvement in the control group receiving treatment alone.",
+      "title": "What Studies Say",
+      "description": "Guided visualization (also called 'guided imagery') has been tested in several studies, often alongside treatment or before surgery. The results point in the right direction, in small groups.",
+      "bottomLine": "guided visualization can help ease anxiety, especially alongside professional support. It is safe and can be practised on your own.",
       "research": {
-        "covidAnxiety": {
-          "title": "Anxiety Reduction In Medical Settings",
-          "description": "Among <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7982304/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">55 COVID-19 patients</a>, 10 sessions of guided imagery decreased state anxiety scores from 45.03 to 38.27 (15% reduction) and trait anxiety from 47.34 to 39.58 (16% reduction), with large effect sizes (d=1.10 and d=1.07, P<0.001)."
+        "surgery": {
+          "title": "Before and after surgery",
+          "type": "Review of 9 trials",
+          "who": "Adults in hospital for surgery.",
+          "what": "9 trials comparing guided visualization with usual care.",
+          "result": "Most trials showed less anxiety around surgery, and patients liked the method.",
+          "caution": "Small groups and very different methods from one trial to another.",
+          "url": "https://doaj.org/article/93de7481b663472096d67d488aeee15a"
         },
-        "surgicalAnxiety": {
-          "title": "Surgical Anxiety Relief",
-          "description": "In <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC4625990/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">75 joint replacement patients</a>, 90.6% experienced more than 50% decrease in anxiety from baseline to postoperative day 2, with an average reduction of 78.7%. Preoperative sessions alone reduced anxiety by 42.8%, significantly outperforming usual care (P<0.0001)."
+        "gad": {
+          "title": "In people with an anxiety disorder",
+          "type": "Trial with a comparison group",
+          "who": "20 adult outpatients with generalized anxiety disorder, in India.",
+          "what": "10 guided visualization sessions (nature, deep breathing) added to usual medication, compared with medication alone.",
+          "result": "Anxiety decreased more with visualization, and quality of life (physical and psychological) improved.",
+          "caution": "Very small group (10 people per group), a single centre.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10871407/"
         },
-        "metaAnalysis": {
-          "title": "Broad Clinical Evidence",
-          "description": "A <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC3718554/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">meta-analysis of 36 randomized trials</a> with 1,608 observations found guided imagery reduced anxiety symptoms with a standardized mean difference of -0.52 versus waiting-list controls (P<0.001) and -0.59 versus attention controls (P<0.001). No adverse effects were reported across 25 studies."
+        "covid": {
+          "title": "In patients with COVID-19",
+          "type": "Trial with a comparison group",
+          "who": "110 adults with COVID-19, in Iran.",
+          "what": "10 audio guided visualization sessions of 25 minutes over 5 days, compared with usual care.",
+          "result": "After 5 days, anxiety was lower in the visualization group than in the other group.",
+          "caution": "Short duration with no follow-up; a very specific situation.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7982304/"
         }
       }
     },
     "whenToPractice": {
-      "title": "When To Practice",
+      "title": "When to Practice",
       "items": [
-        "During moments of high stress or overwhelming anxiety when you need immediate relief",
-        "Before important events like presentations, meetings, or medical procedures to calm pre-event nerves",
-        "At bedtime to quiet racing thoughts and prepare your mind and body for restful sleep",
-        "During breaks throughout your day to reset your nervous system and maintain emotional balance"
+        "When stress or anxiety feel heavy and you need a pause",
+        "Before an important moment — appointment, exam, medical procedure — to settle yourself",
+        "At bedtime, to quiet racing thoughts and prepare for sleep",
+        "During a break in the day, to take a breather"
       ]
     },
     "whatYoullNotice": {
-      "title": "What You'll Notice",
+      "title": "What You Might Notice",
       "items": [
-        "Mental imagery creating genuine feelings of calm as your brain responds to the peaceful scenes",
-        "Slower heart rate and deeper breathing as your parasympathetic nervous system activates",
-        "Physical tension melting away as your muscles respond to the imagined peaceful environment",
-        "Greater ability to access calm states with regular practice as you strengthen these neural pathways"
+        "A sense of calm as the scene takes shape",
+        "Slower, deeper breathing",
+        "Tension easing",
+        "With practice, an inner place that is easier to return to"
       ]
     },
     "tips": {
@@ -215,7 +231,7 @@
       },
       "engagement": {
         "title": "Engagement",
-        "description": "Engage all your senses in the visualization—imagine not just what you see, but also what you hear, feel, smell, and even taste. The more vivid, the more effective."
+        "description": "Engage all your senses in the visualization—imagine not just what you see, but also what you hear, feel, smell, and even taste. The more vivid the scene, the more soothing it becomes."
       },
       "patience": {
         "title": "Patience",

@@ -2,20 +2,20 @@
   "techniques": {
     "breathing": {
       "name": "Respiration en 2 minutes",
-      "short_description": "Exercice de respiration simple qui calme votre système nerveux et réduit l'anxiété en quelques minutes",
+      "short_description": "Exercice de respiration simple pour ralentir et se poser en quelques minutes",
       "description": "Lorsque l'anxiété survient, votre respiration devient rapide et superficielle. Cette technique vous apprend des schémas respiratoires simples qui activent la réponse naturelle de relaxation de votre corps.",
       "duration": "2-3 min"
     },
     "grounding": {
       "name": "Ancrage 5-4-3-2-1",
       "short_description": "Une technique sensorielle qui vous sort des pensées anxieuses en vous concentrant sur ce qui vous entoure à l'instant présent",
-      "description": "La technique d'ancrage utilise vos cinq sens pour vous ramener dans le moment présent. Remarquer 5 choses que vous pouvez voir, 4 que vous pouvez toucher, 3 que vous pouvez entendre, 2 que vous pouvez sentir et 1 que vous pouvez goûter interrompt le cycle des pensées anxieuses et vous reconnecte à votre environnement immédiat.",
+      "description": "La technique d'ancrage utilise vos cinq sens pour vous ramener dans le moment présent. Remarquer 5 choses que vous pouvez voir, 4 que vous pouvez toucher, 3 que vous pouvez entendre, 2 que vous pouvez sentir et 1 que vous pouvez goûter aide à sortir du cycle des pensées anxieuses et à vous reconnecter à ce qui vous entoure.",
       "duration": "3-5 min"
     },
     "guidedBreathing": {
       "name": "Respiration guidée",
       "short_description": "Schémas respiratoires étape par étape pour ralentir votre rythme cardiaque et apaiser la tension",
-      "description": "Suivez des exercices de respiration structurés conçus pour réguler votre système nerveux autonome. Ces guides visuels vous aident à maintenir un rythme et une cadence appropriés, facilitant l'atteinte d'un état de relaxation profonde grâce à une pratique respiratoire contrôlée.",
+      "description": "Suivez des rythmes de respiration guidés, avec un repère visuel pour garder une cadence lente et régulière. Plusieurs rythmes sont proposés, à choisir selon votre besoin : vous concentrer, vous détendre ou faire une pause rapide.",
       "duration": "5-10 min"
     },
     "progressiveMuscleRelaxation": {
@@ -26,8 +26,8 @@
     },
     "peacefulVisualization": {
       "name": "Visualisation apaisante",
-      "short_description": "Imagerie mentale guidée qui vous transporte dans des environnements apaisants pour réduire le stress et les inquiétudes",
-      "description": "Votre esprit a le pouvoir de créer des expériences apaisantes et vivantes grâce à la visualisation. Cette technique vous guide à travers des scénarios paisibles et des environnements sereins, aidant votre cerveau à se détourner des pensées anxieuses pour entrer dans un état de tranquillité. Une pratique régulière vous permet d'accéder plus facilement à cet état de calme lorsque vous en avez besoin.",
+      "short_description": "Imagerie mentale guidée et narrée, pour un moment de calme dans un lieu paisible",
+      "description": "Votre imagination peut créer des moments apaisants. Cette technique vous guide, avec une narration, à travers des scènes paisibles qui aident à vous détourner des pensées anxieuses et à retrouver un peu de tranquillité. Avec la pratique, ce calme devient plus facile à retrouver.",
       "duration": "10-12 min"
     },
     "thoughtLabeling": {

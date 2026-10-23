@@ -2,43 +2,41 @@
   "stressReliefBubbles": {
     "resetButton": "Réinitialiser les Bulles",
     "howItWorks": {
-      "title": "Comment Fonctionne la Distraction Tactile",
-      "description1": "Les bulles anti-stress fonctionnent grâce à un mécanisme simple mais puissant : la distraction tactile. Lorsque vous appuyez et faites éclater les bulles, votre cerveau déplace son attention des pensées anxieuses vers la sensation physique immédiate. Cet engagement sensoriel active différentes voies neuronales, interrompant les schémas de rumination.",
-      "description2": "L'éclatement satisfaisant crée une boucle de rétroaction : vous effectuez une action, recevez une récompense sensorielle immédiate (le son d'éclatement et la sensation tactile), et ressentez une petite libération de tension. Répéter ce processus sur plusieurs bulles fournit une distraction soutenue tandis que le mouvement rythmique et répétitif a un effet naturellement calmant sur le système nerveux.",
-      "description3": "Avec une utilisation régulière, les outils tactiles comme ceux-ci peuvent aider à construire des réponses au stress plus saines. Votre cerveau apprend à rediriger l'énergie anxieuse vers une action physique et contrôlable plutôt que de spiraler dans l'inquiétude.",
+      "title": "Comment fonctionnent les bulles",
+      "description1": "Faire éclater des bulles occupe les mains et l'attention. Pendant ce temps, l'esprit se détourne un peu des pensées anxieuses : c'est le principe de la distraction.",
+      "description2": "Chaque bulle éclatée donne un petit retour, visuel et sonore, et un geste simple à répéter. Ce mouvement répétitif aide beaucoup de personnes à évacuer l'agitation.",
+      "description3": "C'est une pause courte et sans effort, utile quand l'anxiété rend difficile un exercice plus long comme la respiration ou la relaxation.",
       "focusRedirection": {
-        "title": "Réorientation de l'Attention",
-        "description": "Déplace l'attention des pensées anxieuses vers la sensation physique immédiate"
+        "title": "Détourner l'attention",
+        "description": "L'attention se porte sur le geste et la sensation plutôt que sur l'inquiétude."
       },
       "sensoryFeedback": {
-        "title": "Rétroaction Sensorielle",
-        "description": "Sons d'éclatement et sensation tactile créent une boucle de rétroaction gratifiante"
+        "title": "Un retour immédiat",
+        "description": "Le son et l'animation de chaque bulle rendent le geste agréable à répéter."
       },
       "nervousSystemCalm": {
-        "title": "Calme du Système Nerveux",
-        "description": "Le mouvement répétitif déclenche une réponse de relaxation naturelle"
+        "title": "Un geste répétitif",
+        "description": "Répéter un geste simple aide à évacuer l'agitation."
       }
     },
     "science": {
-      "title": "La Science Derrière le Soulagement Tactile du Stress",
-      "description": "La recherche démontre que les outils de distraction tactile peuvent réduire significativement l'anxiété dans des situations stressantes. Un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8488815/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">essai contrôlé randomisé d'enfants lors de procédures dentaires</a> a constaté que l'utilisation d'un fidget spinner réduisait les scores d'anxiété de 3 points et diminuait le pouls de 15,54 battements par minute par rapport aux témoins (p < 0,001).",
+      "title": "Ce que disent les études",
+      "description": "Aucune étude n'a testé les bulles virtuelles elles-mêmes. Elles reposent sur la distraction, une méthode surtout étudiée chez les enfants pendant des soins douloureux.",
+      "bottomLine": "se distraire avec un geste simple peut aider à traverser un moment d'anxiété. C'est une aide ponctuelle, qui complète les autres techniques sans les remplacer.",
       "research": {
-        "pediatricAnxiety": {
-          "title": "Soulagement de l'Anxiété Pédiatrique",
-          "description": "Dans une <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12381172/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">étude portant sur 90 enfants âgés de 6 à 12 ans lors d'une cathétérisation IV</a>, l'utilisation d'une balle anti-stress a réduit les scores moyens d'anxiété de 4,9 à 1,0 sur le test d'image de Venham (p < 0,001)—une réduction de 80%. La perception de la douleur a également chuté de façon spectaculaire, avec des scores de 14,5 contre 50,5 chez les témoins."
-        },
-        "medicalProcedures": {
-          "title": "Stress des Procédures Médicales",
-          "description": "Un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11366058/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">essai de 120 patients subissant une angiographie</a> a montré que l'utilisation d'une balle anti-stress réduisait les scores de l'Inventaire d'Anxiété État-Trait de 15,89 à 14,92, tandis que les témoins augmentaient de 11,30 à 12,67 (p = 0,019). Les participants masculins ont vu leurs scores chuter de 16,59 à 11,93."
-        },
-        "attentionSupport": {
-          "title": "Attention Soutenue",
-          "description": "Une recherche sur <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11246969/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">70 adultes atteints de TDAH effectuant des tâches cognitives</a> a constaté que des niveaux plus élevés d'agitation étaient corrélés avec des réponses correctes (score t de 10,72, p < 0,001). L'agitation passait de 2,3 à 3,5 occurrences à travers les essais tout en maintenant une précision de 96,3%, suggérant qu'elle aide à maintenir l'éveil sans nuire aux performances."
+        "distraction": {
+          "title": "La distraction pendant les piqûres chez l'enfant",
+          "type": "Revue Cochrane (référence internationale)",
+          "who": "Des enfants et adolescents de 2 à 19 ans, lors de prises de sang, vaccins ou perfusions (jusqu'à 30 essais et 2 800 enfants).",
+          "what": "Des méthodes de distraction (jeux, vidéos, jouets…) comparées aux soins habituels.",
+          "result": "Les enfants distraits ressentaient moins de douleur et moins de détresse.",
+          "caution": "Des preuves de faible qualité, chez l'enfant et pendant un soin : on ne peut pas les transposer directement à l'anxiété de l'adulte.",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005179.pub4/information"
         }
       }
     },
     "whenToPractice": {
-      "title": "Quand Pratiquer",
+      "title": "Quand pratiquer",
       "items": [
         "Lorsque vous ressentez une énergie agitée ou avez besoin d'occuper vos mains pendant l'anxiété",
         "Pendant les périodes d'attente ou avant des événements stressants lorsque vous avez besoin de distraction",
@@ -47,12 +45,12 @@
       ]
     },
     "whatYoullNotice": {
-      "title": "Ce Que Vous Remarquerez",
+      "title": "Ce que vous pourriez remarquer",
       "items": [
-        "Satisfaction immédiate de chaque éclatement et rétroaction sensorielle",
-        "Déplacement progressif de l'attention des pensées anxieuses vers l'activité",
-        "Libération physique de l'énergie agitée et des envies de bouger",
-        "État plus calme après avoir terminé une ronde complète d'éclatement de bulles"
+        "Le plaisir simple de chaque bulle qui éclate",
+        "Une attention qui se détourne peu à peu des pensées anxieuses",
+        "Moins d'agitation et d'envie de bouger",
+        "Un état un peu plus calme après une partie"
       ]
     },
     "tips": {

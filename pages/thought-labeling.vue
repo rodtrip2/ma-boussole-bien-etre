@@ -25,9 +25,8 @@
     <InfoScienceBehind
       i18n-key="thoughtLabeling.science"
       :research-items="[
-        { key: 'performanceAnxiety', icon: 'ph:trend-down' },
-        { key: 'mindfulnessEnhancement', icon: 'ph:heart-half' },
-        { key: 'attentionControl', icon: 'ph:target' }
+        { key: 'mbsr', icon: 'ph:users-three' },
+        { key: 'naming', icon: 'ph:brain' }
       ]"
     />
 

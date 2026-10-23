@@ -29,9 +29,9 @@
     <InfoScienceBehind
       i18n-key="peacefulVisualization.science"
       :research-items="[
-        { key: 'covidAnxiety', icon: 'ph:hospital' },
-        { key: 'surgicalAnxiety', icon: 'ph:first-aid-kit' },
-        { key: 'metaAnalysis', icon: 'ph:chart-line-up' }
+        { key: 'surgery', icon: 'ph:books' },
+        { key: 'gad', icon: 'ph:users-three' },
+        { key: 'covid', icon: 'ph:first-aid-kit' }
       ]"
     />
 

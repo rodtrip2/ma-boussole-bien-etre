@@ -25,9 +25,9 @@
     <InfoScienceBehind
       i18n-key="progressiveMuscleRelaxation.science"
       :research-items="[
-        { key: 'nurseStress', icon: 'ph:trend-down' },
-        { key: 'studentAnxiety', icon: 'ph:student' },
-        { key: 'clinicalTraining', icon: 'ph:hospital' }
+        { key: 'meta', icon: 'ph:books' },
+        { key: 'hospital', icon: 'ph:first-aid-kit' },
+        { key: 'students', icon: 'ph:student' }
       ]"
     />
 

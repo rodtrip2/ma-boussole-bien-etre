@@ -6,11 +6,11 @@
     },
     "breathing": {
       "title": "Exercice de respiration en 2 minutes",
-      "description": "Exercice gratuit de respiration guidée utilisant un schéma 4:6. Active le système nerveux parasympathique pour réduire naturellement l'anxiété et le stress."
+      "description": "Exercice gratuit de respiration guidée sur un rythme 4:6, pour ralentir et se poser quand l'anxiété monte."
     },
     "grounding": {
       "title": "Technique d'ancrage 5-4-3-2-1",
-      "description": "Exercice gratuit d'ancrage utilisant vos 5 sens pour calmer l'anxiété et les crises de panique. Technique validée scientifiquement pour un soulagement immédiat du stress."
+      "description": "Exercice gratuit d'ancrage utilisant vos 5 sens pour revenir à l'instant présent quand l'anxiété ou l'angoisse montent."
     },
     "guidedBreathing": {
       "title": "Exercice de respiration guidée",
@@ -42,7 +42,7 @@
     },
     "stressBall": {
       "title": "Balle anti-stress interactive - Relâcher les tensions",
-      "description": "Jeu de balle anti-stress virtuelle interactive. Glissez, lancez et rebondissez pour un soulagement immédiat du stress et une gestion de l'anxiété. Outil thérapeutique gratuit."
+      "description": "Balle anti-stress virtuelle : glissez, lancez et faites rebondir la balle pour évacuer les tensions. Gratuit."
     },
     "privacy": {
       "title": "Politique de confidentialité",

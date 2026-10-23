@@ -2,43 +2,41 @@
   "stressReliefBubbles": {
     "resetButton": "Reset Bubbles",
     "howItWorks": {
-      "title": "How Tactile Distraction Works",
-      "description1": "Stress relief bubbles work through a simple but powerful mechanism: tactile distraction. When you press and pop the bubbles, your brain shifts attention from anxious thoughts to the immediate physical sensation. This sensory engagement activates different neural pathways, interrupting rumination patterns.",
-      "description2": "The satisfying pop creates a feedback loop—you take an action, receive immediate sensory reward (the pop sound and tactile feeling), and experience a small release of tension. Repeating this process across multiple bubbles provides sustained distraction while the rhythmic, repetitive motion has a naturally calming effect on the nervous system.",
-      "description3": "With consistent use, tactile tools like these can help build healthier stress responses. Your brain learns to redirect anxious energy into a physical, controllable action rather than spiraling into worry.",
+      "title": "How the Bubbles Work",
+      "description1": "Popping bubbles keeps your hands and attention busy. Meanwhile, the mind turns away a little from anxious thoughts: this is the principle of distraction.",
+      "description2": "Each popped bubble gives a small visual and sound response, and a simple gesture to repeat. Many people find this repetitive movement helps release restlessness.",
+      "description3": "It is a short, effortless break, useful when anxiety makes a longer exercise like breathing or relaxation difficult.",
       "focusRedirection": {
-        "title": "Focus Redirection",
-        "description": "Shifts attention from anxious thoughts to immediate physical sensation"
+        "title": "Shifting attention",
+        "description": "Attention moves to the gesture and the sensation rather than to worry."
       },
       "sensoryFeedback": {
-        "title": "Sensory Feedback",
-        "description": "Pop sounds and tactile feeling create rewarding feedback loop"
+        "title": "Instant feedback",
+        "description": "The sound and animation of each bubble make the gesture pleasant to repeat."
       },
       "nervousSystemCalm": {
-        "title": "Nervous System Calm",
-        "description": "Repetitive motion triggers natural relaxation response"
+        "title": "A repetitive gesture",
+        "description": "Repeating a simple gesture helps release restlessness."
       }
     },
     "science": {
-      "title": "The Science Behind Tactile Stress Relief",
-      "description": "Research demonstrates that tactile distraction tools can significantly reduce anxiety in stressful situations. A <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8488815/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">randomized controlled trial of children during dental procedures</a> found that using a fidget spinner lowered anxiety scores by 3 points and reduced pulse rate by 15.54 beats per minute compared to controls (p < 0.001).",
+      "title": "What Studies Say",
+      "description": "No study has tested virtual bubbles themselves. They rely on distraction, a method mostly studied in children during painful medical procedures.",
+      "bottomLine": "distracting yourself with a simple gesture can help you get through a moment of anxiety. It is a short-term aid that complements other techniques without replacing them.",
       "research": {
-        "pediatricAnxiety": {
-          "title": "Pediatric Anxiety Relief",
-          "description": "In a <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12381172/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">study of 90 children aged 6-12 during IV catheterization</a>, stress ball use reduced mean anxiety scores from 4.9 to 1.0 on the Venham Picture Test (p < 0.001)—an 80% reduction. Pain perception also dropped dramatically, with scores of 14.5 versus 50.5 in controls."
-        },
-        "medicalProcedures": {
-          "title": "Medical Procedure Stress",
-          "description": "A <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11366058/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">trial of 120 patients undergoing angiography</a> showed stress ball use lowered State-Trait Anxiety Inventory scores from 15.89 to 14.92, while controls increased from 11.30 to 12.67 (p = 0.019). Male participants saw scores drop from 16.59 to 11.93."
-        },
-        "attentionSupport": {
-          "title": "Sustained Attention",
-          "description": "Research on <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11246969/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">70 adults with ADHD performing cognitive tasks</a> found higher fidgeting levels correlated with correct responses (t-score of 10.72, p < 0.001). Fidgeting increased from 2.3 to 3.5 instances across trials while maintaining 96.3% accuracy, suggesting it helps maintain arousal without impairing performance."
+        "distraction": {
+          "title": "Distraction during needle procedures in children",
+          "type": "Cochrane review (international reference)",
+          "who": "Children and adolescents aged 2 to 19 during blood tests, vaccines or IV insertion (up to 30 trials and 2,800 children).",
+          "what": "Distraction methods (games, videos, toys…) compared with usual care.",
+          "result": "Distracted children felt less pain and less distress.",
+          "caution": "Low-quality evidence, in children and during a medical procedure: it cannot be applied directly to anxiety in adults.",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005179.pub4/information"
         }
       }
     },
     "whenToPractice": {
-      "title": "When To Practice",
+      "title": "When to Practice",
       "items": [
         "When you feel restless energy or need to keep your hands busy during anxiety",
         "During waiting periods or before stressful events when you need distraction",
@@ -47,12 +45,12 @@
       ]
     },
     "whatYoullNotice": {
-      "title": "What You'll Notice",
+      "title": "What You Might Notice",
       "items": [
-        "Immediate satisfaction from each pop and sensory feedback",
-        "Gradual shift of focus away from anxious thoughts to the activity",
-        "Physical release of restless energy and fidgeting urges",
-        "Calmer state after completing a full round of bubble popping"
+        "The simple pleasure of each popping bubble",
+        "Attention gradually turning away from anxious thoughts",
+        "Less restlessness and urge to move",
+        "A slightly calmer state after a round"
       ]
     },
     "tips": {

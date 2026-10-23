@@ -2,20 +2,20 @@
   "techniques": {
     "breathing": {
       "name": "2-Minute Breathing",
-      "short_description": "Simple breathing exercise that calm your nervous system and reduce anxiety in just minutes",
+      "short_description": "A simple breathing exercise to slow down and settle in a few minutes",
       "description": "When anxiety strikes, your breathing becomes shallow and rapid. This technique teaches you simple breathing patterns that activate your body's natural relaxation response.",
       "duration": "2-3 min"
     },
     "grounding": {
       "name": "5-4-3-2-1 Grounding",
       "short_description": "A sensory technique that pulls you out of anxious thoughts by focusing on what's around you right now",
-      "description": "Grounding technique uses your five senses to anchor you in the present moment. When noticing 5 things you can see, 4 you can touch, 3 you can hear, 2 you can smell, and 1 you can taste interrupts the cycle of anxious thoughts and reconnects you with your immediate environment.",
+      "description": "The grounding technique uses your five senses to bring you back to the present moment. Noticing 5 things you can see, 4 you can touch, 3 you can hear, 2 you can smell and 1 you can taste helps you step out of the cycle of anxious thoughts and reconnect with your surroundings.",
       "duration": "3-5 min"
     },
     "guidedBreathing": {
       "name": "Guided Breathing",
       "short_description": "Step-by-step breathing patterns to slow your heart rate and ease tension",
-      "description": "Follow structured breathing exercises designed to regulate your autonomic nervous system. These visual guides help you maintain proper timing and rhythm, making it easier to achieve the deep relaxation state that comes from controlled breathing practice.",
+      "description": "Follow guided breathing rhythms, with a visual cue to keep a slow, steady pace. Several rhythms are offered, depending on what you need: focusing, relaxing or taking a quick break.",
       "duration": "5-10 min"
     },
     "progressiveMuscleRelaxation": {
@@ -26,8 +26,8 @@
     },
     "peacefulVisualization": {
       "name": "Peaceful Visualization",
-      "short_description": "Guided mental imagery that transports you to calming environments to reduce stress and worry",
-      "description": "Your mind has the power to create vivid, calming experiences through visualization. This technique guides you through peaceful scenarios and serene environments, helping your brain shift away from anxious thoughts and into a state of tranquility. Regular practice can help you access this calm state more easily when you need it.",
+      "short_description": "Guided, narrated mental imagery for a calm moment in a peaceful place",
+      "description": "Your imagination can create soothing moments. This technique guides you, with narration, through peaceful scenes that help you turn away from anxious thoughts and find a little tranquility. With practice, this calm becomes easier to return to.",
       "duration": "10-12 min"
     },
     "thoughtLabeling": {

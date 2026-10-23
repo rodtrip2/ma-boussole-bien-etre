@@ -97,9 +97,9 @@
     <InfoScienceBehind
       i18n-key="guidedBreathing.science"
       :research-items="[
-        { key: 'anxietyReduction', icon: 'ph:trend-down' },
-        { key: 'panicReduction', icon: 'ph:shield-check' },
-        { key: 'gadImprovement', icon: 'ph:chart-line-up' }
+        { key: 'meta', icon: 'ph:books' },
+        { key: 'review', icon: 'ph:users-three' },
+        { key: 'hospital', icon: 'ph:first-aid-kit' }
       ]"
     />
 

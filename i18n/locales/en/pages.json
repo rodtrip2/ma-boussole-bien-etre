@@ -7,7 +7,7 @@
     },
     "howHelp": {
       "title": "How These Techniques Help",
-      "description": "These evidence-based techniques activate your parasympathetic nervous system, which naturally counteracts the stress response. Regular practice can reduce both the frequency and intensity of anxious feelings."
+      "description": "These techniques draw on approaches used in therapy (breathing, relaxation, mindfulness). They help many people ease the stress response. Practised regularly, they become easier to use in difficult moments."
     },
     "tips": {
       "title": "Tips for Best Results",
@@ -126,5 +126,13 @@
       "title": "App Preview",
       "hint": "Scroll to see more"
     }
+  },
+  "scienceLabels": {
+    "bottomLine": "In short:",
+    "who": "Who?",
+    "what": "What was tested:",
+    "result": "Result:",
+    "caution": "Keep in mind:",
+    "readStudy": "Read the study"
   }
 }

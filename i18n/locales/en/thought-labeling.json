@@ -106,42 +106,49 @@
     },
     "howItWorks": {
       "title": "How Thought Labeling Works",
-      "description1": "When you're anxious, your thoughts can feel overwhelming and completely true. Thought labeling helps you step back and see thoughts as mental events—temporary patterns in your mind, not absolute truths. By simply naming what you're experiencing (\"worry,\" \"self-doubt,\" \"catastrophizing\"), you create a small but powerful gap between yourself and the thought.",
-      "description2": "This practice activates your prefrontal cortex—the rational, observing part of your brain—while reducing activity in the amygdala, the brain's alarm center. Instead of getting caught in a spiral of anxious thinking, you become the witness to your thoughts. This shift from \"I am anxious\" to \"I'm having anxious thoughts\" fundamentally changes your relationship with anxiety.",
-      "description3": "With regular practice, labeling helps you recognize thinking patterns before they spiral. You'll start noticing: \"This is that catastrophic thinking again\" or \"Here's my perfectionist pattern.\" Recognition becomes your first line of defense, allowing you to respond skillfully rather than react automatically.",
+      "description1": "When you are anxious, thoughts can feel overwhelming and completely true. Labeling them helps you step back: a thought is a passing mental event, not necessarily reality. Naming what is happening ('worry', 'doubt', 'catastrophe') creates a small space between you and the thought.",
+      "description2": "Moving from 'I am anxious' to 'I am having an anxious thought' changes your relationship with that thought. Instead of being carried away, you observe it. This approach is used in several therapies, including Acceptance and Commitment Therapy (ACT) and mindfulness.",
+      "description3": "With practice, you recognise your usual thoughts more quickly: 'There's my catastrophe thought again.' Recognising them lets you choose how to respond rather than react automatically.",
       "cognitiveDefusion": {
-        "title": "Cognitive Defusion",
-        "description": "Labeling separates you from your thoughts, reducing their emotional grip and believability."
+        "title": "Stepping back",
+        "description": "Naming a thought helps you detach from it and take it less at face value."
       },
       "emotionalRegulation": {
-        "title": "Emotional Regulation",
-        "description": "Naming activates your rational brain while calming the amygdala, lowering emotional reactivity."
+        "title": "Easing emotion",
+        "description": "Putting words to what you feel often makes the emotion less intense."
       },
       "patternRecognition": {
-        "title": "Pattern Recognition",
-        "description": "Regular labeling reveals recurring thought patterns, making them easier to manage over time."
+        "title": "Spotting habits",
+        "description": "Regular labeling reveals recurring thoughts and makes them easier to recognise."
       }
     },
     "science": {
-      "title": "The Science Behind Thought Labeling",
-      "description": "Research demonstrates that thought labeling produces measurable reductions in anxiety symptoms and emotional reactivity. A <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7270208/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">single-subject study with a vocalist</a> using thought labeling as part of cognitive defusion dropped anxiety believability scores from 94 to 28 at 3-month follow-up—a 70% improvement—with psychological inflexibility decreasing from 39 to 12 on the AAQ-2 scale.",
+      "title": "What Studies Say",
+      "description": "Thought labeling comes from mindfulness and Acceptance and Commitment Therapy. It has not been tested on its own, but programmes that use it have been well studied.",
+      "bottomLine": "naming your thoughts and emotions helps you step back. This skill can be learned and grows stronger with practice, ideally within a programme or with professional support.",
       "research": {
-        "performanceAnxiety": {
-          "title": "Performance Anxiety Relief",
-          "description": "In a vocalist with severe music performance anxiety, <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7270208/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">thought labeling intervention</a> reduced Believability in Anxious Thoughts from 94 to 28 (70% improvement) and psychological inflexibility from 39 to 12 (69% improvement) at 3-month follow-up, with reliable change indices of -8.74 and -10.92 respectively."
+        "mbsr": {
+          "title": "A mindfulness programme compared with a medication",
+          "type": "Large trial with a comparison group",
+          "who": "276 adults with an anxiety disorder (generalized anxiety, social anxiety, panic disorder, agoraphobia), in the United States.",
+          "what": "An 8-week mindfulness programme (weekly classes and daily practice), compared with an antidepressant (escitalopram).",
+          "result": "After 8 weeks, the mindfulness programme worked as well as the medication in reducing anxiety.",
+          "caution": "The programme requires real commitment (2.5-hour classes and 45 minutes of daily practice); it does not replace medical advice about treatment.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36350591/"
         },
-        "mindfulnessEnhancement": {
-          "title": "Enhanced Mindfulness Skills",
-          "description": "An <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5801080/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">8-week meditation program</a> emphasizing thought labeling significantly increased participants' use of labeling (F(1,28)=58.00, p<0.001, d=2.88) and nonreactivity to inner experiences (F(1,29)=38.35, p<0.001, d=2.30), supporting better management of anxiety-provoking thoughts."
-        },
-        "attentionControl": {
-          "title": "Improved Attention Control",
-          "description": "Just <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5329004/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">3 days of mindfulness training</a> with thought labeling reduced mind-wandering and improved sustained attention by 9.84 points (p=0.003), helping interrupt the rumination cycle that fuels anxiety."
+        "naming": {
+          "title": "Putting feelings into words",
+          "type": "Laboratory study",
+          "who": "30 healthy adult volunteers.",
+          "what": "During a brain scan, naming the emotion on a face ('anger', 'fear') rather than just looking at it.",
+          "result": "Naming the emotion reduced activity in the amygdala, a brain area involved in fear responses.",
+          "caution": "Small group, in a laboratory, without anxious participants: the study explains a possible mechanism but does not measure the effect on anxiety.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17576282/"
         }
       }
     },
     "whenToPractice": {
-      "title": "When To Practice",
+      "title": "When to Practice",
       "items": [
         "When you notice repetitive or intrusive thoughts spinning in your mind.",
         "Before high-pressure situations where self-doubt or worry typically arise.",
@@ -150,12 +157,12 @@
       ]
     },
     "whatYoullNotice": {
-      "title": "What You'll Notice",
+      "title": "What You Might Notice",
       "items": [
-        "Immediate reduction in the intensity and believability of anxious thoughts.",
-        "Greater emotional distance, making thoughts feel less personal and consuming.",
-        "Recognition of recurring patterns, helping you anticipate and manage them.",
-        "Improved ability to observe thoughts without automatically reacting to them."
+        "Anxious thoughts feeling a little lighter",
+        "More distance from those thoughts",
+        "Usual thoughts that are easier to recognise",
+        "A growing ability to observe your thoughts without reacting straight away"
       ]
     },
     "tips": {

@@ -7,7 +7,7 @@
     },
     "howHelp": {
       "title": "Comment ces techniques aident",
-      "description": "Ces techniques fondées sur des données scientifiques activent votre système nerveux parasympathique, qui contrebalance naturellement la réponse au stress. Une pratique régulière peut réduire à la fois la fréquence et l'intensité des sensations d'anxiété."
+      "description": "Ces techniques s'appuient sur des approches utilisées en thérapie (respiration, relaxation, pleine conscience). Elles aident beaucoup de personnes à apaiser la réaction de stress. Pratiquées régulièrement, elles deviennent plus faciles à utiliser dans les moments difficiles."
     },
     "tips": {
       "title": "Conseils pour de meilleurs résultats",
@@ -121,5 +121,13 @@
       "title": "Aperçu de l'Application",
       "hint": "Faites défiler pour voir plus"
     }
+  },
+  "scienceLabels": {
+    "bottomLine": "En résumé :",
+    "who": "Qui ?",
+    "what": "Ce qui a été testé :",
+    "result": "Résultat :",
+    "caution": "À noter :",
+    "readStudy": "Lire l'étude (en anglais)"
   }
 }

@@ -21,8 +21,8 @@
       "relaxationSteps": "Étapes de Relaxation :"
     },
     "completion": {
-      "title": "Relaxation Profonde Atteinte",
-      "description": "Vous avez systématiquement relâché la tension dans tout votre corps. Remarquez à quel point vos muscles se sentent différents par rapport au début.",
+      "title": "Séance terminée",
+      "description": "Vous avez relâché les tensions dans tout votre corps. Remarquez comment vos muscles se sentent maintenant, par rapport au début.",
       "benefits": {
         "tensionReleased": "Tension relâchée",
         "bodyRelaxed": "Corps détendu"
@@ -298,43 +298,59 @@
       }
     },
     "howItWorks": {
-      "title": "Comment Fonctionne la Relaxation Musculaire Progressive",
-      "description1": "La relaxation musculaire progressive enseigne à votre corps la différence entre tension et relaxation en tendant puis relâchant systématiquement des groupes musculaires. Lorsque vous tendez délibérément un muscle puis le relâchez, le relâchement crée un état de relaxation plus profond que celui que le muscle avait avant la tension.",
-      "description2": "Ce cycle tension-relâchement active votre système nerveux parasympathique, qui contrôle la réponse repos-digestion de votre corps. À mesure que chaque groupe musculaire se détend, votre fréquence cardiaque ralentit, la pression artérielle diminue et les hormones de stress diminuent, créant une cascade d'effets apaisants dans tout votre corps.",
-      "description3": "Avec une pratique régulière, vous développez une plus grande conscience corporelle et pouvez reconnaître la tension plus tôt. Cela vous permet de relâcher le stress physique avant qu'il ne s'accumule, vous donnant un outil puissant pour gérer l'anxiété en temps réel.",
+      "title": "Comment fonctionne la relaxation musculaire progressive",
+      "description1": "La relaxation musculaire progressive consiste à contracter puis relâcher, l'un après l'autre, différents groupes de muscles. Le contraste entre tension et relâchement aide à sentir la détente et à mieux la reconnaître.",
+      "description2": "L'anxiété s'accompagne souvent de tensions dont on n'a pas conscience : épaules remontées, mâchoire serrée… En relâchant chaque zone, beaucoup de personnes sentent leur corps se détendre et leur respiration ralentir.",
+      "description3": "Avec une pratique régulière, on repère plus tôt les tensions qui s'installent et on apprend à les relâcher avant qu'elles ne s'accumulent.",
       "tensionContrast": {
-        "title": "Contraste de Tension",
-        "description": "Tendre délibérément les muscles rend le relâchement ultérieur plus perceptible et efficace"
+        "title": "Le contraste",
+        "description": "Contracter d'abord rend le relâchement plus facile à percevoir."
       },
       "nervousSystemShift": {
-        "title": "Changement du Système Nerveux",
-        "description": "Le relâchement déclenche l'activation parasympathique, ralentissant le rythme cardiaque et réduisant les hormones de stress"
+        "title": "La détente du corps",
+        "description": "Relâcher les muscles s'accompagne souvent d'une respiration plus calme et d'une sensation d'apaisement."
       },
       "bodyAwareness": {
-        "title": "Conscience Corporelle",
-        "description": "La pratique vous entraîne à reconnaître et relâcher automatiquement la tension tout au long de votre journée"
+        "title": "L'écoute du corps",
+        "description": "La pratique aide à repérer les tensions au fil de la journée et à les relâcher."
       }
     },
     "science": {
-      "title": "La Science Derrière la Relaxation Musculaire Progressive",
-      "description": "La recherche démontre systématiquement que la relaxation musculaire progressive produit une réduction significative de l'anxiété dans diverses populations et contextes. Dans un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7102525/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">essai randomisé avec 51 patients COVID-19</a>, 30 minutes de pratique quotidienne pendant 5 jours ont réduit les scores de l'Inventaire d'Anxiété État-Trait de 57,88 à 44,96—une réduction de 22%—tandis que les scores du groupe témoin sont restés inchangés (p<0,001).",
+      "title": "Ce que disent les études",
+      "description": "La relaxation musculaire progressive est l'une des techniques de relaxation les plus anciennes et les plus étudiées. Les synthèses d'études montrent un effet moyen sur l'anxiété.",
+      "bottomLine": "la relaxation musculaire progressive est une technique sûre, qui aide beaucoup de personnes à relâcher les tensions et à se sentir plus calmes. L'effet est plus net quand on pratique régulièrement.",
       "research": {
-        "nurseStress": {
-          "title": "Grand Effet dans les Environnements à Haut Stress",
-          "description": "Parmi <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10844009/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">46 infirmières dans un essai contrôlé randomisé de 2022</a>, la relaxation musculaire progressive a significativement réduit les scores d'anxiété sur le DASS-21 avec une grande taille d'effet de d de Cohen=1,61 par rapport aux témoins, démontrant des bénéfices durables dans des environnements de travail exigeants."
+        "meta": {
+          "title": "Ce que montrent de nombreuses études",
+          "type": "Synthèse de 27 études",
+          "who": "Environ 1 000 adultes : étudiants, volontaires, patients ayant une maladie ou un trouble psychologique.",
+          "what": "Des chercheurs ont regroupé 10 ans d'études sur les techniques de relaxation, la relaxation musculaire progressive étant la plus étudiée.",
+          "result": "La relaxation réduisait l'anxiété de façon nette (effet moyen). Les programmes plus longs et la pratique à la maison donnaient de meilleurs résultats.",
+          "caution": "Synthèse ancienne (2008), avec des études de qualité inégale.",
+          "url": "https://bmcpsychiatry.biomedcentral.com/articles/10.1186/1471-244X-8-41"
         },
-        "studentAnxiety": {
-          "title": "Passage d'une Anxiété Modérée à Faible",
-          "description": "Chez <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC4280725/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">49 étudiants en soins infirmiers</a>, quatre sessions supervisées plus une pratique quotidienne ont fait passer 91,7% des participants d'une anxiété modérée à faible sur l'Échelle d'Anxiété aux Examens de Sarason, sans changement comparable dans le groupe témoin de 25 personnes (p=0,00)."
+        "hospital": {
+          "title": "Chez des patients hospitalisés",
+          "type": "Essai avec groupe de comparaison",
+          "who": "51 adultes hospitalisés pour la COVID-19, en Chine.",
+          "what": "20 à 30 minutes de relaxation musculaire progressive avec respiration profonde, chaque jour pendant 5 jours, comparées aux soins habituels.",
+          "result": "Après 5 jours, l'anxiété avait baissé et le sommeil s'était amélioré dans le groupe relaxation, pas dans l'autre.",
+          "caution": "Petit groupe, durée courte, méthode de répartition des patients peu claire.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7102525/"
         },
-        "clinicalTraining": {
-          "title": "Réduction Majeure en Milieu Clinique",
-          "description": "Parmi <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9047807/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">90 étudiants infirmiers de première année en formation clinique</a>, cinq sessions de 45 minutes ciblant 13 groupes musculaires ont réduit les scores de l'Inventaire d'Anxiété État-Trait de 55 à 24,4—une diminution de 56%—sans effets indésirables signalés (t=30,783, p=0,001)."
+        "students": {
+          "title": "Chez des étudiants infirmiers",
+          "type": "Étude sans groupe de comparaison",
+          "who": "90 étudiants infirmiers de première année, avant leur premier stage, en Palestine.",
+          "what": "5 séances de 45 minutes en petit groupe, et 10 à 15 minutes de pratique quotidienne à la maison.",
+          "result": "L'anxiété des étudiants avait nettement baissé à leur entrée en stage.",
+          "caution": "Sans groupe de comparaison, on ne peut pas savoir quelle part de l'amélioration revient à la relaxation.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9047807/"
         }
       }
     },
     "whenToPractice": {
-      "title": "Quand Pratiquer",
+      "title": "Quand pratiquer",
       "items": [
         "Lorsque vous sentez une tension physique s'accumuler dans votre corps—épaules tendues, mâchoire serrée ou raideur musculaire",
         "Avant des événements stressants comme des présentations, des examens ou des rendez-vous médicaux pour relâcher la tension anticipatoire",
@@ -343,12 +359,12 @@
       ]
     },
     "whatYoullNotice": {
-      "title": "Ce Que Vous Remarquerez",
+      "title": "Ce que vous pourriez remarquer",
       "items": [
-        "Conscience immédiate de la tension que vous ne réalisiez pas maintenir dans divers groupes musculaires",
-        "Relaxation physique profonde à mesure que chaque groupe musculaire se relâche, créant une vague de calme dans votre corps",
-        "Rythme cardiaque plus lent et respiration plus profonde à mesure que votre système nerveux parasympathique s'active",
-        "Plus grande capacité à reconnaître et relâcher la tension tout au long de votre journée avec une pratique continue"
+        "Des tensions dont vous n'aviez pas conscience",
+        "Une détente qui gagne le corps à mesure que chaque zone se relâche",
+        "Une respiration plus lente et plus profonde",
+        "Avec la pratique, une plus grande facilité à relâcher les tensions dans la journée"
       ]
     },
     "tips": {

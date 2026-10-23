@@ -23,11 +23,7 @@
     <!-- Science Behind -->
     <InfoScienceBehind
       i18n-key="grounding.science"
-      :research-items="[
-        { key: 'anxietyReduction', icon: 'ph:trend-down' },
-        { key: 'mentalHealthImprovement', icon: 'ph:heart-half' },
-        { key: 'symptomFrequencyReduction', icon: 'ph:chart-line-down' }
-      ]"
+      :research-items="[]"
     />
 
     <!-- When & What -->

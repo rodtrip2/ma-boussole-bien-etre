@@ -59,9 +59,7 @@
     <InfoScienceBehind
       i18n-key="stressReliefBubbles.science"
       :research-items="[
-        { key: 'pediatricAnxiety', icon: 'ph:trend-down' },
-        { key: 'medicalProcedures', icon: 'ph:hospital' },
-        { key: 'attentionSupport', icon: 'ph:brain' }
+        { key: 'distraction', icon: 'ph:books' }
       ]"
     />
 

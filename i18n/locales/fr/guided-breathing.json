@@ -42,7 +42,7 @@
       },
       "quickReset": {
         "name": "Réinitialisation Rapide",
-        "description": "Technique rapide pour un soulagement immédiat",
+        "description": "Technique rapide pour une pause de quelques minutes",
         "timing": "3-3-3",
         "bestFor": "Soulagement rapide du stress"
       }
@@ -50,77 +50,93 @@
     "techniquesOverview": {
       "boxBreathing": {
         "title": "Respiration Carrée (4-4-4-4)",
-        "description": "Un timing égal pour toutes les phases crée clarté mentale et concentration. Utilisé par les Navy SEALs et les services d'urgence pour maintenir le calme sous pression. Le motif symétrique aide à réguler votre système nerveux et améliorer la concentration.",
+        "description": "Les quatre temps sont égaux. Ce rythme régulier aide à se concentrer et à garder son calme ; il est enseigné notamment aux militaires et aux équipes de secours.",
         "bestFor": "Idéal pour : Focus, concentration, gestion du stress"
       },
       "calming": {
         "title": "4-7-8 Calmant",
-        "description": "La rétention prolongée permet à l'oxygène de saturer complètement votre sang, tandis que l'expiration longue active votre système nerveux parasympathique. Cette technique est particulièrement efficace pour réduire l'anxiété et préparer au sommeil.",
+        "description": "Une courte pause poumons pleins, puis une longue expiration. Beaucoup de personnes trouvent ce rythme particulièrement apaisant, notamment avant de dormir. Si la pause vous gêne, raccourcissez-la.",
         "bestFor": "Idéal pour : Soulagement de l'anxiété, préparation au sommeil, relaxation profonde"
       },
       "energizing": {
         "title": "4-4-6 Énergisant",
-        "description": "Motif équilibré qui augmente le flux d'oxygène tout en maintenant le contrôle. L'expiration modérée aide à dissiper le brouillard mental et stimuler la vigilance sans provoquer d'hyperventilation.",
+        "description": "Un rythme équilibré, ni trop lent ni trop rapide, pour retrouver un peu d'énergie et de clarté sans s'essouffler.",
         "bestFor": "Idéal pour : Clarté mentale, regain d'énergie, réinitialisation en milieu de journée"
       },
       "quickReset": {
         "title": "3-3-3 Réinitialisation Rapide",
-        "description": "Rythme plus rapide pour un soulagement immédiat du stress lorsque vous n'avez qu'une ou deux minutes. Parfait pour les moments d'anxiété aiguë ou lorsque vous avez besoin d'une régulation émotionnelle rapide.",
+        "description": "Un rythme court pour une pause rapide quand vous n'avez qu'une ou deux minutes.",
         "bestFor": "Idéal pour : Soulagement rapide du stress, calme d'urgence, emplois du temps chargés"
       }
     },
     "howItWorks": {
-      "title": "Comment Fonctionne la Respiration Guidée",
-      "description1": "Les motifs de respiration structurés fonctionnent en donnant à votre système nerveux des signaux clairs et rythmiques qui vous font passer du mode stress au mode calme. Lorsque vous suivez un compte spécifique—comme 4-7-8 ou la respiration carrée—vous prenez le contrôle d'un processus automatique, ce qui active le nerf vague reliant votre cerveau à votre cœur et système digestif.",
-      "description2": "Différents motifs servent différents objectifs. Un timing égal (comme la respiration carrée) crée clarté mentale et concentration en équilibrant votre système nerveux. Les expirations prolongées (comme 4-7-8) déclenchent une relaxation plus profonde en activant plus fortement votre système nerveux parasympathique. Les motifs plus courts procurent un soulagement rapide lorsque vous avez besoin d'un calme immédiat.",
-      "description3": "Le comptage lui-même est thérapeutique—il donne à votre esprit quelque chose de concret sur lequel se concentrer, interrompant les pensées anxieuses tandis que votre corps suit naturellement le rythme vers un état plus calme.",
+      "title": "Comment fonctionne la respiration guidée",
+      "description1": "Suivre un rythme précis — 4-7-8 ou la respiration carrée, par exemple — donne à la respiration une cadence lente et régulière. Ralentir volontairement sa respiration aide souvent le corps à quitter l'état d'alerte et à se détendre.",
+      "description2": "Les rythmes proposés ne visent pas tous la même chose : un rythme égal (respiration carrée) aide à se concentrer, une expiration plus longue (4-7-8) invite à une détente plus profonde, un rythme court (3-3-3) se pratique en une ou deux minutes. Choisissez celui qui vous convient le mieux.",
+      "description3": "Compter occupe l'esprit : pendant qu'il suit le rythme, il s'éloigne un peu des pensées anxieuses.",
       "rhythmicControl": {
-        "title": "Contrôle Rythmique",
-        "description": "Suivre un compte spécifique donne à votre esprit une concentration tout en signalant à votre système nerveux de passer du stress au calme."
+        "title": "Un rythme à suivre",
+        "description": "Suivre un compte précis donne à l'esprit un point d'appui et aide le corps à ralentir."
       },
       "patternVariety": {
-        "title": "Variété de Motifs",
-        "description": "Différents rapports de respiration servent différents besoins—timing égal pour la concentration, expirations prolongées pour la relaxation profonde, motifs plus courts pour un soulagement rapide."
+        "title": "Plusieurs rythmes",
+        "description": "Rythme égal pour se concentrer, expiration longue pour se détendre, rythme court quand le temps manque."
       },
       "neuralRegulation": {
-        "title": "Régulation Neurale",
-        "description": "La respiration structurée active le nerf vague, qui contrôle votre fréquence cardiaque, digestion et réponse au stress, favorisant un calme systématique."
+        "title": "Un moment de détente",
+        "description": "Une respiration lente et régulière favorise la détente du corps et un rythme cardiaque plus calme."
       }
     },
     "science": {
-      "title": "La Science Derrière la Respiration Guidée",
-      "description": "Plusieurs essais cliniques démontrent que les techniques de respiration guidée produisent des réductions mesurables de l'anxiété, des hormones du stress et de l'excitation physiologique. Un <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5455070/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">programme de 8 semaines avec 20 séances de 15 minutes de respiration diaphragmatique</a> à 4 respirations par minute a réduit l'affect négatif de 2,55 points sur l'échelle PANAS et diminué les niveaux de cortisol salivaire de 1,32-1,66 ng/mL chez les adultes en bonne santé.",
+      "title": "Ce que disent les études",
+      "description": "La respiration lente est l'une des techniques les plus étudiées. Les synthèses de plusieurs études montrent un effet modéré mais réel sur le stress et l'anxiété.",
+      "bottomLine": "la respiration lente est une technique simple et sans risque, qui aide beaucoup de personnes à se sentir plus calmes. Elle complète un suivi, sans le remplacer.",
       "research": {
-        "anxietyReduction": {
-          "title": "Réduction Rapide de l'Anxiété",
-          "description": "Chez les patients COVID-19, <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11535222/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">5 jours de respiration profonde guidée</a> (4 séances quotidiennes, 15-20 minutes chacune) ont réduit les scores d'anxiété sur DASS-21 de 14,86 à 8,44—une amélioration de 43%—tandis que les témoins ont montré un changement minime."
+        "meta": {
+          "title": "Ce que montrent de nombreuses études",
+          "type": "Synthèse de 12 à 20 essais",
+          "who": "Environ 800 adultes pour le stress, dans des essais menés auprès de personnes en bonne santé ou malades.",
+          "what": "Des chercheurs ont regroupé les essais qui comparaient des exercices de respiration (surtout lente) à l'absence d'exercice.",
+          "result": "La respiration réduisait le stress, l'anxiété et la déprime. L'effet est petit à moyen : utile, mais pas spectaculaire.",
+          "caution": "La qualité des études était variable, et on manque de recul sur la durée de l'effet.",
+          "url": "https://www.nature.com/articles/s41598-022-27247-y"
         },
-        "panicReduction": {
-          "title": "Gestion des Attaques de Panique",
-          "description": "Une <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9954474/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">revue de 16 études</a> a révélé qu'une respiration lente à 8-10 respirations par minute pendant 2-12 mois a réduit la fréquence des attaques de panique et normalisé les niveaux de CO2 d'hypocapnique à 35-40 mmHg chez les patients atteints de trouble panique et d'agoraphobie."
+        "review": {
+          "title": "Chez des personnes ayant un trouble anxieux",
+          "type": "Revue de 16 études",
+          "who": "Des adultes ayant un trouble anxieux diagnostiqué par un médecin.",
+          "what": "16 études qui testaient des exercices de respiration seuls, sans autre traitement.",
+          "result": "Dans l'ensemble, les exercices de respiration amélioraient les symptômes d'anxiété.",
+          "caution": "Les études étaient très différentes les unes des autres, et certains résultats restent contradictoires.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9954474/"
         },
-        "gadImprovement": {
-          "title": "Soulagement de l'Anxiété Généralisée",
-          "description": "Chez 41 patients TAG, <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8989478/\" target=\"_blank\" rel=\"nofollow\" class=\"text-purple-600 underline hover:text-purple-800\">3 mois de pratique quotidienne de respiration</a> (15-20 minutes, 4+ jours/semaine) ont réduit les scores BAI de 40,90 à 13,24—une amélioration de 68%—et les scores GAD-7 de 19,33 à 5,86."
+        "hospital": {
+          "title": "Chez des patients hospitalisés",
+          "type": "Essai avec groupe de comparaison",
+          "who": "60 adultes hospitalisés pour la COVID-19, dans un hôpital en Iran.",
+          "what": "Des exercices de respiration guidés, 4 fois par jour pendant 5 jours, comparés aux soins habituels.",
+          "result": "L'anxiété a nettement baissé chez les patients qui faisaient les exercices (d'environ 40 %), et pas chez les autres.",
+          "caution": "Un seul hôpital et une situation très particulière ; les exercices comprenaient aussi de la kinésithérapie respiratoire.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11535222/"
         }
       }
     },
     "whenToPractice": {
-      "title": "Quand Pratiquer",
+      "title": "Quand pratiquer",
       "items": [
-        "Lorsque vous vous sentez anxieux ou submergé et avez besoin d'un soulagement immédiat",
-        "Avant le sommeil pour calmer les pensées qui s'emballent et préparer au repos",
-        "Pendant des situations de travail stressantes ou avant des événements importants",
-        "Comme pratique quotidienne pour développer une résilience au stress à long terme"
+        "Quand vous vous sentez anxieux ou dépassé et avez besoin d'une pause",
+        "Avant de dormir, pour calmer les pensées qui tournent",
+        "Dans une situation stressante ou avant un moment important",
+        "Chaque jour, pour que la technique devienne un réflexe"
       ]
     },
     "whatYoullNotice": {
-      "title": "Ce Que Vous Remarquerez",
+      "title": "Ce que vous pourriez remarquer",
       "items": [
-        "Effet calmant immédiat dans les 1-2 premières minutes de pratique",
-        "Fréquence cardiaque plus lente et tension physique réduite dans tout votre corps",
-        "Pensée plus claire à mesure que le flux d'oxygène s'améliore et que les pensées anxieuses s'apaisent",
-        "Meilleure capacité à gérer le stress avec une pratique quotidienne régulière"
+        "Une sensation de calme qui s'installe au bout de quelques minutes",
+        "Un rythme cardiaque qui ralentit et des tensions qui se relâchent",
+        "Des pensées qui s'apaisent un peu",
+        "Avec une pratique régulière, une technique plus facile à retrouver dans les moments difficiles"
       ]
     },
     "tips": {
