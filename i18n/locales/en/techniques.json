@@ -14,7 +14,7 @@
     },
     "guidedBreathing": {
       "name": "Guided Breathing",
-      "short_description": "Step-by-step breathing patterns to slow your heart rate and ease tension",
+      "short_description": "Several guided rhythms, including coherent breathing, to slow down and ease tension",
       "description": "Follow guided breathing rhythms, with a visual cue to keep a slow, steady pace. Several rhythms are offered, depending on what you need: focusing, relaxing or taking a quick break.",
       "duration": "5-10 min"
     },
@@ -59,6 +59,12 @@
       "short_description": "Interactive stress ball to squeeze away tension and redirect anxious energy through tactile engagement",
       "description": "Sometimes physical tension needs a physical release. This virtual stress ball provides a satisfying tactile experience that helps channel nervous energy and anxiety into purposeful squeezing motions. The repetitive action helps calm your mind while giving your body a way to release built-up stress and tension.",
       "duration": "1-5 min"
+    },
+    "worryTime": {
+      "name": "Worry Time",
+      "short_description": "Write down your worries and set them an appointment at a chosen time of day",
+      "description": "Rather than fighting worries, this technique suggests writing them down and coming back to them during a dedicated time of day. It helps you feel less at their mercy and take back some control.",
+      "duration": "10-30 min"
     }
   }
 }

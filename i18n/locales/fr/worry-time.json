@@ -1,0 +1,99 @@
+{
+  "worryTime": {
+    "tool": {
+      "intro": "Quand une inquiétude revient sans cesse, on peut décider de ne pas la chasser, mais de lui donner rendez-vous plus tard. Notez vos inquiétudes, puis retrouvez-les pendant un moment choisi de la journée.",
+      "privacy": "Rien n'est enregistré : si vous fermez la page, la liste s'efface. Vous pouvez l'imprimer ou utiliser un carnet.",
+      "step1": "1. Noter mes inquiétudes",
+      "placeholder": "Par exemple : « Et si je ratais mon rendez-vous de demain ? »",
+      "add": "Ajouter",
+      "empty": "Aucune inquiétude notée pour l'instant.",
+      "remove": "Retirer",
+      "step2": "2. Leur donner rendez-vous",
+      "step2Text": "Ces inquiétudes sont notées : elles vous attendront. Choisissez un moment de la journée pour les retrouver, toujours le même si possible, et pas juste avant de dormir.",
+      "timeLabel": "Mon moment d'inquiétude",
+      "untilThen": "D'ici là, si une inquiétude revient, notez-la et dites-vous : « J'y penserai à mon moment d'inquiétude. » Puis revenez doucement à ce que vous faisiez.",
+      "backToPresent": "Pour revenir à l'instant présent :",
+      "step3": "3. Mon moment d'inquiétude",
+      "step3Text": "Installez-vous et prenez le temps de penser à vos inquiétudes, sans chercher à les faire disparaître. Pour chacune, demandez-vous si elle est toujours importante, et si vous pouvez agir.",
+      "duration": "Durée",
+      "minutes": "min",
+      "start": "Commencer mon moment d'inquiétude",
+      "stop": "Terminer",
+      "remaining": "restantes",
+      "stillWorried": "Est-ce toujours important ?",
+      "noLonger": "Ça ne m'inquiète plus",
+      "canAct": "Je peux agir",
+      "firstStep": "Ma première petite étape :",
+      "firstStepPlaceholder": "Par exemple : préparer mes papiers ce soir",
+      "done": "Votre moment d'inquiétude est terminé. Les inquiétudes qui restent pourront revenir demain, au même moment. Prenez quelques respirations avant de reprendre votre journée.",
+      "print": "Imprimer ma liste"
+    },
+    "howItWorks": {
+      "title": "Comment fonctionne le temps d'inquiétude",
+      "description1": "Chercher à ne plus penser à une inquiétude la rend souvent plus présente. Le temps d'inquiétude propose autre chose : accepter qu'elle soit là, mais la « reporter » à un moment précis de la journée.",
+      "description2": "Pendant la journée, on note l'inquiétude et on revient à ce que l'on faisait. Pendant le moment choisi (10 à 30 minutes), on y repense vraiment. Beaucoup de personnes constatent alors que certaines inquiétudes ont perdu de leur importance.",
+      "description3": "Cette technique fait partie des thérapies cognitives et comportementales de l'anxiété généralisée. Elle montre aussi, par l'expérience, qu'on peut avoir une certaine prise sur ses inquiétudes.",
+      "postpone": {
+        "title": "Reporter, pas chasser",
+        "description": "On ne lutte pas contre l'inquiétude : on lui donne rendez-vous plus tard."
+      },
+      "write": {
+        "title": "Écrire",
+        "description": "Noter une inquiétude aide à la poser hors de sa tête."
+      },
+      "control": {
+        "title": "Reprendre la main",
+        "description": "On découvre qu'on peut choisir le moment où l'on s'inquiète."
+      }
+    },
+    "science": {
+      "title": "Ce que disent les études",
+      "description": "Le report des inquiétudes est une technique classique des thérapies cognitives et comportementales. Peu d'études l'ont testé seul, mais les résultats sont encourageants chez les personnes ayant une anxiété généralisée.",
+      "bottomLine": "le temps d'inquiétude est une technique simple qui peut aider à moins subir ses inquiétudes. Elle donne de meilleurs résultats avec un accompagnement, et ne remplace pas un suivi.",
+      "research": {
+        "trial": {
+          "title": "Chez des personnes ayant une anxiété généralisée",
+          "type": "Essai avec groupe de comparaison",
+          "who": "Environ 80 adultes ayant une anxiété généralisée ou une hypocondrie, en Allemagne.",
+          "what": "Deux séances avec un thérapeute, puis 6 jours de report des inquiétudes à un moment fixe (30 minutes maximum par jour), comparés à une liste d'attente.",
+          "result": "Chez les personnes ayant une anxiété généralisée, les inquiétudes ont nettement diminué, et l'amélioration se maintenait 4 semaines plus tard.",
+          "caution": "Petit groupe, résultats moins nets pour l'hypocondrie, et un accompagnement par un thérapeute.",
+          "url": "https://cpe.psychopen.eu/index.php/cpe/article/download/12741/12741.html?inline=1"
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Quand pratiquer",
+      "items": [
+        "Quand une même inquiétude revient sans cesse dans la journée",
+        "Quand les inquiétudes vous empêchent de vous concentrer",
+        "Le soir, pour ne pas emporter vos inquiétudes au lit (prévoyez votre moment quelques heures avant de dormir)",
+        "Chaque jour pendant une à deux semaines, pour en voir les effets"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Ce que vous pourriez remarquer",
+      "items": [
+        "Un léger soulagement une fois l'inquiétude notée",
+        "Des inquiétudes qui paraissent moins urgentes au moment de les retrouver",
+        "Le sentiment d'avoir un peu plus de prise sur vos pensées",
+        "Avec la pratique, des inquiétudes qui prennent moins de place dans la journée"
+      ]
+    },
+    "tips": {
+      "title": "Conseils",
+      "place": {
+        "title": "Un moment fixe",
+        "description": "Choisissez chaque jour le même moment et le même endroit, plutôt pas dans votre lit."
+      },
+      "gentle": {
+        "title": "Sans vous juger",
+        "description": "Si une inquiétude s'impose malgré tout, ce n'est pas un échec : notez-la et revenez doucement à votre activité."
+      },
+      "short": {
+        "title": "Un temps limité",
+        "description": "Quand le temps est écoulé, arrêtez-vous, même si tout n'est pas réglé : les inquiétudes pourront revenir demain."
+      }
+    }
+  }
+}

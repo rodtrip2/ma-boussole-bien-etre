@@ -100,6 +100,11 @@
     <section id="resources" class="!mb-0 py-12 pb-24">
       <div class="mx-auto max-w-6xl">
         <h2 class="ptitle">{{ $t("resources.title") }}</h2>
+        <p class="mb-6 text-center">
+          <NuxtLink :to="localePath('/resources')" class="inline-flex items-center gap-2 bg-blue-600 px-5 py-2.5 font-medium text-white hover:bg-blue-700">
+            <Icon name="ph:lifebuoy" /> {{ $t("resources.seeAll") }}
+          </NuxtLink>
+        </p>
 
         <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div class="border border-gray-200 dark:border-slate-600 bg-white/80 dark:bg-slate-800/80 p-4 transition-colors duration-200">

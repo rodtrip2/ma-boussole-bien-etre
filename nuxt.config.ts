@@ -164,7 +164,8 @@ export default defineNuxtConfig({
           'en/stress-relief-bubbles.json',
           'en/thought-labeling.json',
           'en/fidget-spinner.json',
-          'en/self-tests.json'
+          'en/self-tests.json',
+          'en/worry-time.json'
         ]
       },
       {
@@ -186,7 +187,8 @@ export default defineNuxtConfig({
           'fr/stress-relief-bubbles.json',
           'fr/thought-labeling.json',
           'fr/fidget-spinner.json',
-          'fr/self-tests.json'
+          'fr/self-tests.json',
+          'fr/worry-time.json'
         ]
       },
     ],

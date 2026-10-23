@@ -12,7 +12,7 @@
         </p>
 
         <!-- Technique Selection Grid -->
-        <div class="mx-auto mb-8 grid max-w-4xl gap-4 md:grid-cols-2 lg:grid-cols-4">
+        <div class="mx-auto mb-8 grid max-w-5xl gap-4 md:grid-cols-2 lg:grid-cols-3">
           <div
             v-for="technique in techniques"
             :key="technique.key"
@@ -201,6 +201,21 @@ const { t } = useI18n();
 
 const techniques = [
   {
+    key: "coherence",
+    name: t("guidedBreathing.techniques.coherence.name"),
+    description: t("guidedBreathing.techniques.coherence.description"),
+    timing: t("guidedBreathing.techniques.coherence.timing"),
+    color: "#ec4899",
+    icon: "ph:heartbeat",
+    bestFor: t("guidedBreathing.techniques.coherence.bestFor"),
+    // 6 respirations par minute pendant 5 minutes (5 s + 5 s, 30 cycles)
+    fixedCycles: 30,
+    pattern: [
+      { phase: "inhale", duration: 5000, text: t("guidedBreathing.interface.breatheIn") },
+      { phase: "exhale", duration: 5000, text: t("guidedBreathing.interface.breatheOut") },
+    ],
+  },
+  {
     key: "box",
     name: t("guidedBreathing.techniques.boxBreathing.name"),
     description: t("guidedBreathing.techniques.boxBreathing.description"),
@@ -328,7 +343,7 @@ const startExercise = async () => {
   exerciseCompleted.value = false;
   isPaused.value = false;
   currentCycle.value = 1;
-  totalCycles.value = selectedSessionLength.value;
+  totalCycles.value = currentTechnique.value.fixedCycles || selectedSessionLength.value;
   currentPatternIndex.value = 0;
   elapsedTime.value = 0;
 

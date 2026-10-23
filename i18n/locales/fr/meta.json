@@ -59,6 +59,10 @@
     "mobile": {
       "title": "Applications Mobiles",
       "description": "Téléchargez l'application mobile Ma boussole bien-être pour iOS et Android. Techniques gratuites de soulagement de l'anxiété en déplacement - exercices de respiration, ancrage et plus."
+    },
+    "worryTime": {
+      "title": "Le temps d'inquiétude - Reporter ses inquiétudes",
+      "description": "Outil gratuit pour noter vos inquiétudes et leur donner rendez-vous à un moment choisi de la journée. Rien n'est enregistré."
     }
   }
 }

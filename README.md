@@ -12,12 +12,13 @@
 
 ## Ce que propose le site
 
-- **11 exercices** : respiration en 2 minutes, respiration guidée, ancrage 5-4-3-2-1, relaxation musculaire
+- **12 exercices** : respiration en 2 minutes, respiration guidée (dont la cohérence cardiaque), temps d’inquiétude, ancrage 5-4-3-2-1, relaxation musculaire
   progressive, visualisations apaisantes narrées en français, étiquetage des pensées, thérapie sonore, bulles,
   balle anti-stress, toupie.
 - **5 questionnaires d’auto-évaluation** en versions françaises validées : PHQ-9 (humeur), GAD-7 (anxiété),
   WHO-5 (bien-être), AUDIT (alcool), échelle d’estime de soi de Rosenberg. Résultat selon les seuils des auteurs,
   export PDF, message d’aide (3114) pour la question 9 du PHQ-9.
+- **Trouver de l’aide** : page des numéros d’urgence et d’écoute en France (3114, SOS Amitié, Fil Santé Jeunes, Mon soutien psy, CMP…).
 - **Respect de la vie privée** : aucune inscription, aucune statistique de visite, aucune requête vers un
   service extérieur ; les réponses aux questionnaires ne sont jamais enregistrées.
 - Français par défaut et version anglaise ; utilisable hors ligne une fois visité.

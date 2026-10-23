@@ -27,6 +27,13 @@
           <Icon name="ph:clipboard-text" class="text-lg" />
           <span>{{ $t('selfTests.nav') }}</span>
         </NuxtLink>
+        <NuxtLink
+          :to="localePath('/resources')"
+          class="flex items-center gap-1.5 text-sm font-medium text-gray-700 dark:text-slate-300 hover:text-gray-900 dark:hover:text-slate-100 hover:underline decoration-2 underline-offset-4 transition-all duration-200"
+        >
+          <Icon name="ph:lifebuoy" class="text-lg" />
+          <span>{{ $t('selfTests.help') }}</span>
+        </NuxtLink>
         <a
           href="https://github.com/rodtrip2/ma-boussole-bien-etre"
           target="_blank"
@@ -114,6 +121,14 @@
           >
             <Icon name="ph:clipboard-text" class="text-xl mr-3" />
             <span>{{ $t('selfTests.nav') }}</span>
+          </NuxtLink>
+          <NuxtLink
+            :to="localePath('/resources')"
+            @click="isMenuOpen = false"
+            class="flex items-center px-4 py-3 mb-2 rounded text-gray-700 dark:text-slate-300 hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors duration-200"
+          >
+            <Icon name="ph:lifebuoy" class="text-xl mr-3" />
+            <span>{{ $t('selfTests.help') }}</span>
           </NuxtLink>
 
           <a

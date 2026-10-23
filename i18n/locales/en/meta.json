@@ -59,6 +59,10 @@
     "mobile": {
       "title": "Mobile Apps",
       "description": "Download Ma boussole bien-être mobile app for iOS and Android. Free anxiety relief techniques on the go - breathing exercises, grounding, and more."
+    },
+    "worryTime": {
+      "title": "Worry Time - Postpone Your Worries",
+      "description": "Free tool to write down your worries and set them an appointment at a chosen time of day. Nothing is saved."
     }
   }
 }

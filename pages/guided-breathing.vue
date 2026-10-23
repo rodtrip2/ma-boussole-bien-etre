@@ -9,6 +9,22 @@
     <!-- Technique Overview (Exercise-Specific Info Grid) -->
     <section>
       <div class="mb-6 grid gap-6 md:grid-cols-2">
+        <div class="border border-pink-200 dark:border-pink-600 bg-pink-50 dark:bg-pink-900/20 p-6 transition-colors duration-200 md:col-span-2">
+          <div>
+            <div class="flex items-center justify-start gap-2 mb-2">
+              <Icon name="ph:heartbeat" class="flex-shrink-0 text-2xl text-pink-600 dark:text-pink-400" />
+              <h2 class="font-semibold text-gray-800 dark:text-slate-100">{{ $t("guidedBreathing.techniquesOverview.coherence.title") }}</h2>
+            </div>
+            <div class="px-1">
+              <p class="mb-3 text-sm leading-relaxed text-gray-700 dark:text-slate-300">
+                {{ $t("guidedBreathing.techniquesOverview.coherence.description") }}
+              </p>
+              <div class="text-xs font-medium text-pink-600 dark:text-pink-400">
+                {{ $t("guidedBreathing.techniquesOverview.coherence.bestFor") }}
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="border border-blue-200 dark:border-blue-600 bg-blue-50 dark:bg-blue-900/20 p-6 transition-colors duration-200">
           <div>
             <div class="flex items-center justify-start gap-2 mb-2">
@@ -98,8 +114,8 @@
       i18n-key="guidedBreathing.science"
       :research-items="[
         { key: 'meta', icon: 'ph:books' },
-        { key: 'review', icon: 'ph:users-three' },
-        { key: 'hospital', icon: 'ph:first-aid-kit' }
+        { key: 'coherence', icon: 'ph:heartbeat' },
+        { key: 'review', icon: 'ph:users-three' }
       ]"
     />
 

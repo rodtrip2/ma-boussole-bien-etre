@@ -22,6 +22,12 @@
       "pattern": "motif"
     },
     "techniques": {
+      "coherence": {
+        "name": "Cohérence cardiaque",
+        "description": "6 respirations par minute pendant 5 minutes",
+        "timing": "5-5 · 5 min",
+        "bestFor": "Détente au quotidien"
+      },
       "boxBreathing": {
         "name": "Respiration Carrée",
         "description": "Timing égal pour une concentration calme",
@@ -48,6 +54,11 @@
       }
     },
     "techniquesOverview": {
+      "coherence": {
+        "title": "Cohérence cardiaque (5-5, 5 minutes)",
+        "description": "Inspirer 5 secondes, expirer 5 secondes, soit 6 respirations par minute, pendant 5 minutes. Cette respiration lente et régulière est très utilisée en France, souvent selon la règle « 365 » : 3 fois par jour, 6 respirations par minute, 5 minutes. Elle se pratique assis, le dos droit, sans forcer le souffle.",
+        "bestFor": "Idéal pour : détente au quotidien, avant un moment stressant, rituel du matin ou du soir"
+      },
       "boxBreathing": {
         "title": "Respiration Carrée (4-4-4-4)",
         "description": "Les quatre temps sont égaux. Ce rythme régulier aide à se concentrer et à garder son calme ; il est enseigné notamment aux militaires et aux équipes de secours.",
@@ -118,6 +129,15 @@
           "result": "L'anxiété a nettement baissé chez les patients qui faisaient les exercices (d'environ 40 %), et pas chez les autres.",
           "caution": "Un seul hôpital et une situation très particulière ; les exercices comprenaient aussi de la kinésithérapie respiratoire.",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11535222/"
+        },
+        "coherence": {
+          "title": "La respiration guidée à rythme lent",
+          "type": "Synthèse de 24 études",
+          "who": "Près de 500 participants, avec ou sans trouble anxieux.",
+          "what": "Un entraînement à respirer lentement (autour de 6 respirations par minute), guidé par un appareil qui montre le rythme du cœur, comparé à l'absence d'entraînement.",
+          "result": "Le stress et l'anxiété ressentis diminuaient nettement après l'entraînement.",
+          "caution": "Les études utilisaient un appareil de mesure et un accompagnement, pas une simple application ; les auteurs demandent des études mieux contrôlées.",
+          "url": "https://www.cambridge.org/core/journals/psychological-medicine/article/effect-of-heart-rate-variability-biofeedback-training-on-stress-and-anxiety-a-metaanalysis/A839E9C968E54774DF5C8FB186764EF0"
         }
       }
     },

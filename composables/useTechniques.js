@@ -55,6 +55,13 @@ export const useTechniques = () => {
       iconColor: 'text-orange-600',
       tags: ['high-anxiety', 'short-time']
     },
+    'worry-time': {
+      id: 'worryTime',
+      icon: 'ph:hourglass-medium-fill',
+      iconColor: 'text-amber-600',
+      tags: ['moderate-anxiety', 'medium-time'],
+      isNew: true
+    },
     'fidget-spinner': {
       id: 'fidgetSpinner',
       icon: 'ph:spinner-gap',

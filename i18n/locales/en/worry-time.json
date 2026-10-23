@@ -1,0 +1,99 @@
+{
+  "worryTime": {
+    "tool": {
+      "intro": "When a worry keeps coming back, you can choose not to push it away but to set it an appointment for later. Write down your worries, then come back to them at a chosen time of day.",
+      "privacy": "Nothing is saved: if you close the page, the list is erased. You can print it or use a notebook.",
+      "step1": "1. Write down my worries",
+      "placeholder": "For example: 'What if I miss my appointment tomorrow?'",
+      "add": "Add",
+      "empty": "No worries written down yet.",
+      "remove": "Remove",
+      "step2": "2. Set them an appointment",
+      "step2Text": "These worries are written down: they will wait for you. Choose a time of day to come back to them, ideally the same each day, and not just before bed.",
+      "timeLabel": "My worry time",
+      "untilThen": "Until then, if a worry comes back, write it down and tell yourself: 'I'll think about it during my worry time.' Then gently return to what you were doing.",
+      "backToPresent": "To come back to the present moment:",
+      "step3": "3. My worry time",
+      "step3Text": "Settle in and take time to think about your worries, without trying to make them disappear. For each one, ask yourself whether it still matters and whether you can act.",
+      "duration": "Duration",
+      "minutes": "min",
+      "start": "Start my worry time",
+      "stop": "Finish",
+      "remaining": "remaining",
+      "stillWorried": "Does it still matter?",
+      "noLonger": "It no longer worries me",
+      "canAct": "I can act",
+      "firstStep": "My first small step:",
+      "firstStepPlaceholder": "For example: get my papers ready tonight",
+      "done": "Your worry time is over. Any remaining worries can come back tomorrow, at the same time. Take a few breaths before getting on with your day.",
+      "print": "Print my list"
+    },
+    "howItWorks": {
+      "title": "How Worry Time Works",
+      "description1": "Trying not to think about a worry often makes it more present. Worry time offers something different: accepting that it is there, but 'postponing' it to a specific time of day.",
+      "description2": "During the day, you write the worry down and return to what you were doing. During the chosen time (10 to 30 minutes), you really think about it. Many people then find that some worries have lost their importance.",
+      "description3": "This technique is part of cognitive behavioural therapy for generalized anxiety. It also shows, through experience, that you can have some say over your worries.",
+      "postpone": {
+        "title": "Postpone, don't push away",
+        "description": "You don't fight the worry: you set it an appointment for later."
+      },
+      "write": {
+        "title": "Write it down",
+        "description": "Writing a worry down helps you put it outside your head."
+      },
+      "control": {
+        "title": "Take back some control",
+        "description": "You discover that you can choose when to worry."
+      }
+    },
+    "science": {
+      "title": "What Studies Say",
+      "description": "Worry postponement is a classic cognitive behavioural therapy technique. Few studies have tested it on its own, but results are encouraging for people with generalized anxiety.",
+      "bottomLine": "worry time is a simple technique that can help you feel less at the mercy of your worries. It works better with support and does not replace professional care.",
+      "research": {
+        "trial": {
+          "title": "In people with generalized anxiety",
+          "type": "Trial with a comparison group",
+          "who": "About 80 adults with generalized anxiety or health anxiety, in Germany.",
+          "what": "Two sessions with a therapist, then 6 days of postponing worries to a set time (up to 30 minutes a day), compared with a waiting list.",
+          "result": "In people with generalized anxiety, worry decreased clearly, and the improvement was maintained 4 weeks later.",
+          "caution": "Small group, less clear results for health anxiety, and support from a therapist.",
+          "url": "https://cpe.psychopen.eu/index.php/cpe/article/download/12741/12741.html?inline=1"
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "When to Practice",
+      "items": [
+        "When the same worry keeps coming back during the day",
+        "When worries stop you from concentrating",
+        "In the evening, so you don't take your worries to bed (plan your worry time a few hours before sleep)",
+        "Every day for one to two weeks, to see the effects"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "What You Might Notice",
+      "items": [
+        "Slight relief once the worry is written down",
+        "Worries that feel less urgent when you come back to them",
+        "A sense of having a little more say over your thoughts",
+        "With practice, worries taking up less room in your day"
+      ]
+    },
+    "tips": {
+      "title": "Tips",
+      "place": {
+        "title": "A set time",
+        "description": "Choose the same time and place each day, preferably not in bed."
+      },
+      "gentle": {
+        "title": "Without judging yourself",
+        "description": "If a worry pushes through anyway, it is not a failure: write it down and gently return to what you were doing."
+      },
+      "short": {
+        "title": "A limited time",
+        "description": "When time is up, stop, even if not everything is resolved: worries can come back tomorrow."
+      }
+    }
+  }
+}

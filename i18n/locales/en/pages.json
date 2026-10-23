@@ -32,31 +32,27 @@
       ]
     },
     "organizations": {
-      "title": "Mental Health Organizations",
-      "description": "Leading organizations providing evidence-based information and resources for anxiety and depression:",
+      "title": "Mental health organisations in France",
+      "description": "Reliable sources of information and support in France:",
       "list": [
         {
-          "name": "Anxiety & Depression Association of America (ADAA)",
-          "url": "https://adaa.org",
-          "description": "International nonprofit dedicated to prevention, treatment, and cure of anxiety, depression, and related disorders. Offers educational content, webinars, and therapist directory."
+          "name": "Psycom – Mental health information",
+          "url": "https://www.psycom.org/",
+          "description": "French public body providing mental health information, resources on anxiety and depression, and guidance to professionals."
         },
         {
-          "name": "National Institute of Mental Health (NIMH)",
-          "url": "https://www.nimh.nih.gov/health/topics/anxiety-disorders",
-          "description": "Lead federal agency for mental health research providing authoritative, evidence-based information on anxiety disorders and treatments."
+          "name": "Fondation de France – Mental health",
+          "url": "https://www.fondationdefrance.org/fr/sante-mentale",
+          "description": "Foundation supporting research and projects on mental health, including prevention and care of anxiety and depressive disorders."
         },
         {
-          "name": "Mental Health America (MHA)",
-          "url": "https://www.mhanational.org/",
-          "description": "Community-based nonprofit offering free screening tools, practical resources, and guidance on mental health conversations."
-        },
-        {
-          "name": "American Psychological Association (APA)",
-          "url": "https://www.apa.org/topics/anxiety",
-          "description": "Leading scientific organization providing in-depth information on anxiety treatment, therapy options, and expert insights."
+          "name": "Unafam",
+          "url": "https://www.unafam.org/",
+          "description": "National association supporting families and relatives of people living with mental health conditions."
         }
       ]
-    }
+    },
+    "seeAll": "See all helplines and services"
   },
   "mobileAppBanner": {
     "text": "Free mobile apps now available",

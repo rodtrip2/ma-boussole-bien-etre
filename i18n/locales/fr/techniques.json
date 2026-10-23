@@ -14,7 +14,7 @@
     },
     "guidedBreathing": {
       "name": "Respiration guidée",
-      "short_description": "Schémas respiratoires étape par étape pour ralentir votre rythme cardiaque et apaiser la tension",
+      "short_description": "Plusieurs rythmes guidés, dont la cohérence cardiaque, pour ralentir et apaiser les tensions",
       "description": "Suivez des rythmes de respiration guidés, avec un repère visuel pour garder une cadence lente et régulière. Plusieurs rythmes sont proposés, à choisir selon votre besoin : vous concentrer, vous détendre ou faire une pause rapide.",
       "duration": "5-10 min"
     },
@@ -59,6 +59,12 @@
       "short_description": "Balle anti-stress interactive pour évacuer les tensions et rediriger l'énergie anxieuse par l'engagement tactile",
       "description": "Parfois, les tensions physiques nécessitent une libération physique. Cette balle anti-stress virtuelle offre une expérience tactile satisfaisante qui aide à canaliser l'énergie nerveuse et l'anxiété en mouvements de compression ciblés. L'action répétitive aide à calmer votre esprit tout en donnant à votre corps un moyen de libérer le stress et les tensions accumulées.",
       "duration": "1-5 min"
+    },
+    "worryTime": {
+      "name": "Le temps d'inquiétude",
+      "short_description": "Noter ses inquiétudes et leur donner rendez-vous à un moment choisi de la journée",
+      "description": "Plutôt que de lutter contre les inquiétudes, cette technique propose de les noter et de les retrouver pendant un moment dédié de la journée. Elle aide à moins les subir et à reprendre un peu la main.",
+      "duration": "10-30 min"
     }
   }
 }

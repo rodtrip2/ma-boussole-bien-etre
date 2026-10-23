@@ -51,7 +51,8 @@
           "description": "Association nationale offrant du soutien aux familles, des ressources pratiques et des informations sur les troubles mentaux comme l'anxiété et la dépression."
         }
       ]
-    }
+    },
+    "seeAll": "Voir tous les numéros d’écoute et services d’aide"
   },
   "mobileAppBanner": {
     "text": "Applications mobiles gratuites maintenant disponibles",

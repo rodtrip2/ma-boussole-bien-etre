@@ -4,6 +4,7 @@
     "onlyFrench": "Ces questionnaires sont proposés uniquement dans leurs versions françaises validées.",
     "homeTitle": "Questionnaires d’auto-évaluation",
     "homeText": "Faites le point sur votre humeur, votre anxiété, votre bien-être ou votre consommation d’alcool avec des échelles validées en français (PHQ-9, GAD-7, WHO-5, AUDIT, Rosenberg). Anonyme : rien n’est enregistré.",
-    "homeCta": "Voir les questionnaires"
+    "homeCta": "Voir les questionnaires",
+    "help": "Trouver de l’aide"
   }
 }
