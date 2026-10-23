@@ -1,0 +1,94 @@
+{
+  "understanding": {
+    "title": "Comprendre l'anxiété",
+    "intro": "Mieux comprendre ce qui se passe quand l'anxiété monte aide souvent à la vivre avec moins de peur. Voici l'essentiel, en quelques minutes de lecture.",
+    "sections": [
+      {
+        "id": "alarm",
+        "icon": "ph:bell-ringing",
+        "title": "Une alarme utile",
+        "paragraphs": [
+          "L'anxiété est une réaction normale, que tout le monde connaît. Face à une situation menaçante ou incertaine, le corps se prépare à réagir : c'est la réaction de « combat ou fuite ». Le cœur accélère, la respiration s'emballe, les muscles se tendent.",
+          "Cette alarme est utile : elle nous rend attentifs et nous aide à faire face. Un peu d'anxiété avant un examen ou un rendez-vous important est donc tout à fait normal."
+        ]
+      },
+      {
+        "id": "disorder",
+        "icon": "ph:warning",
+        "title": "Quand l'alarme se dérègle",
+        "paragraphs": [
+          "L'anxiété devient un problème quand elle est trop intense, trop fréquente, ou qu'elle se déclenche sans danger réel, au point de gêner la vie de tous les jours. On parle alors de trouble anxieux. C'est fréquent, et cela se soigne."
+        ],
+        "list": [
+          "Anxiété généralisée : des inquiétudes envahissantes et difficiles à contrôler, sur de nombreux sujets, pendant des mois.",
+          "Trouble panique : des crises d'angoisse répétées et inattendues, et la peur d'en refaire.",
+          "Phobies : une peur intense d'un objet ou d'une situation (animal, transport, foule…), avec un besoin de l'éviter.",
+          "Anxiété sociale : la peur d'être jugé ou de se sentir humilié devant les autres."
+        ]
+      },
+      {
+        "id": "circle",
+        "icon": "ph:arrows-clockwise",
+        "title": "Le cercle vicieux de l'anxiété",
+        "paragraphs": [
+          "Pensées, sensations du corps et comportements s'entretiennent les uns les autres. Une pensée inquiétante (« et si je faisais un malaise ? ») déclenche des sensations (cœur qui bat vite), qui semblent confirmer le danger et renforcent l'inquiétude. Pour se soulager, on évite la situation… ce qui empêche de constater que le danger n'était pas réel.",
+          "Bonne nouvelle : agir sur un seul élément du cercle peut suffire à le ralentir. Respirer lentement apaise le corps, prendre du recul sur ses pensées les rend moins crédibles, affronter progressivement ce que l'on craint fait reculer la peur."
+        ],
+        "circle": [
+          "Pensées inquiétantes",
+          "Sensations dans le corps",
+          "Évitement et précautions"
+        ]
+      },
+      {
+        "id": "panic",
+        "icon": "ph:lightning",
+        "title": "La crise d'angoisse",
+        "paragraphs": [
+          "Une crise d'angoisse (ou attaque de panique) est une montée soudaine d'une peur intense, avec l'impression qu'une catastrophe va arriver, alors qu'il n'y a pas de danger réel. Elle s'accompagne de sensations très impressionnantes : palpitations, sueurs, tremblements, souffle court, gêne dans la poitrine, vertiges, impression d'irréalité, peur de mourir ou de devenir fou.",
+          "La crise monte en quelques minutes puis s'apaise d'elle-même, généralement en une demi-heure environ. Aussi effrayante soit-elle, elle n'est pas dangereuse en elle-même. Pendant une crise, ralentir sa respiration et revenir à ses sens (ancrage 5-4-3-2-1) peut aider à la traverser."
+        ],
+        "warning": "Lors d'une première crise, ou en cas de doute (douleur dans la poitrine, malaise inhabituel), consultez ou appelez le 15 : seul un médecin peut écarter une cause physique."
+      },
+      {
+        "id": "avoidance",
+        "icon": "ph:door",
+        "title": "Le piège de l'évitement",
+        "paragraphs": [
+          "Éviter ce qui fait peur soulage sur le moment. Mais à long terme, l'évitement entretient l'anxiété : on n'a jamais l'occasion de vérifier que l'on peut faire face, et la liste des situations évitées a tendance à s'allonger.",
+          "Se confronter progressivement à ce que l'on craint, par petites étapes, permet au contraire à la peur de diminuer. C'est le principe de l'exposition, au cœur des thérapies cognitives et comportementales. Elle se construit de préférence avec un thérapeute."
+        ]
+      },
+      {
+        "id": "help",
+        "icon": "ph:hand-heart",
+        "title": "Ce qui aide",
+        "paragraphs": [
+          "Plusieurs choses aident à apprivoiser l'anxiété au quotidien : une activité physique régulière, un sommeil suffisant, limiter le café, l'alcool et les autres substances, et pratiquer régulièrement une technique de détente comme celles proposées sur ce site.",
+          "Quand l'anxiété devient envahissante, des soins efficaces existent : les psychothérapies, en particulier les thérapies cognitives et comportementales, et si besoin des médicaments, prescrits par un médecin. Les anxiolytiques de la famille des benzodiazépines ne doivent être pris que sur une courte durée, à cause du risque de dépendance."
+        ]
+      },
+      {
+        "id": "when",
+        "icon": "ph:first-aid-kit",
+        "title": "Quand demander de l'aide",
+        "paragraphs": [
+          "Parlez-en à votre médecin traitant, à un psychologue ou à un centre médico-psychologique (CMP) si :"
+        ],
+        "list": [
+          "l'anxiété vous gêne au travail, dans vos relations ou dans vos activités ;",
+          "vous évitez de plus en plus de situations ;",
+          "les crises d'angoisse se répètent ;",
+          "votre sommeil ou votre appétit sont perturbés ;",
+          "vous consommez de l'alcool, des médicaments ou d'autres substances pour vous calmer."
+        ]
+      }
+    ],
+    "toolsTitle": "Des outils pour vous accompagner",
+    "helpCta": "Trouver de l'aide en France",
+    "source": "Source principale : brochure « Troubles anxieux et phobiques » de Psycom (organisme public d'information sur la santé mentale).",
+    "homeCta": "Comprendre l'anxiété en quelques minutes",
+    "metaTitle": "Comprendre l'anxiété - alarme, cercle vicieux, crise d'angoisse",
+    "metaDescription": "Comprendre l'anxiété : une alarme normale qui peut se dérégler, le cercle vicieux, la crise d'angoisse, le piège de l'évitement, ce qui aide et quand demander de l'aide."
+  }
+}

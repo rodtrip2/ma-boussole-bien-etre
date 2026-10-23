@@ -1,0 +1,99 @@
+{
+  "selfCompassion": {
+    "tool": {
+      "intro": "In a difficult moment, we often talk to ourselves harshly. This short break, inspired by the work of Kristin Neff, invites you to treat yourself as you would treat a friend going through the same thing.",
+      "start": "Start the break",
+      "next": "Next step",
+      "restart": "Start again",
+      "stepOf": "Step {n} of 3",
+      "prepare": "Think of a situation that is weighing on you right now — not the hardest one, a moderate one to start with. Allow yourself to feel a little of the discomfort it brings.",
+      "steps": [
+        {
+          "title": "Acknowledge this moment",
+          "text": "Notice what you are feeling, without judging or minimising it.",
+          "phrase": "'This is a moment of difficulty.' or 'This hurts right now.'"
+        },
+        {
+          "title": "Remember you are not alone",
+          "text": "Difficulty is part of everyone's life. Other people, right now, are feeling something similar.",
+          "phrase": "'I'm not the only one going through this.' or 'Everyone goes through moments like this.'"
+        },
+        {
+          "title": "Offer yourself kindness",
+          "text": "If it helps, place a hand on your heart or somewhere soothing. Feel the warmth of your hand. Then ask yourself what you need.",
+          "phrase": "'May I be kind to myself.' or 'May I give myself the patience I need.'"
+        }
+      ],
+      "ownWords": "If these phrases don't speak to you, find your own words: what would you say to a dear friend in the same situation?",
+      "done": "Take a moment to notice how you feel now. It's normal for this to feel uncomfortable at first: self-kindness is learned, like any skill.",
+      "credit": "Exercise inspired by Kristin Neff's 'self-compassion break'."
+    },
+    "howItWorks": {
+      "title": "How Self-Compassion Works",
+      "description1": "Self-compassion means treating yourself with the same kindness you would offer a loved one in difficulty. It is not self-pity or making excuses: it is recognising your suffering and responding with care.",
+      "description2": "The break rests on three elements described by psychologist Kristin Neff: mindfulness (recognising what you feel), common humanity (remembering suffering is part of everyone's life) and self-kindness.",
+      "description3": "Self-criticism often adds a layer of suffering to anxiety. Learning to speak to yourself gently can help you get through difficult moments with a little more calm.",
+      "mindfulness": {
+        "title": "Acknowledge",
+        "description": "See what you feel, without judging or exaggerating it."
+      },
+      "humanity": {
+        "title": "Share",
+        "description": "Remember that others go through similar difficulties."
+      },
+      "kindness": {
+        "title": "Take care",
+        "description": "Speak to yourself as you would speak to a friend."
+      }
+    },
+    "science": {
+      "title": "What Studies Say",
+      "description": "Programmes that train self-compassion have been evaluated in many trials. The short break offered here is one of their basic exercises.",
+      "bottomLine": "learning to be kind to yourself can reduce anxiety, stress and self-criticism. It is a skill that grows with practice.",
+      "research": {
+        "meta": {
+          "title": "What many trials show",
+          "type": "Synthesis of 27 trials",
+          "who": "Very diverse participants: students, stressed adults, people with health problems.",
+          "what": "Self-compassion training programmes, compared with groups with no programme or another activity.",
+          "result": "The programmes reduced anxiety, low mood, stress and self-criticism (medium effects), and rumination markedly.",
+          "caution": "Programmes varied widely between trials, often in groups; effects were clearer in groups than individually.",
+          "url": "https://acuresearchbank.acu.edu.au/item/87545/self-compassion-interventions-and-psychosocial-outcomes-a-meta-analysis-of-rcts"
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "When to Practice",
+      "items": [
+        "When you are blaming or harshly criticising yourself",
+        "After a mistake, a setback or an awkward situation",
+        "When anxiety comes with shame or discouragement",
+        "Every day, so this kind outlook becomes more natural"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "What You Might Notice",
+      "items": [
+        "A slight sense of relief, or an emotion rising: both are normal",
+        "An inner voice that is a little less harsh",
+        "Feeling less alone with the difficulty",
+        "With practice, an easier time supporting yourself in hard moments"
+      ]
+    },
+    "tips": {
+      "title": "Tips",
+      "start": {
+        "title": "Start small",
+        "description": "First choose a moderate difficulty, not the most painful situation."
+      },
+      "emotion": {
+        "title": "If emotion rises",
+        "description": "Gentleness sometimes stirs up emotions. Slow down, breathe, and return to a grounding exercise if needed."
+      },
+      "words": {
+        "title": "Your own words",
+        "description": "The suggested phrases are just a starting point: keep the ones that speak to you."
+      }
+    }
+  }
+}

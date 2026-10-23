@@ -1,0 +1,99 @@
+{
+  "selfCompassion": {
+    "tool": {
+      "intro": "Dans un moment difficile, on se parle souvent durement. Cette courte pause, inspirée des travaux de Kristin Neff, propose de se traiter comme on traiterait un ami qui traverse la même chose.",
+      "start": "Commencer la pause",
+      "next": "Étape suivante",
+      "restart": "Recommencer",
+      "stepOf": "Étape {n} sur 3",
+      "prepare": "Pensez à une situation qui vous pèse en ce moment — pas la plus difficile, une situation moyenne pour commencer. Laissez-vous ressentir un peu l'inconfort qu'elle provoque.",
+      "steps": [
+        {
+          "title": "Reconnaître ce moment",
+          "text": "Remarquez ce que vous ressentez, sans le juger ni le minimiser.",
+          "phrase": "« C'est un moment difficile. » ou « Ça fait mal, en ce moment. »"
+        },
+        {
+          "title": "Se rappeler qu'on n'est pas seul",
+          "text": "La difficulté fait partie de la vie de chacun. D'autres personnes ressentent, en ce moment même, quelque chose de semblable.",
+          "phrase": "« Je ne suis pas seul à vivre ça. » ou « Tout le monde traverse des moments comme celui-ci. »"
+        },
+        {
+          "title": "S'offrir de la bienveillance",
+          "text": "Si cela vous aide, posez une main sur votre cœur ou à un endroit qui vous apaise. Sentez la chaleur de votre main. Puis demandez-vous ce dont vous avez besoin.",
+          "phrase": "« Puis-je être doux avec moi-même. » ou « Puis-je m'accorder la patience dont j'ai besoin. »"
+        }
+      ],
+      "ownWords": "Si ces phrases ne vous parlent pas, cherchez vos propres mots : ce que vous diriez à un ami cher dans la même situation.",
+      "done": "Prenez un instant pour remarquer comment vous vous sentez maintenant. Il est normal que ce soit inconfortable au début : la bienveillance envers soi s'apprend, comme toute compétence.",
+      "credit": "Exercice inspiré de la « pause d'autocompassion » de Kristin Neff."
+    },
+    "howItWorks": {
+      "title": "Comment fonctionne l'autocompassion",
+      "description1": "L'autocompassion consiste à se traiter avec la même gentillesse que celle qu'on offrirait à un proche en difficulté. Ce n'est ni s'apitoyer sur soi, ni se trouver des excuses : c'est reconnaître sa souffrance et y répondre avec soin.",
+      "description2": "La pause repose sur trois éléments décrits par la psychologue Kristin Neff : la pleine conscience (reconnaître ce qu'on ressent), l'humanité partagée (se rappeler que la souffrance fait partie de la vie de tous) et la bienveillance envers soi.",
+      "description3": "L'autocritique ajoute souvent une couche de souffrance à l'anxiété. Apprendre à se parler avec douceur peut aider à traverser les moments difficiles avec un peu plus de calme.",
+      "mindfulness": {
+        "title": "Reconnaître",
+        "description": "Voir ce que l'on ressent, sans le juger ni l'exagérer."
+      },
+      "humanity": {
+        "title": "Partager",
+        "description": "Se rappeler que d'autres vivent des difficultés semblables."
+      },
+      "kindness": {
+        "title": "Prendre soin",
+        "description": "Se parler comme on parlerait à un ami."
+      }
+    },
+    "science": {
+      "title": "Ce que disent les études",
+      "description": "Les programmes qui entraînent l'autocompassion ont été évalués dans de nombreux essais. La courte pause proposée ici en est un exercice de base.",
+      "bottomLine": "apprendre à être bienveillant envers soi peut réduire l'anxiété, le stress et l'autocritique. C'est une compétence qui se développe avec la pratique.",
+      "research": {
+        "meta": {
+          "title": "Ce que montrent de nombreux essais",
+          "type": "Synthèse de 27 essais",
+          "who": "Des participants très divers : étudiants, adultes stressés, personnes ayant des problèmes de santé.",
+          "what": "Des programmes d'entraînement à l'autocompassion, comparés à des groupes sans programme ou avec une autre activité.",
+          "result": "Les programmes réduisaient l'anxiété, la déprime, le stress et l'autocritique (effets moyens), et nettement les ruminations.",
+          "caution": "Programmes très différents d'un essai à l'autre, souvent en groupe ; les effets étaient plus nets en groupe qu'en individuel.",
+          "url": "https://acuresearchbank.acu.edu.au/item/87545/self-compassion-interventions-and-psychosocial-outcomes-a-meta-analysis-of-rcts"
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Quand pratiquer",
+      "items": [
+        "Quand vous vous en voulez ou vous critiquez durement",
+        "Après une erreur, un échec ou une situation gênante",
+        "Quand l'anxiété s'accompagne de honte ou de découragement",
+        "Chaque jour, pour que ce regard bienveillant devienne plus naturel"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Ce que vous pourriez remarquer",
+      "items": [
+        "Un léger apaisement, ou au contraire une émotion qui monte : les deux sont normaux",
+        "Une voix intérieure un peu moins dure",
+        "Le sentiment d'être moins seul face à la difficulté",
+        "Avec la pratique, plus de facilité à vous soutenir dans les moments difficiles"
+      ]
+    },
+    "tips": {
+      "title": "Conseils",
+      "start": {
+        "title": "Commencer petit",
+        "description": "Choisissez d'abord une difficulté moyenne, pas la situation la plus douloureuse."
+      },
+      "emotion": {
+        "title": "Si l'émotion monte",
+        "description": "Il arrive que la douceur réveille des émotions. Ralentissez, respirez, et revenez à un exercice d'ancrage si besoin."
+      },
+      "words": {
+        "title": "Vos propres mots",
+        "description": "Les phrases proposées ne sont qu'un point de départ : gardez celles qui vous parlent."
+      }
+    }
+  }
+}

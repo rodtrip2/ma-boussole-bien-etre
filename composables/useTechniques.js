@@ -62,6 +62,20 @@ export const useTechniques = () => {
       tags: ['moderate-anxiety', 'medium-time'],
       isNew: true
     },
+    'leaves-on-stream': {
+      id: 'leavesOnStream',
+      icon: 'ph:leaf-fill',
+      iconColor: 'text-emerald-600',
+      tags: ['moderate-anxiety', 'short-time'],
+      isNew: true
+    },
+    'self-compassion': {
+      id: 'selfCompassion',
+      icon: 'ph:hand-heart-fill',
+      iconColor: 'text-rose-600',
+      tags: ['moderate-anxiety', 'short-time'],
+      isNew: true
+    },
     'fidget-spinner': {
       id: 'fidgetSpinner',
       icon: 'ph:spinner-gap',

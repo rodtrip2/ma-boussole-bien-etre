@@ -63,6 +63,14 @@
     "worryTime": {
       "title": "Worry Time - Postpone Your Worries",
       "description": "Free tool to write down your worries and set them an appointment at a chosen time of day. Nothing is saved."
+    },
+    "leavesOnStream": {
+      "title": "Leaves on a Stream - Gaining Distance from Thoughts",
+      "description": "Free defusion exercise (ACT): place your thoughts on leaves and watch them drift away. Nothing is saved."
+    },
+    "selfCompassion": {
+      "title": "Self-Compassion Break - Speaking to Yourself Kindly",
+      "description": "A guided three-step break to get through a difficult moment with more kindness towards yourself."
     }
   }
 }

@@ -1,0 +1,98 @@
+{
+  "leaves": {
+    "tool": {
+      "intro": "Imagine a gently flowing river. Each time a thought appears, place it on a leaf and watch it drift away with the current, without holding on to it or pushing it.",
+      "privacy": "Nothing is saved: thoughts disappear with the leaves.",
+      "label": "A thought passing through your mind",
+      "placeholder": "For example: 'I won't manage'",
+      "add": "Place on a leaf",
+      "noWords": "Let a leaf pass without words",
+      "guide": [
+        "Get comfortable and breathe calmly.",
+        "When a thought arrives, name it in a few words and place it on a leaf.",
+        "Watch the leaf drift away at its own pace. No need to push it.",
+        "If a thought comes back, that's normal: place it on a new leaf.",
+        "If you notice you've been 'carried off' by a thought, simply come back to the riverbank."
+      ],
+      "count": "Leaves placed: {n}",
+      "reduced": "Reduced motion is on: leaves fade gently instead of drifting.",
+      "river": "Animated river with drifting leaves"
+    },
+    "howItWorks": {
+      "title": "How Leaves on a Stream Works",
+      "description1": "This exercise comes from Acceptance and Commitment Therapy (ACT). It trains 'defusion': taking a little distance from your thoughts, seeing them as words passing through the mind rather than as truths or orders.",
+      "description2": "You don't try to chase thoughts away or change them: you notice them, place them and let them go. Difficult thoughts may come back; what changes is how much room you give them.",
+      "description3": "With practice, it becomes easier to notice an anxious thought without being swept away by it, and to come back to what matters to you.",
+      "observe": {
+        "title": "Notice",
+        "description": "Notice the thought, without judging or fighting it."
+      },
+      "release": {
+        "title": "Let it pass",
+        "description": "Place it on a leaf and watch it drift away."
+      },
+      "return": {
+        "title": "Come back",
+        "description": "When you get carried away, gently come back to the riverbank."
+      }
+    },
+    "science": {
+      "title": "What Studies Say",
+      "description": "The leaves on a stream exercise has not been studied on its own. It is part of Acceptance and Commitment Therapy (ACT), which has been well evaluated, and relies on defusion, studied in the laboratory.",
+      "bottomLine": "taking distance from your thoughts helps you believe them less and be less bothered by them. The exercise is safe; for lasting anxiety, ACT is best practised with a therapist.",
+      "research": {
+        "act": {
+          "title": "Acceptance and Commitment Therapy (ACT)",
+          "type": "Synthesis of 39 trials",
+          "who": "About 1,800 patients with anxiety disorders, depression, addiction or physical health problems.",
+          "what": "Researchers pooled trials comparing ACT with a waiting list, usual care or other therapies.",
+          "result": "ACT did better than usual care (medium effect) and appeared close to cognitive behavioural therapy (CBT).",
+          "caution": "A 2015 synthesis mixing many conditions; the comparison with CBT does not prove strict equivalence.",
+          "url": "https://contextualscience.org/publications/metaanalysis_efficacy_acceptance_commitment_therapy_clinically_relevant_mental"
+        },
+        "defusion": {
+          "title": "Taking distance from your thoughts",
+          "type": "Synthesis of 12 laboratory studies",
+          "who": "About 650 adults without a mental health condition.",
+          "what": "Defusion exercises applied to negative thoughts about oneself (for example 'I'm useless').",
+          "result": "After the exercise, participants believed these thoughts much less and were much less bothered by them.",
+          "caution": "Effects measured right after the exercise, in a laboratory, in people without a condition: we don't know how long they last.",
+          "url": "https://contextualscience.org/publications/defusion_techniques_selfreferential_thought_laboratorybased_experimental_research"
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "When to Practice",
+      "items": [
+        "When an anxious thought keeps going round in circles",
+        "When you feel 'stuck' to a thought, to the point it seems true",
+        "Before sleep, to let the day's thoughts pass",
+        "A few minutes a day, to train this way of looking at your thoughts"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "What You Might Notice",
+      "items": [
+        "Thoughts coming back often: that's normal, and it's the heart of the exercise",
+        "A little more distance from difficult thoughts",
+        "Less urge to fight your thoughts",
+        "With practice, anxious thoughts sweeping you away less"
+      ]
+    },
+    "tips": {
+      "title": "Tips",
+      "gentle": {
+        "title": "No forcing",
+        "description": "The aim is not to empty your mind: thoughts come and go, and that's fine."
+      },
+      "all": {
+        "title": "All thoughts",
+        "description": "Pleasant thoughts go on leaves too: you're practising observing, not sorting."
+      },
+      "short": {
+        "title": "Short but regular",
+        "description": "Three to five minutes is enough. A little every day is better than a long time now and then."
+      }
+    }
+  }
+}

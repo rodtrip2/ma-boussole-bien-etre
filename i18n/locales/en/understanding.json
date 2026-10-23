@@ -1,0 +1,94 @@
+{
+  "understanding": {
+    "title": "Understanding anxiety",
+    "intro": "Understanding what happens when anxiety rises often helps you live with it with less fear. Here are the essentials, in a few minutes of reading.",
+    "sections": [
+      {
+        "id": "alarm",
+        "icon": "ph:bell-ringing",
+        "title": "A useful alarm",
+        "paragraphs": [
+          "Anxiety is a normal reaction that everyone experiences. Faced with a threatening or uncertain situation, the body prepares to react: this is the 'fight or flight' response. The heart speeds up, breathing quickens, muscles tense.",
+          "This alarm is useful: it makes us alert and helps us cope. A little anxiety before an exam or an important appointment is therefore completely normal."
+        ]
+      },
+      {
+        "id": "disorder",
+        "icon": "ph:warning",
+        "title": "When the alarm goes wrong",
+        "paragraphs": [
+          "Anxiety becomes a problem when it is too intense, too frequent, or triggered without real danger, to the point of interfering with everyday life. This is called an anxiety disorder. It is common, and it can be treated."
+        ],
+        "list": [
+          "Generalized anxiety: pervasive, hard-to-control worries about many topics, for months.",
+          "Panic disorder: repeated, unexpected panic attacks, and fear of having more.",
+          "Phobias: intense fear of an object or situation (animals, transport, crowds…), with a need to avoid it.",
+          "Social anxiety: fear of being judged or humiliated in front of others."
+        ]
+      },
+      {
+        "id": "circle",
+        "icon": "ph:arrows-clockwise",
+        "title": "The vicious circle of anxiety",
+        "paragraphs": [
+          "Thoughts, body sensations and behaviours feed each other. A worrying thought ('what if I faint?') triggers sensations (a racing heart), which seem to confirm the danger and strengthen the worry. To get relief, we avoid the situation… which prevents us from seeing that the danger was not real.",
+          "The good news: acting on just one part of the circle can be enough to slow it down. Slow breathing calms the body, stepping back from thoughts makes them less believable, gradually facing what you fear makes fear recede."
+        ],
+        "circle": [
+          "Worrying thoughts",
+          "Body sensations",
+          "Avoidance and safety behaviours"
+        ]
+      },
+      {
+        "id": "panic",
+        "icon": "ph:lightning",
+        "title": "Panic attacks",
+        "paragraphs": [
+          "A panic attack is a sudden surge of intense fear, with a feeling that disaster is about to happen, although there is no real danger. It comes with very alarming sensations: palpitations, sweating, trembling, shortness of breath, chest discomfort, dizziness, a sense of unreality, fear of dying or going mad.",
+          "The attack builds within minutes and then subsides on its own, usually within about half an hour. However frightening it is, it is not dangerous in itself. During an attack, slowing your breathing and coming back to your senses (5-4-3-2-1 grounding) can help you get through it."
+        ],
+        "warning": "For a first attack, or if in doubt (chest pain, unusual faintness), see a doctor or call 15 (or 112): only a doctor can rule out a physical cause."
+      },
+      {
+        "id": "avoidance",
+        "icon": "ph:door",
+        "title": "The avoidance trap",
+        "paragraphs": [
+          "Avoiding what frightens you brings relief in the moment. But in the long run, avoidance maintains anxiety: you never get the chance to find out that you can cope, and the list of avoided situations tends to grow.",
+          "Gradually facing what you fear, in small steps, allows fear to decrease. This is the principle of exposure, at the heart of cognitive behavioural therapy. It is best built with a therapist."
+        ]
+      },
+      {
+        "id": "help",
+        "icon": "ph:hand-heart",
+        "title": "What helps",
+        "paragraphs": [
+          "Several things help you live with anxiety day to day: regular physical activity, enough sleep, limiting coffee, alcohol and other substances, and regularly practising a relaxation technique like those on this site.",
+          "When anxiety becomes overwhelming, effective care exists: psychotherapy, particularly cognitive behavioural therapy, and medication if needed, prescribed by a doctor. Benzodiazepine anxiolytics should only be taken for a short period, because of the risk of dependence."
+        ]
+      },
+      {
+        "id": "when",
+        "icon": "ph:first-aid-kit",
+        "title": "When to seek help",
+        "paragraphs": [
+          "Talk to your GP, a psychologist or a community mental health centre (CMP) if:"
+        ],
+        "list": [
+          "anxiety is getting in the way of work, relationships or activities;",
+          "you are avoiding more and more situations;",
+          "panic attacks keep happening;",
+          "your sleep or appetite is disturbed;",
+          "you use alcohol, medication or other substances to calm down."
+        ]
+      }
+    ],
+    "toolsTitle": "Tools to support you",
+    "helpCta": "Getting help in France",
+    "source": "Main source: 'Anxiety and phobic disorders' brochure by Psycom (French public body for mental health information).",
+    "homeCta": "Understand anxiety in a few minutes",
+    "metaTitle": "Understanding anxiety - alarm, vicious circle, panic attacks",
+    "metaDescription": "Understanding anxiety: a normal alarm that can go wrong, the vicious circle, panic attacks, the avoidance trap, what helps and when to seek help."
+  }
+}

@@ -45,6 +45,11 @@
     <section id="about" class="pt-12">
       <div class="mx-auto max-w-6xl">
         <h2 class="ptitle">{{ $t("about.title") }}</h2>
+        <p class="mb-6 text-center">
+          <NuxtLink :to="localePath('/understanding-anxiety')" class="inline-flex items-center gap-2 border border-blue-600 px-5 py-2.5 font-medium text-blue-700 hover:bg-blue-50 dark:text-blue-300 dark:hover:bg-blue-900/30">
+            <Icon name="ph:book-open-text" /> {{ $t("understanding.homeCta") }}
+          </NuxtLink>
+        </p>
 
         <div class="mb-6 grid grid-cols-1 gap-6 md:grid-cols-2">
           <div class="border border-amber-200 dark:border-amber-700 bg-amber-50 dark:bg-amber-900/20 p-4 transition-colors duration-200">

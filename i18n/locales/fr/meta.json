@@ -63,6 +63,14 @@
     "worryTime": {
       "title": "Le temps d'inquiétude - Reporter ses inquiétudes",
       "description": "Outil gratuit pour noter vos inquiétudes et leur donner rendez-vous à un moment choisi de la journée. Rien n'est enregistré."
+    },
+    "leavesOnStream": {
+      "title": "Les feuilles sur la rivière - Prendre du recul avec ses pensées",
+      "description": "Exercice gratuit de défusion (ACT) : posez vos pensées sur des feuilles et regardez-les s'éloigner. Rien n'est enregistré."
+    },
+    "selfCompassion": {
+      "title": "La pause d'autocompassion - Se parler avec bienveillance",
+      "description": "Une pause guidée en trois étapes pour traverser un moment difficile avec plus de douceur envers soi."
     }
   }
 }

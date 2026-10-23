@@ -130,6 +130,14 @@
             <Icon name="ph:lifebuoy" class="text-xl mr-3" />
             <span>{{ $t('selfTests.help') }}</span>
           </NuxtLink>
+          <NuxtLink
+            :to="localePath('/understanding-anxiety')"
+            @click="isMenuOpen = false"
+            class="flex items-center px-4 py-3 mb-2 rounded text-gray-700 dark:text-slate-300 hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors duration-200"
+          >
+            <Icon name="ph:book-open-text" class="text-xl mr-3" />
+            <span>{{ $t('understanding.title') }}</span>
+          </NuxtLink>
 
           <a
             href="https://github.com/rodtrip2/ma-boussole-bien-etre"

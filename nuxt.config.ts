@@ -104,7 +104,7 @@ export default defineNuxtConfig({
     fallbackToApi: false,
     clientBundle: {
       scan: { globInclude: ['components/**', 'pages/**', 'composables/**', 'layouts/**', 'utils/**', 'data/**', '*.vue'] },
-      icons: ['material-symbols:landscape'],
+      icons: ['material-symbols:landscape', 'ph:bell-ringing', 'ph:warning', 'ph:arrows-clockwise', 'ph:lightning', 'ph:door', 'ph:hand-heart', 'ph:first-aid-kit'],
     },
   },
 
@@ -165,7 +165,10 @@ export default defineNuxtConfig({
           'en/thought-labeling.json',
           'en/fidget-spinner.json',
           'en/self-tests.json',
-          'en/worry-time.json'
+          'en/worry-time.json',
+          'en/leaves.json',
+          'en/self-compassion.json',
+          'en/understanding.json'
         ]
       },
       {
@@ -188,7 +191,10 @@ export default defineNuxtConfig({
           'fr/thought-labeling.json',
           'fr/fidget-spinner.json',
           'fr/self-tests.json',
-          'fr/worry-time.json'
+          'fr/worry-time.json',
+          'fr/leaves.json',
+          'fr/self-compassion.json',
+          'fr/understanding.json'
         ]
       },
     ],

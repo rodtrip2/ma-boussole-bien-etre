@@ -1,0 +1,98 @@
+{
+  "leaves": {
+    "tool": {
+      "intro": "Imaginez une rivière qui coule doucement. Chaque fois qu'une pensée apparaît, posez-la sur une feuille et regardez-la s'éloigner au fil de l'eau, sans la retenir ni la pousser.",
+      "privacy": "Rien n'est enregistré : les pensées disparaissent avec les feuilles.",
+      "label": "Une pensée qui vous traverse l'esprit",
+      "placeholder": "Par exemple : « Je n'y arriverai pas »",
+      "add": "Poser sur une feuille",
+      "noWords": "Laisser passer une feuille sans mots",
+      "guide": [
+        "Installez-vous confortablement et respirez calmement.",
+        "Quand une pensée arrive, nommez-la en quelques mots et posez-la sur une feuille.",
+        "Regardez la feuille s'éloigner, à son rythme. Inutile de la pousser.",
+        "Si une pensée revient, c'est normal : posez-la sur une nouvelle feuille.",
+        "Si vous vous rendez compte que vous êtes « parti » avec une pensée, revenez simplement au bord de la rivière."
+      ],
+      "count": "Feuilles posées : {n}",
+      "reduced": "Animation réduite activée : les feuilles s'effacent doucement au lieu de dériver.",
+      "river": "Rivière animée sur laquelle dérivent les feuilles"
+    },
+    "howItWorks": {
+      "title": "Comment fonctionnent les feuilles sur la rivière",
+      "description1": "Cet exercice vient de la thérapie d'acceptation et d'engagement (ACT). Il entraîne la « défusion » : prendre un peu de distance avec ses pensées, les voir comme des mots qui passent dans l'esprit plutôt que comme des vérités ou des ordres.",
+      "description2": "On ne cherche ni à chasser les pensées ni à les changer : on les remarque, on les pose et on les laisse partir. Les pensées difficiles peuvent revenir ; ce qui change, c'est la place qu'on leur laisse.",
+      "description3": "Avec la pratique, il devient plus facile de remarquer une pensée anxieuse sans être emporté par elle, et de revenir à ce qui compte pour vous.",
+      "observe": {
+        "title": "Observer",
+        "description": "Remarquer la pensée, sans la juger ni la combattre."
+      },
+      "release": {
+        "title": "Laisser passer",
+        "description": "La poser sur une feuille et la regarder s'éloigner."
+      },
+      "return": {
+        "title": "Revenir",
+        "description": "Quand on se laisse emporter, revenir doucement au bord de la rivière."
+      }
+    },
+    "science": {
+      "title": "Ce que disent les études",
+      "description": "L'exercice des feuilles sur la rivière n'a pas été étudié seul. Il fait partie de la thérapie d'acceptation et d'engagement (ACT), qui a été bien évaluée, et s'appuie sur la défusion, étudiée en laboratoire.",
+      "bottomLine": "prendre de la distance avec ses pensées aide à moins les croire et à en être moins gêné. L'exercice est sans risque ; pour l'anxiété durable, l'ACT se pratique de préférence avec un thérapeute.",
+      "research": {
+        "act": {
+          "title": "La thérapie d'acceptation et d'engagement (ACT)",
+          "type": "Synthèse de 39 essais",
+          "who": "Environ 1 800 patients ayant des troubles anxieux, une dépression, une addiction ou des problèmes de santé physique.",
+          "what": "Des chercheurs ont regroupé les essais comparant l'ACT à une liste d'attente, aux soins habituels ou à d'autres thérapies.",
+          "result": "L'ACT faisait mieux que les soins habituels (effet moyen) et paraissait proche de la thérapie cognitive et comportementale (TCC).",
+          "caution": "Synthèse de 2015, qui mélange de nombreux troubles ; la comparaison avec la TCC ne permet pas de conclure à une stricte équivalence.",
+          "url": "https://contextualscience.org/publications/metaanalysis_efficacy_acceptance_commitment_therapy_clinically_relevant_mental"
+        },
+        "defusion": {
+          "title": "Prendre de la distance avec ses pensées",
+          "type": "Synthèse de 12 études en laboratoire",
+          "who": "Environ 650 adultes sans trouble psychique.",
+          "what": "Des exercices de défusion appliqués à des pensées négatives sur soi (par exemple « je suis nul »).",
+          "result": "Après l'exercice, les participants croyaient beaucoup moins ces pensées et en étaient beaucoup moins gênés.",
+          "caution": "Effets mesurés juste après l'exercice, en laboratoire, chez des personnes sans trouble : on ne sait pas combien de temps ils durent.",
+          "url": "https://contextualscience.org/publications/defusion_techniques_selfreferential_thought_laboratorybased_experimental_research"
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Quand pratiquer",
+      "items": [
+        "Quand une pensée anxieuse tourne en boucle",
+        "Quand vous vous sentez « collé » à une pensée, au point qu'elle semble vraie",
+        "Avant de dormir, pour laisser passer les pensées de la journée",
+        "Quelques minutes par jour, pour entraîner ce regard sur vos pensées"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Ce que vous pourriez remarquer",
+      "items": [
+        "Des pensées qui reviennent souvent : c'est normal, et c'est le cœur de l'exercice",
+        "Un peu plus de distance avec les pensées difficiles",
+        "Moins d'envie de lutter contre vos pensées",
+        "Avec la pratique, des pensées anxieuses qui vous emportent moins"
+      ]
+    },
+    "tips": {
+      "title": "Conseils",
+      "gentle": {
+        "title": "Sans forcer",
+        "description": "Le but n'est pas de vider votre esprit : les pensées vont et viennent, et c'est bien ainsi."
+      },
+      "all": {
+        "title": "Toutes les pensées",
+        "description": "Les pensées agréables aussi vont sur les feuilles : on s'entraîne à observer, pas à trier."
+      },
+      "short": {
+        "title": "Court mais régulier",
+        "description": "Trois à cinq minutes suffisent. Mieux vaut un peu chaque jour que longtemps de temps en temps."
+      }
+    }
+  }
+}

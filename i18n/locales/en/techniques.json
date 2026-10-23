@@ -65,6 +65,18 @@
       "short_description": "Write down your worries and set them an appointment at a chosen time of day",
       "description": "Rather than fighting worries, this technique suggests writing them down and coming back to them during a dedicated time of day. It helps you feel less at their mercy and take back some control.",
       "duration": "10-30 min"
+    },
+    "leavesOnStream": {
+      "name": "Leaves on a Stream",
+      "short_description": "Place your thoughts on leaves and watch them drift away, to gain distance",
+      "description": "An Acceptance and Commitment Therapy exercise: you notice your thoughts, place them on leaves and let them drift with the current, without holding on or fighting them.",
+      "duration": "3-5 min"
+    },
+    "selfCompassion": {
+      "name": "Self-Compassion Break",
+      "short_description": "Three steps to speak to yourself kindly in a difficult moment",
+      "description": "A short three-step break, inspired by Kristin Neff, to acknowledge your difficulty, remember you're not alone and offer yourself some kindness.",
+      "duration": "3-5 min"
     }
   }
 }
