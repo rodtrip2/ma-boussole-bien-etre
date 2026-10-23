@@ -20,7 +20,7 @@
   export PDF, message d’aide (3114) pour la question 9 du PHQ-9.
 - **Respect de la vie privée** : aucune inscription, aucune statistique de visite, aucune requête vers un
   service extérieur ; les réponses aux questionnaires ne sont jamais enregistrées.
-- Français par défaut, 10 autres langues pour les exercices ; utilisable hors ligne une fois visité.
+- Français par défaut et version anglaise ; utilisable hors ligne une fois visité.
 
 > Ce site aide à faire le point et à s’apaiser ; il ne remplace pas un avis médical.
 

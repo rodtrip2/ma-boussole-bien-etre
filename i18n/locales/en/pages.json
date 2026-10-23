@@ -58,16 +58,14 @@
       ]
     }
   },
-
   "mobileAppBanner": {
     "text": "Free mobile apps now available",
     "cta": "Learn More",
     "dismiss": "Dismiss"
   },
-
   "footer": {
     "title": "Ma boussole bien-être",
-    "description": "Free open source tools to help you find calm when you need it most.",
+    "description": "Calming exercises and self-assessment questionnaires, free and open source, to check in with yourself and find your calm again.",
     "disclaimer": "This site provides general anxiety information and is not a substitute for professional medical advice, diagnosis, or treatment. Always consult with a healthcare provider for persistent anxiety.",
     "contribute": {
       "title": "Contribute",
@@ -75,7 +73,6 @@
       "discussions": "Discussions"
     }
   },
-
   "mobile": {
     "title": "Mobile Apps",
     "description": "Take Ma boussole bien-être with you anywhere. Download our mobile app for iOS and Android devices.",

@@ -50,8 +50,8 @@
     },
     "soundTherapy": {
       "name": "Sound Therapy",
-      "short_description": "Healing frequencies that promote relaxation and mental clarity",
-      "description": "Specific sound frequencies have been shown to influence brainwave patterns and promote relaxation. These carefully selected healing frequencies help quiet mental chatter and guide your brain into more peaceful states. Use this therapy to create a calming environment that supports deep relaxation and stress relief.",
+      "short_description": "Soothing sounds and frequencies to support relaxation and focus",
+      "description": "Listening to soft, steady sounds can help you relax and quiet mental chatter. Choose the frequency and atmosphere that feel good to you. Use this therapy to create a calming environment that supports deep relaxation and stress relief.",
       "duration": "5-30 min"
     },
     "stressBall": {

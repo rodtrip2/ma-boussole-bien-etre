@@ -1,7 +1,7 @@
 {
   "meta": {
     "home": {
-      "title": "Open Source Anxiety Toolkit",
+      "title": "Calming exercises and self-assessment questionnaires",
       "description": "Community-built tools for anxiety relief including breathing techniques, grounding, and muscle relaxation."
     },
     "breathing": {
@@ -37,11 +37,11 @@
       "description": "Minimal virtual fidget spinner with realistic momentum. Drag to spin, release to settle, and give restless hands a steady outlet."
     },
     "soundTherapy": {
-      "title": "Sound Therapy - Healing Frequencies for Anxiety",
-      "description": "Free sound therapy with healing frequencies and binaural beats. Deep relaxation audio for anxiety and stress relief."
+      "title": "Sound Therapy - Soothing Sounds and Frequencies",
+      "description": "Free sound therapy: sounds, frequencies and binaural beats to relax and ease stress."
     },
     "stressBall": {
-      "title": "Interactive Stress Ball - Drag & Throw for Anxiety Relief",
+      "title": "Interactive Stress Ball - Release Tension",
       "description": "Interactive virtual stress ball game. Drag, throw, and bounce for immediate stress relief and anxiety management. Free therapeutic tool."
     },
     "privacy": {
