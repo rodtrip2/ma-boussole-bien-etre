@@ -50,8 +50,8 @@
     },
     "soundTherapy": {
       "name": "Thérapie sonore",
-      "short_description": "Fréquences curatives qui favorisent la relaxation et la clarté mentale",
-      "description": "Certaines fréquences sonores ont démontré leur capacité à influencer les ondes cérébrales et à favoriser la relaxation. Ces fréquences soigneusement sélectionnées aident à apaiser le bavardage mental et à guider votre cerveau vers des états plus paisibles. Utilisez cette thérapie pour créer un environnement apaisant qui favorise la relaxation profonde et le soulagement du stress.",
+      "short_description": "Sons et fréquences apaisants pour favoriser la détente et la concentration",
+      "description": "Écouter des sons doux et réguliers peut aider à se détendre et à apaiser le bavardage mental. Choisissez la fréquence et l'ambiance qui vous font du bien. Utilisez cette thérapie pour créer un environnement apaisant qui favorise la relaxation profonde et le soulagement du stress.",
       "duration": "5-30 min"
     },
     "stressBall": {

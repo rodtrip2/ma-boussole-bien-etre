@@ -1,7 +1,7 @@
 {
   "soundTherapy": {
-    "title": "Thérapie par le Son et Guérison par Fréquence",
-    "description": "Expérimentez des fréquences thérapeutiques et des battements binauraux pour favoriser une relaxation profonde, réduire l'anxiété et améliorer la concentration grâce à une thérapie sonore scientifiquement prouvée.",
+    "title": "Thérapie sonore : sons et fréquences apaisants",
+    "description": "Écoutez des fréquences et des battements binauraux pour vous détendre, apaiser l'anxiété et soutenir votre concentration.",
     "interface": {
       "frequency": "Fréquence",
       "binauralBeats": "Battements Binauraux",
@@ -11,7 +11,7 @@
       "stopSession": "Arrêter la Séance"
     },
     "playingState": {
-      "description": "Laissez les vibrations curatives vous envahir. Concentrez-vous sur votre respiration et laissez les fréquences vous guider vers une relaxation profonde.",
+      "description": "Laissez les sons vous envelopper. Concentrez-vous sur votre respiration et laissez les fréquences vous guider vers une relaxation profonde.",
       "instructions": "Fermez les yeux et permettez aux vibrations de pénétrer profondément, apportant la paix à votre esprit et à votre corps."
     },
     "frequencies": [
