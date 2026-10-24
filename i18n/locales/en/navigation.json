@@ -30,5 +30,21 @@
     "page-not-found": "Page Not Found",
     "return": "Return Home",
     "message": "The page you're looking for doesn't exist or has been moved. Let's get you back to the anxiety relief tools."
+  },
+  "install": {
+    "title": "Install Ma boussole",
+    "text": "Add the site to your home screen to open it like an app, even offline.",
+    "install": "Install",
+    "later": "Later",
+    "close": "Close",
+    "iosTitle": "Add to Home Screen",
+    "iosSteps": [
+      "Tap the Share button at the bottom of the screen (at the top on iPad).",
+      "Scroll down and tap 'Add to Home Screen'.",
+      "Tap 'Add' in the top right corner."
+    ],
+    "iosNote": "Using Safari. In another browser, first open the site in Safari.",
+    "menu": "Install the app",
+    "installed": "App installed"
   }
 }

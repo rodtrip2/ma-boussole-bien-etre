@@ -64,7 +64,14 @@ export default defineNuxtConfig({
   app: {
     head: {
       charset: "utf-8",
-      viewport: "width=device-width, initial-scale=1",
+      viewport: "width=device-width, initial-scale=1, viewport-fit=cover",
+      meta: [
+        // Installation sur l'écran d'accueil de l'iPhone
+        { name: 'apple-mobile-web-app-capable', content: 'yes' },
+        { name: 'mobile-web-app-capable', content: 'yes' },
+        { name: 'apple-mobile-web-app-title', content: 'Ma boussole' },
+        { name: 'apple-mobile-web-app-status-bar-style', content: 'default' },
+      ],
     },
   },
 
@@ -124,7 +131,7 @@ export default defineNuxtConfig({
     meta: {
       ogImage: '/og.png',
       twitterCard: 'summary_large_image',
-      themeColor: '#9333ea',
+      themeColor: '#ffffff',
       robots: 'index, follow',
     }
   },
@@ -216,35 +223,26 @@ export default defineNuxtConfig({
       maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
     },
     client: {
-      installPrompt: true,
+      // Invitation à l'installation gérée par components/InstallBanner.vue
+      installPrompt: false,
     },
     manifest: {
       name: 'Ma boussole bien-être',
       short_name: 'Ma boussole',
       description: "Exercices d'apaisement et questionnaires d'auto-évaluation",
-      theme_color: '#9333ea',
+      id: process.env.NUXT_APP_BASE_URL || '/',
+      lang: 'fr',
+      theme_color: '#ffffff',
       background_color: '#ffffff',
       display: 'standalone',
       scope: process.env.NUXT_APP_BASE_URL || '/',
       start_url: process.env.NUXT_APP_BASE_URL || '/',
       icons: [
-        {
-          src: 'aat.svg',
-          sizes: 'any',
-          type: 'image/svg+xml'
-        },
-        {
-          src: 'web-app-manifest-192x192.png',
-          sizes: '192x192',
-          type: 'image/png',
-          purpose: 'maskable'
-        },
-        {
-          src: 'web-app-manifest-512x512.png',
-          sizes: '512x512',
-          type: 'image/png',
-          purpose: 'maskable'
-        }
+        { src: 'web-app-manifest-192x192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },
+        { src: 'web-app-manifest-512x512.png', sizes: '512x512', type: 'image/png', purpose: 'any' },
+        { src: 'web-app-manifest-192x192.png', sizes: '192x192', type: 'image/png', purpose: 'maskable' },
+        { src: 'web-app-manifest-512x512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+        { src: 'aat.svg', sizes: 'any', type: 'image/svg+xml' }
       ]
     }
   },

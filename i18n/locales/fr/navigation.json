@@ -28,5 +28,21 @@
     "page-not-found": "Page introuvable",
     "return": "Retour à l'accueil",
     "message": "La page que vous recherchez n'existe pas ou a été déplacée. Revenons aux outils de soulagement de l'anxiété."
+  },
+  "install": {
+    "title": "Installer Ma boussole",
+    "text": "Ajoutez le site à votre écran d'accueil pour l'ouvrir comme une application, même sans connexion.",
+    "install": "Installer",
+    "later": "Plus tard",
+    "close": "Fermer",
+    "iosTitle": "Ajouter à l'écran d'accueil",
+    "iosSteps": [
+      "Touchez le bouton Partager en bas de l'écran (sur iPad, en haut).",
+      "Faites défiler et touchez « Sur l'écran d'accueil ».",
+      "Touchez « Ajouter » en haut à droite."
+    ],
+    "iosNote": "Avec Safari. Sur un autre navigateur, ouvrez d'abord le site dans Safari.",
+    "menu": "Installer l'application",
+    "installed": "Application installée"
   }
 }

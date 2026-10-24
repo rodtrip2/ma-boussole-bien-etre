@@ -138,6 +138,15 @@
             <Icon name="ph:book-open-text" class="text-xl mr-3" />
             <span>{{ $t('understanding.title') }}</span>
           </NuxtLink>
+          <button
+            v-if="pwaAvailable"
+            type="button"
+            @click="isMenuOpen = false; openInstall()"
+            class="flex w-full items-center px-4 py-3 mb-2 rounded text-left text-pink-700 dark:text-pink-300 hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors duration-200"
+          >
+            <Icon name="ph:device-mobile" class="text-xl mr-3" />
+            <span>{{ $t('install.menu') }}</span>
+          </button>
 
           <a
             href="https://github.com/rodtrip2/ma-boussole-bien-etre"
@@ -175,6 +184,8 @@
 
 <script setup>
 const localePath = useLocalePath()
+const { available: pwaAvailable, open: openInstall, detect: detectInstall } = usePwaInstall()
+onMounted(detectInstall)
 const switchLocalePath = useSwitchLocalePath()
 const { locale, locales } = useI18n()
 const router = useRouter()
