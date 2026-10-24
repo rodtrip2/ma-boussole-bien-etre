@@ -1,0 +1,202 @@
+{
+  "thoughtRecord": {
+    "tool": {
+      "intro": "Quand une pensée anxieuse s'impose, cette fiche vous guide pas à pas pour l'examiner, comme on le fait en thérapie cognitive et comportementale (TCC). Le but n'est pas de « penser positif », mais de trouver un regard plus juste et plus nuancé.",
+      "privacy": "Rien n'est enregistré : vos réponses s'effacent quand vous quittez la page. Vous pouvez télécharger la fiche en PDF pour la garder ou la montrer à votre soignant.",
+      "stepOf": "Étape {n} sur {total}",
+      "prev": "Précédent",
+      "next": "Suivant",
+      "finish": "Voir le bilan",
+      "restart": "Nouvelle fiche",
+      "optional": "(facultatif)",
+      "s1": {
+        "title": "La situation",
+        "help": "Que s'est-il passé ? Où, quand, avec qui ? Décrivez les faits, comme une caméra les aurait filmés.",
+        "placeholder": "Par exemple : mon responsable m'a demandé de passer le voir en fin de journée."
+      },
+      "s2": {
+        "title": "Mes émotions",
+        "help": "Qu'avez-vous ressenti ? Choisissez une ou plusieurs émotions, puis indiquez leur intensité.",
+        "other": "Autre émotion",
+        "intensity": "Intensité de l'émotion",
+        "emotions": [
+          "Anxiété",
+          "Peur",
+          "Tristesse",
+          "Colère",
+          "Honte",
+          "Culpabilité",
+          "Découragement"
+        ]
+      },
+      "s3": {
+        "title": "La pensée",
+        "help": "Qu'est-ce qui vous est passé par la tête à ce moment-là ? Notez la pensée telle qu'elle est venue.",
+        "placeholder": "Par exemple : « Je vais me faire licencier. »",
+        "belief": "À quel point je crois cette pensée"
+      },
+      "s4": {
+        "title": "Les pièges de pensée",
+        "help": "Quand on est anxieux, l'esprit tombe souvent dans les mêmes pièges. En reconnaissez-vous un dans votre pensée ?",
+        "traps": [
+          {
+            "name": "Catastrophisme",
+            "desc": "Imaginer le pire et le voir comme certain."
+          },
+          {
+            "name": "Prédire l'avenir",
+            "desc": "Être sûr que les choses vont mal tourner."
+          },
+          {
+            "name": "Lire dans les pensées",
+            "desc": "Croire savoir ce que les autres pensent de nous."
+          },
+          {
+            "name": "Tout ou rien",
+            "desc": "Voir les choses en noir ou blanc, sans nuance."
+          },
+          {
+            "name": "Généraliser",
+            "desc": "Tirer une règle d'un seul événement (« toujours », « jamais »)."
+          },
+          {
+            "name": "Filtre négatif",
+            "desc": "Ne retenir que ce qui va mal et oublier le reste."
+          },
+          {
+            "name": "Raisonnement émotionnel",
+            "desc": "« Je le ressens, donc c'est vrai. »"
+          },
+          {
+            "name": "« Je dois », « il faut »",
+            "desc": "Des exigences rigides envers soi ou les autres."
+          }
+        ]
+      },
+      "s5": {
+        "title": "Les faits",
+        "help": "Comme un enquêteur, cherchez les éléments concrets — pas les impressions.",
+        "for": "Ce qui va dans le sens de la pensée",
+        "against": "Ce qui ne va pas dans son sens",
+        "placeholderFor": "Par exemple : il avait l'air pressé.",
+        "placeholderAgainst": "Par exemple : mon dernier entretien s'est bien passé ; il convoque souvent les gens pour des questions pratiques."
+      },
+      "s6": {
+        "title": "Un autre regard",
+        "help": "Ces questions peuvent vous aider à trouver une pensée plus nuancée :",
+        "questions": [
+          "Que dirais-je à un ami qui aurait cette pensée ?",
+          "Quel est le pire qui puisse arriver ? Le meilleur ? Le plus probable ?",
+          "Si le pire arrivait, comment pourrais-je y faire face ?",
+          "Comment verrai-je cette situation dans un mois, dans un an ?"
+        ],
+        "alternative": "Ma pensée plus nuancée",
+        "placeholder": "Par exemple : « Je ne sais pas pourquoi il veut me voir. C'est peut-être pour une question pratique, et même si c'est un reproche, je pourrai en discuter. »",
+        "belief": "À quel point je crois cette nouvelle pensée"
+      },
+      "s7": {
+        "title": "Le bilan",
+        "help": "Relisez votre nouvelle pensée. Comment vous sentez-vous maintenant ?",
+        "intensityNow": "Intensité de l'émotion maintenant",
+        "before": "Avant",
+        "after": "Maintenant",
+        "summary": "Ma fiche",
+        "noChange": "Si l'émotion n'a pas beaucoup baissé, ce n'est pas un échec : questionner ses pensées s'apprend, et l'effet grandit avec la pratique.",
+        "download": "Télécharger en PDF",
+        "print": "Imprimer",
+        "pdfError": "Le PDF n'a pas pu être créé. Utilisez « Imprimer », puis « Enregistrer au format PDF »."
+      },
+      "pdf": {
+        "title": "Questionner une pensée",
+        "date": "Fiche remplie le",
+        "situation": "Situation",
+        "emotions": "Émotions",
+        "intensity": "intensité",
+        "thought": "Pensée",
+        "belief": "crédibilité",
+        "traps": "Pièges de pensée repérés",
+        "for": "Ce qui va dans le sens de la pensée",
+        "against": "Ce qui ne va pas dans son sens",
+        "alternative": "Pensée plus nuancée",
+        "outcome": "Intensité de l'émotion",
+        "footer": "Fiche remplie sur Ma boussole bien-être ; aucune donnée n'a été transmise."
+      }
+    },
+    "howItWorks": {
+      "title": "Comment fonctionne cette fiche",
+      "description1": "Ce ne sont pas seulement les situations qui provoquent nos émotions, mais aussi la façon dont nous les interprétons. Quand on est anxieux, ces interprétations sont souvent plus menaçantes que la réalité, et elles viennent si vite qu'on ne les remarque pas.",
+      "description2": "La fiche aide à ralentir : décrire la situation, repérer l'émotion et la pensée, examiner les faits, puis chercher un regard plus nuancé. On ne remplace pas une pensée négative par une pensée positive : on cherche une pensée plus juste.",
+      "description3": "C'est un outil central des thérapies cognitives et comportementales. Il est souvent plus facile au début de le remplir avec un soignant, puis de s'en servir seul.",
+      "notice": {
+        "title": "Repérer",
+        "description": "Remarquer la pensée qui accompagne l'émotion."
+      },
+      "examine": {
+        "title": "Examiner",
+        "description": "Confronter la pensée aux faits, comme un enquêteur."
+      },
+      "rebalance": {
+        "title": "Nuancer",
+        "description": "Trouver une pensée plus juste, ni noire ni rose."
+      }
+    },
+    "science": {
+      "title": "Ce que disent les études",
+      "description": "Examiner ses pensées est l'un des outils de la thérapie cognitive et comportementale (TCC), le traitement psychologique de l'anxiété le plus étudié. La fiche seule n'a pas été évaluée : les études portent sur la thérapie complète, avec un thérapeute.",
+      "bottomLine": "la TCC aide réellement de nombreuses personnes anxieuses. Cette fiche en reprend un outil : elle peut aider à prendre du recul, et donne de meilleurs résultats dans le cadre d'un accompagnement.",
+      "research": {
+        "carpenter": {
+          "title": "La TCC face à un placebo",
+          "type": "Synthèse de 41 essais",
+          "who": "Environ 2 800 patients ayant un trouble anxieux, un trouble obsessionnel-compulsif ou un stress post-traumatique.",
+          "what": "La TCC comparée à un placebo (comprimé sans effet ou simple soutien psychologique).",
+          "result": "La TCC était plus efficace que le placebo (effet moyen), surtout pour l'anxiété généralisée et les TOC, et les bénéfices se maintenaient dans le temps.",
+          "caution": "Effets moins nets pour le trouble panique, l'anxiété sociale et le stress post-traumatique ; un possible biais de publication.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5992015/"
+        },
+        "recent": {
+          "title": "Les essais les plus récents",
+          "type": "Synthèse de 10 essais récents",
+          "who": "Environ 1 250 adultes, dans des essais publiés depuis 2017, surtout sur le stress post-traumatique.",
+          "what": "La TCC comparée à un placebo.",
+          "result": "La TCC restait plus efficace que le placebo, mais avec un effet plus petit que dans les synthèses plus anciennes.",
+          "caution": "Peu d'essais récents sur les autres troubles anxieux ; les résultats reposent surtout sur le stress post-traumatique.",
+          "url": "https://digibug.ugr.es/handle/10481/79094"
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "Quand l'utiliser",
+      "items": [
+        "Quand une pensée anxieuse revient et vous pèse",
+        "Après une situation qui vous a beaucoup inquiété, pour la relire à tête reposée",
+        "En préparation d'un rendez-vous avec votre psychologue ou votre psychiatre",
+        "Régulièrement, pour apprendre à repérer vos pensées habituelles"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "Ce que vous pourriez remarquer",
+      "items": [
+        "Que l'émotion est souvent liée à une interprétation plus qu'aux faits",
+        "Des pièges de pensée qui reviennent chez vous",
+        "Une émotion qui baisse un peu une fois la pensée nuancée",
+        "Avec la pratique, une capacité à faire ce travail plus vite, dans votre tête"
+      ]
+    },
+    "tips": {
+      "title": "Conseils",
+      "calm": {
+        "title": "À tête reposée",
+        "description": "En pleine crise, commencez plutôt par respirer ou vous ancrer ; la fiche se remplit mieux une fois un peu apaisé."
+      },
+      "honest": {
+        "title": "Juste, pas positif",
+        "description": "Une pensée nuancée doit vous sembler crédible. Si elle sonne faux, cherchez encore."
+      },
+      "together": {
+        "title": "Avec un soignant",
+        "description": "Apportez vos fiches à votre psychologue ou psychiatre : elles sont un excellent point de départ."
+      }
+    }
+  }
+}

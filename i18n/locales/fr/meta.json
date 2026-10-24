@@ -71,6 +71,10 @@
     "selfCompassion": {
       "title": "La pause d'autocompassion - Se parler avec bienveillance",
       "description": "Une pause guidée en trois étapes pour traverser un moment difficile avec plus de douceur envers soi."
+    },
+    "thoughtRecord": {
+      "title": "Questionner une pensée - Fiche TCC guidée",
+      "description": "Fiche guidée et gratuite pour examiner une pensée anxieuse : situation, émotions, pièges de pensée, faits, pensée nuancée. Export PDF, rien n'est enregistré."
     }
   }
 }

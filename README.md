@@ -12,7 +12,7 @@
 
 ## Ce que propose le site
 
-- **14 exercices** : respiration en 2 minutes, respiration guidée (dont la cohérence cardiaque), temps d’inquiétude, feuilles sur la rivière, pause d’autocompassion, ancrage 5-4-3-2-1, relaxation musculaire
+- **15 exercices** : respiration en 2 minutes, respiration guidée (dont la cohérence cardiaque), temps d’inquiétude, feuilles sur la rivière, pause d’autocompassion, fiche « Questionner une pensée » (TCC, export PDF), ancrage 5-4-3-2-1, relaxation musculaire
   progressive, visualisations apaisantes narrées en français, étiquetage des pensées, thérapie sonore, bulles,
   balle anti-stress, toupie.
 - **5 questionnaires d’auto-évaluation** en versions françaises validées : PHQ-9 (humeur), GAD-7 (anxiété),

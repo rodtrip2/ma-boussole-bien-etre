@@ -71,6 +71,10 @@
     "selfCompassion": {
       "title": "Self-Compassion Break - Speaking to Yourself Kindly",
       "description": "A guided three-step break to get through a difficult moment with more kindness towards yourself."
+    },
+    "thoughtRecord": {
+      "title": "Questioning a Thought - Guided CBT Worksheet",
+      "description": "Free guided worksheet to examine an anxious thought: situation, emotions, thinking traps, facts, balanced thought. PDF export, nothing is saved."
     }
   }
 }

@@ -1,0 +1,202 @@
+{
+  "thoughtRecord": {
+    "tool": {
+      "intro": "When an anxious thought takes over, this worksheet guides you step by step to examine it, as is done in cognitive behavioural therapy (CBT). The aim is not to 'think positive', but to find a fairer, more balanced view.",
+      "privacy": "Nothing is saved: your answers are erased when you leave the page. You can download the worksheet as a PDF to keep it or show it to your clinician.",
+      "stepOf": "Step {n} of {total}",
+      "prev": "Back",
+      "next": "Next",
+      "finish": "See summary",
+      "restart": "New worksheet",
+      "optional": "(optional)",
+      "s1": {
+        "title": "The situation",
+        "help": "What happened? Where, when, with whom? Describe the facts, as a camera would have filmed them.",
+        "placeholder": "For example: my manager asked me to come and see him at the end of the day."
+      },
+      "s2": {
+        "title": "My emotions",
+        "help": "What did you feel? Choose one or more emotions, then rate their intensity.",
+        "other": "Other emotion",
+        "intensity": "Intensity of the emotion",
+        "emotions": [
+          "Anxiety",
+          "Fear",
+          "Sadness",
+          "Anger",
+          "Shame",
+          "Guilt",
+          "Discouragement"
+        ]
+      },
+      "s3": {
+        "title": "The thought",
+        "help": "What went through your mind at that moment? Write the thought down as it came.",
+        "placeholder": "For example: 'I'm going to get fired.'",
+        "belief": "How much I believe this thought"
+      },
+      "s4": {
+        "title": "Thinking traps",
+        "help": "When anxious, the mind often falls into the same traps. Do you recognise one in your thought?",
+        "traps": [
+          {
+            "name": "Catastrophising",
+            "desc": "Imagining the worst and seeing it as certain."
+          },
+          {
+            "name": "Fortune telling",
+            "desc": "Being sure things will go wrong."
+          },
+          {
+            "name": "Mind reading",
+            "desc": "Believing you know what others think of you."
+          },
+          {
+            "name": "All or nothing",
+            "desc": "Seeing things in black and white, without nuance."
+          },
+          {
+            "name": "Overgeneralising",
+            "desc": "Drawing a rule from a single event ('always', 'never')."
+          },
+          {
+            "name": "Negative filter",
+            "desc": "Only noticing what goes wrong and forgetting the rest."
+          },
+          {
+            "name": "Emotional reasoning",
+            "desc": "'I feel it, so it must be true.'"
+          },
+          {
+            "name": "'Shoulds' and 'musts'",
+            "desc": "Rigid demands on yourself or others."
+          }
+        ]
+      },
+      "s5": {
+        "title": "The facts",
+        "help": "Like a detective, look for concrete evidence — not impressions.",
+        "for": "What supports the thought",
+        "against": "What does not support it",
+        "placeholderFor": "For example: he looked rushed.",
+        "placeholderAgainst": "For example: my last review went well; he often calls people in about practical matters."
+      },
+      "s6": {
+        "title": "Another view",
+        "help": "These questions can help you find a more balanced thought:",
+        "questions": [
+          "What would I say to a friend who had this thought?",
+          "What is the worst that could happen? The best? The most likely?",
+          "If the worst happened, how could I cope?",
+          "How will I see this situation in a month, in a year?"
+        ],
+        "alternative": "My more balanced thought",
+        "placeholder": "For example: 'I don't know why he wants to see me. It may be something practical, and even if it's criticism, I can discuss it.'",
+        "belief": "How much I believe this new thought"
+      },
+      "s7": {
+        "title": "Summary",
+        "help": "Reread your new thought. How do you feel now?",
+        "intensityNow": "Intensity of the emotion now",
+        "before": "Before",
+        "after": "Now",
+        "summary": "My worksheet",
+        "noChange": "If the emotion hasn't dropped much, that's not a failure: questioning thoughts is a skill, and the effect grows with practice.",
+        "download": "Download as PDF",
+        "print": "Print",
+        "pdfError": "The PDF could not be created. Use 'Print', then 'Save as PDF'."
+      },
+      "pdf": {
+        "title": "Questioning a thought",
+        "date": "Worksheet completed on",
+        "situation": "Situation",
+        "emotions": "Emotions",
+        "intensity": "intensity",
+        "thought": "Thought",
+        "belief": "belief",
+        "traps": "Thinking traps noticed",
+        "for": "What supports the thought",
+        "against": "What does not support it",
+        "alternative": "More balanced thought",
+        "outcome": "Intensity of the emotion",
+        "footer": "Worksheet completed on Ma boussole bien-être; no data was transmitted."
+      }
+    },
+    "howItWorks": {
+      "title": "How This Worksheet Works",
+      "description1": "It isn't only situations that cause our emotions, but also how we interpret them. When anxious, these interpretations are often more threatening than reality, and they come so fast that we don't notice them.",
+      "description2": "The worksheet helps you slow down: describe the situation, spot the emotion and the thought, examine the facts, then look for a more balanced view. You don't replace a negative thought with a positive one: you look for a fairer one.",
+      "description3": "It is a core tool of cognitive behavioural therapy. It is often easier at first to fill it in with a clinician, then to use it on your own.",
+      "notice": {
+        "title": "Spot",
+        "description": "Notice the thought that comes with the emotion."
+      },
+      "examine": {
+        "title": "Examine",
+        "description": "Test the thought against the facts, like a detective."
+      },
+      "rebalance": {
+        "title": "Balance",
+        "description": "Find a fairer thought, neither dark nor rosy."
+      }
+    },
+    "science": {
+      "title": "What Studies Say",
+      "description": "Examining your thoughts is one of the tools of cognitive behavioural therapy (CBT), the most studied psychological treatment for anxiety. The worksheet alone has not been evaluated: studies look at the full therapy, with a therapist.",
+      "bottomLine": "CBT genuinely helps many anxious people. This worksheet uses one of its tools: it can help you step back, and works better as part of professional support.",
+      "research": {
+        "carpenter": {
+          "title": "CBT compared with placebo",
+          "type": "Synthesis of 41 trials",
+          "who": "About 2,800 patients with an anxiety disorder, obsessive-compulsive disorder or post-traumatic stress.",
+          "what": "CBT compared with a placebo (an inactive pill or simple supportive counselling).",
+          "result": "CBT was more effective than placebo (medium effect), especially for generalized anxiety and OCD, and benefits were maintained over time.",
+          "caution": "Less clear effects for panic disorder, social anxiety and post-traumatic stress; possible publication bias.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5992015/"
+        },
+        "recent": {
+          "title": "The most recent trials",
+          "type": "Synthesis of 10 recent trials",
+          "who": "About 1,250 adults, in trials published since 2017, mostly on post-traumatic stress.",
+          "what": "CBT compared with placebo.",
+          "result": "CBT remained more effective than placebo, but with a smaller effect than in older syntheses.",
+          "caution": "Few recent trials on other anxiety disorders; results rely mainly on post-traumatic stress.",
+          "url": "https://digibug.ugr.es/handle/10481/79094"
+        }
+      }
+    },
+    "whenToPractice": {
+      "title": "When to Use It",
+      "items": [
+        "When an anxious thought keeps coming back and weighs on you",
+        "After a situation that worried you a lot, to review it calmly",
+        "To prepare for an appointment with your psychologist or psychiatrist",
+        "Regularly, to learn to spot your usual thoughts"
+      ]
+    },
+    "whatYoullNotice": {
+      "title": "What You Might Notice",
+      "items": [
+        "That emotions are often linked to an interpretation more than to the facts",
+        "Thinking traps that keep coming back for you",
+        "An emotion that eases a little once the thought is balanced",
+        "With practice, being able to do this faster, in your head"
+      ]
+    },
+    "tips": {
+      "title": "Tips",
+      "calm": {
+        "title": "When calmer",
+        "description": "In the middle of a crisis, start by breathing or grounding; the worksheet works better once you've settled a little."
+      },
+      "honest": {
+        "title": "Fair, not positive",
+        "description": "A balanced thought should feel believable. If it rings false, keep looking."
+      },
+      "together": {
+        "title": "With a clinician",
+        "description": "Bring your worksheets to your psychologist or psychiatrist: they are an excellent starting point."
+      }
+    }
+  }
+}

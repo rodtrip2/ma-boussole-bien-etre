@@ -77,6 +77,12 @@
       "short_description": "Three steps to speak to yourself kindly in a difficult moment",
       "description": "A short three-step break, inspired by Kristin Neff, to acknowledge your difficulty, remember you're not alone and offer yourself some kindness.",
       "duration": "3-5 min"
+    },
+    "thoughtRecord": {
+      "name": "Questioning a Thought",
+      "short_description": "A guided CBT worksheet to examine an anxious thought and find a more balanced view",
+      "description": "A step-by-step worksheet from cognitive behavioural therapy: describe the situation, spot the emotion and the thought, examine the facts, then find a fairer thought.",
+      "duration": "10-15 min"
     }
   }
 }

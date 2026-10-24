@@ -76,6 +76,13 @@ export const useTechniques = () => {
       tags: ['moderate-anxiety', 'short-time'],
       isNew: true
     },
+    'thought-record': {
+      id: 'thoughtRecord',
+      icon: 'ph:magnifying-glass-fill',
+      iconColor: 'text-sky-600',
+      tags: ['moderate-anxiety', 'medium-time'],
+      isNew: true
+    },
     'fidget-spinner': {
       id: 'fidgetSpinner',
       icon: 'ph:spinner-gap',

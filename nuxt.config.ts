@@ -168,7 +168,8 @@ export default defineNuxtConfig({
           'en/worry-time.json',
           'en/leaves.json',
           'en/self-compassion.json',
-          'en/understanding.json'
+          'en/understanding.json',
+          'en/thought-record.json'
         ]
       },
       {
@@ -194,7 +195,8 @@ export default defineNuxtConfig({
           'fr/worry-time.json',
           'fr/leaves.json',
           'fr/self-compassion.json',
-          'fr/understanding.json'
+          'fr/understanding.json',
+          'fr/thought-record.json'
         ]
       },
     ],

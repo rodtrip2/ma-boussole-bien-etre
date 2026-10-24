@@ -77,6 +77,12 @@
       "short_description": "Trois étapes pour se parler avec bienveillance dans un moment difficile",
       "description": "Une courte pause en trois étapes, inspirée de Kristin Neff, pour reconnaître sa difficulté, se rappeler qu'on n'est pas seul et s'offrir un peu de bienveillance.",
       "duration": "3-5 min"
+    },
+    "thoughtRecord": {
+      "name": "Questionner une pensée",
+      "short_description": "Une fiche guidée de TCC pour examiner une pensée anxieuse et trouver un regard plus nuancé",
+      "description": "Une fiche pas à pas, issue des thérapies cognitives et comportementales : décrire la situation, repérer l'émotion et la pensée, examiner les faits, puis trouver une pensée plus juste.",
+      "duration": "10-15 min"
     }
   }
 }

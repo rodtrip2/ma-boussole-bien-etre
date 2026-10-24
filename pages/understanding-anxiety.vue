@@ -97,6 +97,7 @@ const tools = [
   { path: '/progressive-muscle-relaxation', id: 'progressiveMuscleRelaxation', icon: 'ph:person-arms-spread-fill' },
   { path: '/leaves-on-stream', id: 'leavesOnStream', icon: 'ph:leaf-fill' },
   { path: '/worry-time', id: 'worryTime', icon: 'ph:hourglass-medium-fill' },
+  { path: '/thought-record', id: 'thoughtRecord', icon: 'ph:magnifying-glass-fill' },
   { path: '/self-compassion', id: 'selfCompassion', icon: 'ph:hand-heart-fill' },
 ]
 
