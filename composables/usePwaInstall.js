@@ -1,19 +1,19 @@
 /**
  * Installation du site sur l'écran d'accueil (application web).
- * - Android / Chrome / Edge : on garde l'événement « beforeinstallprompt » pour afficher
- *   notre propre bouton « Installer ».
- * - iPhone / iPad : Apple ne propose pas de bouton automatique ; on affiche les étapes.
+ * - Android (Chrome, Edge…) : l'autorisation « beforeinstallprompt » est captée dès le chargement
+ *   (script dans nuxt.config.ts) ; si elle est là, on propose un bouton « Installer ».
+ * - Sinon (événement pas encore reçu, autre navigateur, iPhone) : on affiche les étapes à suivre.
  * Seul un choix « plus tard » est mémorisé dans le navigateur (30 jours), jamais de données personnelles.
  */
 const DISMISS_KEY = 'mbb-install-dismissed-until'
-let deferredPrompt = null
 let listening = false
 
 export function usePwaInstall() {
   const state = useState('pwa-install', () => ({
-    ready: false, // l'environnement a été détecté (côté navigateur)
-    canPrompt: false, // bouton natif disponible (Android…)
+    ready: false,
+    canPrompt: false,
     isIos: false,
+    isAndroid: false,
     isStandalone: false,
     isMobile: false,
     visible: false,
@@ -27,38 +27,43 @@ export function usePwaInstall() {
     }
   }
 
-  function detect() {
-    if (import.meta.server || state.value.ready) return
-    const ua = navigator.userAgent || ''
-    const isIos = /iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)
-    const isStandalone = window.matchMedia?.('(display-mode: standalone)').matches || navigator.standalone === true
-    const isMobile = window.matchMedia?.('(pointer: coarse)').matches && Math.min(screen.width, screen.height) < 900
-    Object.assign(state.value, { ready: true, isIos, isStandalone, isMobile })
+  function syncPrompt() {
+    state.value.canPrompt = !!window.__mbbInstall
+  }
 
+  function detect() {
+    if (import.meta.server) return
+    if (!state.value.ready) {
+      const ua = navigator.userAgent || ''
+      const isIos = /iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)
+      const isAndroid = /Android/i.test(ua)
+      const isStandalone =
+        window.matchMedia?.('(display-mode: standalone)').matches ||
+        window.matchMedia?.('(display-mode: fullscreen)').matches ||
+        navigator.standalone === true
+      const isMobile = isIos || isAndroid || (window.matchMedia?.('(pointer: coarse)').matches && Math.min(screen.width, screen.height) < 900)
+      Object.assign(state.value, { ready: true, isIos, isAndroid, isStandalone, isMobile })
+      syncPrompt()
+      if (isMobile && !isStandalone && !dismissedRecently()) {
+        setTimeout(() => (state.value.visible = true), 2500)
+      }
+    }
     if (!listening) {
       listening = true
-      window.addEventListener('beforeinstallprompt', (e) => {
-        e.preventDefault()
-        deferredPrompt = e
-        state.value.canPrompt = true
-        if (state.value.isMobile && !dismissedRecently()) state.value.visible = true
-      })
+      window.addEventListener('mbb-installable', syncPrompt)
       window.addEventListener('appinstalled', () => {
-        deferredPrompt = null
+        window.__mbbInstall = null
         Object.assign(state.value, { canPrompt: false, visible: false, isStandalone: true })
       })
-    }
-    // Sur iPhone, l'invitation s'affiche d'elle-même (pas d'événement natif)
-    if (isIos && isMobile && !isStandalone && !dismissedRecently()) {
-      setTimeout(() => (state.value.visible = true), 2500)
     }
   }
 
   async function install() {
-    if (!deferredPrompt) return
-    deferredPrompt.prompt()
-    await deferredPrompt.userChoice.catch(() => null)
-    deferredPrompt = null
+    const e = window.__mbbInstall
+    if (!e) return
+    e.prompt()
+    await e.userChoice.catch(() => null)
+    window.__mbbInstall = null
     state.value.canPrompt = false
     state.value.visible = false
   }
@@ -72,12 +77,13 @@ export function usePwaInstall() {
     }
   }
 
-  // Ouverture volontaire depuis le menu : on ignore le « plus tard »
   function open() {
+    syncPrompt()
     state.value.visible = true
   }
 
-  const available = computed(() => state.value.ready && !state.value.isStandalone && (state.value.canPrompt || state.value.isIos))
+  // Proposé sur tout smartphone ou tablette, tant que le site n'est pas déjà installé
+  const available = computed(() => state.value.ready && state.value.isMobile && !state.value.isStandalone)
 
   return { state, detect, install, dismiss, open, available }
 }

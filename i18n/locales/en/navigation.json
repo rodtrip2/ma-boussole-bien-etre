@@ -45,6 +45,12 @@
     ],
     "iosNote": "Using Safari. In another browser, first open the site in Safari.",
     "menu": "Install the app",
-    "installed": "App installed"
+    "installed": "App installed",
+    "androidTitle": "Install on your phone",
+    "androidSteps": [
+      "Open your browser menu (⋮ at the top right, or ≡ at the bottom).",
+      "Tap 'Install app' or 'Add to Home screen'.",
+      "Confirm: the icon appears on your home screen."
+    ]
   }
 }

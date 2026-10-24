@@ -65,6 +65,14 @@ export default defineNuxtConfig({
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1, viewport-fit=cover",
+      script: [
+        {
+          // Capte au plus tôt l'autorisation d'installer envoyée par Chrome / Edge (Android),
+          // avant le chargement de l'application ; utilisée par composables/usePwaInstall.js
+          innerHTML: "window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();window.__mbbInstall=e;window.dispatchEvent(new Event('mbb-installable'))});",
+          tagPosition: 'head',
+        },
+      ],
       meta: [
         // Installation sur l'écran d'accueil de l'iPhone
         { name: 'apple-mobile-web-app-capable', content: 'yes' },

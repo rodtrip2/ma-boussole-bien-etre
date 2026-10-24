@@ -11,7 +11,7 @@
         <img :src="asset('/apple-touch-icon.png')" alt="" class="h-12 w-12 flex-shrink-0 rounded-xl border border-gray-200" />
         <div class="flex-1">
           <p id="install-title" class="font-semibold text-gray-800 dark:text-slate-100">
-            {{ state.canPrompt ? $t('install.title') : $t('install.iosTitle') }}
+            {{ state.canPrompt ? $t('install.title') : state.isIos ? $t('install.iosTitle') : $t('install.androidTitle') }}
           </p>
           <p class="mt-0.5 text-sm text-gray-600 dark:text-slate-300">{{ $t('install.text') }}</p>
 
@@ -27,6 +27,17 @@
             </li>
           </ol>
           <p v-if="!state.canPrompt && state.isIos" class="mt-2 text-xs text-gray-500 dark:text-slate-400">{{ $t('install.iosNote') }}</p>
+
+          <!-- Android et autres : étapes si le bouton natif n'est pas (encore) disponible -->
+          <ol v-if="!state.canPrompt && !state.isIos" class="mt-3 space-y-2 text-sm text-gray-700 dark:text-slate-200">
+            <li v-for="(s, i) in tm('install.androidSteps')" :key="i" class="flex items-start gap-2">
+              <span class="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-pink-100 text-xs font-semibold text-pink-700">{{ i + 1 }}</span>
+              <span class="flex-1">
+                {{ rt(s) }}
+                <Icon v-if="i === 0" name="ph:dots-three-vertical-bold" class="ml-1 align-[-3px] text-lg text-gray-700 dark:text-slate-200" />
+              </span>
+            </li>
+          </ol>
 
           <div class="mt-3 flex gap-2">
             <button v-if="state.canPrompt" type="button" class="bg-pink-600 px-4 py-2 font-medium text-white hover:bg-pink-700" @click="install">

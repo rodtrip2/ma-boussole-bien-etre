@@ -43,6 +43,12 @@
     ],
     "iosNote": "Avec Safari. Sur un autre navigateur, ouvrez d'abord le site dans Safari.",
     "menu": "Installer l'application",
-    "installed": "Application installée"
+    "installed": "Application installée",
+    "androidTitle": "Installer sur votre téléphone",
+    "androidSteps": [
+      "Ouvrez le menu de votre navigateur (⋮ en haut à droite, ou ≡ en bas).",
+      "Touchez « Installer l'application » ou « Ajouter à l'écran d'accueil ».",
+      "Confirmez : l'icône apparaît sur votre écran d'accueil."
+    ]
   }
 }
