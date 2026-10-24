@@ -196,7 +196,7 @@ export default defineNuxtConfig({
           'fr/techniques.json',
           'fr/pages.json',
           'fr/meta.json',
-          'en/legal.json',
+          'fr/legal.json',
           'fr/breathing.json',
           'fr/guided-breathing.json',
           'fr/grounding.json',

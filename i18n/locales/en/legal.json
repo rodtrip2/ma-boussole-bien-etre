@@ -1,152 +1,251 @@
 {
+  "legalCommon": {
+    "lastUpdated": "Last updated:",
+    "date": "24 October 2026",
+    "toc": "Contents",
+    "footerPrivacy": "Privacy",
+    "footerTerms": "Legal notice",
+    "footerSupport": "Help and contact",
+    "seeResources": "Get help in France",
+    "privacyLink": "Read the Privacy page"
+  },
   "privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated",
-    "date": "January 2025",
-    "overview": {
-      "title": "Overview",
-      "description": "Ma boussole bien-être is built with privacy as a core principle. We collect minimal data, store everything locally on your device, and use no analytics or tracking of any kind. No personal information is collected or shared."
-    },
-    "dataCollection": {
-      "title": "Data Collection",
-      "noPersonalData": {
-        "title": "No Personal Data",
-        "description": "We do not collect, store, or process any personal information such as names, email addresses, phone numbers, or location data."
-      },
-      "analytics": {
-        "title": "Analytics",
-        "description": "This version of the site uses no analytics service. It makes no requests to third-party servers:",
-        "items": [
-          "No page view or visit counting",
-          "No third-party fonts, scripts or icons (everything is served by this site)",
-          "No cookies, fingerprinting, or personal tracking"
+    "title": "Privacy and personal data",
+    "intro": "Ma boussole bien-être was designed to know nothing about you. In line with the General Data Protection Regulation (GDPR), this page explains what happens — and above all what does not happen — when you use the site.",
+    "sections": [
+      {
+        "title": "In short",
+        "list": [
+          "No account, no sign-up.",
+          "No cookies, no visitor statistics, no advertising.",
+          "Your answers to questionnaires and exercises stay on your device: they are neither transmitted nor saved.",
+          "The site loads no external resources (fonts, scripts, icons): everything is served by the site itself."
         ]
       },
-      "localStorage": {
-        "title": "Local Storage",
-        "description": "Your preferences (such as language selection and dark mode) are stored only on your device using browser local storage. This data never leaves your device."
-      }
-    },
-    "rights": {
-      "title": "Your Rights",
-      "description": "Since we don't collect personal data, there is no personal information to access, modify, or delete. You can clear your local preferences at any time through your browser settings."
-    },
-    "changes": {
-      "title": "Changes to This Policy",
-      "description": "We may update this privacy policy occasionally. The date at the top indicates the last revision. Continued use of the app constitutes acceptance of any changes."
-    },
-    "contact": {
-      "title": "Contact",
-      "description": "For questions about this privacy policy, please visit our",
-      "link": "GitHub Discussions"
-    }
-  },
-
-  "terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last Updated",
-    "date": "January 2025",
-    "acceptance": {
-      "title": "Acceptance of Terms",
-      "description": "By using Ma boussole bien-être, you agree to these terms. If you do not agree, please do not use this application."
-    },
-    "medicalDisclaimer": {
-      "title": "Medical Disclaimer",
-      "description": "Ma boussole bien-être provides general anxiety management techniques and educational information. It is NOT a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of a qualified healthcare provider with any questions regarding a medical or mental health condition. Never disregard professional medical advice or delay seeking it because of something you have learned through this app. If you are experiencing a mental health crisis, please contact emergency services or a crisis hotline immediately."
-    },
-    "license": {
-      "title": "Use License",
-      "description": "This application is provided free of charge under the GPL license. You may:",
-      "items": [
-        "Use the app for personal anxiety management",
-        "Access all features without registration or payment",
-        "Modify and redistribute the source code under GPL terms"
-      ]
-    },
-    "liability": {
-      "title": "Limitation of Liability",
-      "description": "Ma boussole bien-être is provided \"as is\" without warranties of any kind. We are not liable for any outcomes resulting from the use of this application. The techniques provided are general wellness tools and may not be suitable for everyone."
-    },
-    "opensource": {
-      "title": "Open Source",
-      "description": "This application is open source and available on",
-      "link": "GitHub"
-    },
-    "changes": {
-      "title": "Changes to Terms",
-      "description": "We may revise these terms at any time. The date at the top indicates the last revision. Continued use constitutes acceptance of revised terms."
-    },
-    "contact": {
-      "title": "Contact",
-      "description": "For questions about these terms, please visit our",
-      "link": "GitHub Discussions"
-    }
-  },
-
-  "support": {
-    "title": "Support",
-    "description": "Get help with Ma boussole bien-être. Available on web and iOS.",
-    "about": {
-      "title": "About Ma boussole bien-être",
-      "description": "Ma boussole bien-être is a free, open-source application providing evidence-based anxiety management techniques. No ads, no accounts, no tracking.",
-      "available": "Available as a web application and iOS app."
-    },
-    "features": {
-      "title": "What's Included",
-      "items": [
-        "Breathing exercises with visual guidance",
-        "5-4-3-2-1 grounding technique for sensory awareness",
-        "Progressive muscle relaxation",
-        "Guided peaceful visualization with optional audio",
-        "Thought labeling for cognitive reframing",
-        "Interactive stress relief activities",
-        "Calming sound therapy",
-        "Works offline after initial load"
-      ]
-    },
-    "help": {
-      "title": "Getting Help",
-      "description": "If you need assistance, have questions, or want to report an issue:",
-      "website": {
-        "title": "Website"
+      {
+        "title": "Who is responsible for the site?",
+        "paragraphs": [
+          "The site is published on a personal, non-professional basis by Roddy Ricart, on a not-for-profit basis. The publisher does not collect or keep any personal data about visitors.",
+          "Contact: through the discussions of the project's GitHub repository (see the Help and contact page)."
+        ]
       },
-      "github": {
-        "title": "Community Discussions",
-        "link": "GitHub Discussions"
+      {
+        "title": "Your answers to questionnaires and exercises",
+        "paragraphs": [
+          "Answers to self-assessment questionnaires, thoughts written in exercises and completed worksheets are processed only in your browser, in memory. They never leave your device and disappear when you close or reload the page.",
+          "PDF documents you choose to download are created on your device, without going through the internet. Once downloaded, they are your sole responsibility: on a shared device, remember to delete them and close the browser tab."
+        ]
       },
-      "bugs": {
-        "title": "Report Technical Issues",
-        "link": "GitHub Issues"
-      }
-    },
-    "questions": {
-      "title": "Common Questions",
-      "items": [
-        {
-          "q": "Is this free?",
-          "a": "Yes. Completely free with no ads, no premium features, and no hidden costs."
-        },
-        {
-          "q": "Do I need an account?",
-          "a": "No. The app works immediately without signup. Your preferences are stored locally on your device."
-        },
-        {
-          "q": "Does it work offline?",
-          "a": "Yes. After the initial load, all techniques work offline except audio narration for peaceful visualization."
-        },
-        {
-          "q": "Is my data private?",
-          "a": "Yes. All preferences stay on your device. No analytics are used. See our privacy policy for details."
-        },
-        {
-          "q": "Which technique should I start with?",
-          "a": "For immediate anxiety relief, try the 2-minute breathing exercise. For grounding during panic, use the 5-4-3-2-1 technique."
+      {
+        "title": "What is kept on your device",
+        "paragraphs": [
+          "The site sets no cookies. It only uses your browser's storage for a few settings and to work offline. This information stays on your device and is never sent:"
+        ],
+        "list": [
+          "your 'Later' choice when the site offers to be installed (kept for 30 days);",
+          "the sound setting of the fidget spinner;",
+          "your display preference (light or dark), if any;",
+          "a copy of the site's pages, so it works without a connection."
+        ],
+        "after": [
+          "These items are only used for the site to work and to personalise the interface: under CNIL (French data protection authority) rules, they do not require your consent. You can delete them at any time from your browser settings ('Clear site data')."
+        ]
+      },
+      {
+        "title": "Site hosting",
+        "paragraphs": [
+          "The site is hosted by GitHub Pages (GitHub, Inc. and GitHub B.V.). Like any host, GitHub logs visitors' IP addresses for security purposes. These logs are managed by GitHub, under its responsibility; the site's publisher has no access to them.",
+          "Data may be processed in the United States. GitHub states that it safeguards these transfers with the European Commission's standard contractual clauses and that it participates in the EU–US Data Privacy Framework. GitHub's Data Protection Officer: dpo{'@'}github.com."
+        ],
+        "link": {
+          "label": "GitHub Privacy Statement",
+          "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
         }
-      ]
-    },
-    "disclaimer": {
-      "title": "Important Medical Information",
-      "text": "This app provides general anxiety management techniques and is NOT a substitute for professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare provider for persistent anxiety or mental health concerns."
-    }
+      },
+      {
+        "title": "Links to other sites",
+        "paragraphs": [
+          "The site links to external sites (3114, ameli.fr, Psycom, scientific articles…). Once on those sites, their own privacy rules apply."
+        ]
+      },
+      {
+        "title": "Your rights",
+        "paragraphs": [
+          "The GDPR gives you rights over your data: access, rectification, erasure, restriction, objection and portability. As the publisher holds no data about you, there is no information to provide or erase. For connection logs kept by the host, contact GitHub.",
+          "If you believe your rights are not being respected, you can lodge a complaint with the CNIL (www.cnil.fr) or your local data protection authority."
+        ],
+        "link": {
+          "label": "Lodge a complaint with the CNIL",
+          "url": "https://www.cnil.fr/fr/plaintes"
+        }
+      },
+      {
+        "title": "Changes",
+        "paragraphs": [
+          "This page may be updated, for example if the site changes. The date of the last update appears at the top of the page."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Legal notice and terms of use",
+    "intro": "This page presents the site's publisher and host, and the terms under which you may use it.",
+    "sections": [
+      {
+        "title": "Publisher",
+        "paragraphs": [
+          "Roddy Ricart, on a personal, non-professional basis. This site is an independent project: it does not commit any healthcare institution or employer.",
+          "Publication manager: Roddy Ricart.",
+          "Contact: through the discussions of the project's GitHub repository."
+        ],
+        "link": {
+          "label": "GitHub Discussions",
+          "url": "https://github.com/rodtrip2/ma-boussole-bien-etre/discussions"
+        }
+      },
+      {
+        "title": "Host",
+        "paragraphs": [
+          "GitHub, Inc. — 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United States — phone: +1 877 448 4820 — github.com"
+        ]
+      },
+      {
+        "title": "Purpose of the site",
+        "paragraphs": [
+          "Ma boussole bien-être offers free calming exercises, information about anxiety and self-assessment questionnaires. The site can be used without registration and without advertising."
+        ]
+      },
+      {
+        "title": "Medical disclaimer",
+        "paragraphs": [
+          "The site's content is for information and well-being. It does not replace medical advice, diagnosis or treatment. The site is not a medical device.",
+          "Questionnaire results are not a diagnosis: only a healthcare professional can interpret them in your situation.",
+          "The site is not an emergency service. In distress or danger in France: 3114 (national suicide prevention line, 24/7), 15 (emergency medical service) or 112."
+        ]
+      },
+      {
+        "title": "Self-assessment questionnaires",
+        "paragraphs": [
+          "The questionnaires (PHQ-9, GAD-7, WHO-5, AUDIT, Rosenberg scale) are reproduced in their validated French versions, in accordance with their authors' terms of use, shown on each questionnaire. They remain the property of their authors."
+        ]
+      },
+      {
+        "title": "Intellectual property and licence",
+        "paragraphs": [
+          "The site's code is free software, distributed under the GNU GPL version 3: you may use, study, modify and redistribute it, provided you keep the same licence.",
+          "The site is derived from the free project Anxiety Aid Tools (Alvin Unreal and contributors), from which it reuses illustrations and audio narrations, distributed under the same licence."
+        ],
+        "link": {
+          "label": "Source code on GitHub",
+          "url": "https://github.com/rodtrip2/ma-boussole-bien-etre"
+        }
+      },
+      {
+        "title": "Liability",
+        "paragraphs": [
+          "The site is provided free of charge, 'as is', with no guarantee of availability or freedom from errors. The publisher strives to check published information and its sources, but cannot guarantee it suits every situation. The exercises are general well-being tools: stop an exercise if it makes you uncomfortable, and talk to a healthcare professional."
+        ]
+      },
+      {
+        "title": "Links to other sites",
+        "paragraphs": [
+          "Links to external sites are provided for information. The publisher is not responsible for their content."
+        ]
+      },
+      {
+        "title": "Applicable law",
+        "paragraphs": [
+          "These terms are governed by French law."
+        ]
+      },
+      {
+        "title": "Changes",
+        "paragraphs": [
+          "These terms may be changed at any time. The date of the last update appears at the top of the page."
+        ]
+      }
+    ]
+  },
+  "support": {
+    "title": "Help and contact",
+    "intro": "A question about the site, an error to report, an idea for improvement? Here is how to get help.",
+    "sections": [
+      {
+        "title": "About the site",
+        "paragraphs": [
+          "Ma boussole bien-être is a free, open-source site, with no account, no advertising and no tracking. It offers exercises to live with anxiety, explanations and self-assessment questionnaires validated in French. It works in a browser and can be installed on a smartphone's home screen."
+        ]
+      },
+      {
+        "title": "What you'll find on the site",
+        "list": [
+          "Breathing exercises, including coherent breathing",
+          "5-4-3-2-1 grounding and progressive muscle relaxation",
+          "Calming visualizations narrated in French and English",
+          "Thought labeling, leaves on a stream and the 'Questioning a thought' worksheet",
+          "Worry time and the self-compassion break",
+          "Sensory tools (bubbles, stress ball, fidget spinner) and sound therapy",
+          "Self-assessment questionnaires (in French), with PDF export",
+          "A page to understand anxiety and a page to get help in France"
+        ]
+      },
+      {
+        "title": "Contact us",
+        "paragraphs": [
+          "Contact is through the project's GitHub repository. A (free) GitHub account is needed to post; messages are public: do not include any personal or health information.",
+          "This contact does not provide medical follow-up or quick replies. If you are struggling, call 3114 in France (24/7) or, in immediate danger, 15 or 112."
+        ],
+        "links": [
+          {
+            "label": "Ask a question or suggest an idea (Discussions)",
+            "url": "https://github.com/rodtrip2/ma-boussole-bien-etre/discussions"
+          },
+          {
+            "label": "Report a technical problem (Issues)",
+            "url": "https://github.com/rodtrip2/ma-boussole-bien-etre/issues"
+          }
+        ]
+      },
+      {
+        "title": "Frequently asked questions",
+        "faq": [
+          {
+            "q": "Is the site free?",
+            "a": "Yes, entirely: no paid options, no advertising, no hidden costs."
+          },
+          {
+            "q": "Do I need an account?",
+            "a": "No. The site works immediately, without sign-up."
+          },
+          {
+            "q": "Are my answers saved?",
+            "a": "No. They stay on your device, in memory, and disappear when you leave the page. Only a PDF you choose to download is kept, on your device. See the Privacy page."
+          },
+          {
+            "q": "Does the site work offline?",
+            "a": "Yes, after a first visit, the French pages work offline. Audio narrations for visualizations need a connection the first time."
+          },
+          {
+            "q": "How do I install it on my phone?",
+            "a": "On a smartphone, a banner offers it; you can also use the ☰ menu, then 'Install the app'."
+          },
+          {
+            "q": "Which exercise should I start with?",
+            "a": "When anxiety rises, try 2-minute breathing or 5-4-3-2-1 grounding. To understand what is happening, read the 'Understanding anxiety' page."
+          },
+          {
+            "q": "Can a clinician recommend the site to patients?",
+            "a": "Yes, the site is free and open source. Questionnaires and exercises do not replace a clinical assessment; PDF worksheets can support a discussion during an appointment."
+          }
+        ]
+      },
+      {
+        "title": "Important information",
+        "paragraphs": [
+          "This site provides general information and well-being tools. It does not replace medical advice, diagnosis or treatment. If anxiety persists or affects your daily life, talk to your doctor or a mental health professional."
+        ],
+        "help": "1"
+      }
+    ]
   }
 }

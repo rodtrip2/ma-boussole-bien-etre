@@ -1,6 +1,7 @@
 <script setup>
 const { locale, locales } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
+const localePath = useLocalePath()
 </script>
 
 <template>
@@ -60,16 +61,16 @@ const switchLocalePath = useSwitchLocalePath()
             {{ $t('footer.disclaimer') }}
           </p>
           <div class="flex items-center gap-3 text-xs text-gray-500 dark:text-slate-400">
-            <NuxtLink to="/privacy" class="hover:text-gray-700 dark:hover:text-slate-200 transition-colors duration-200">
-              Privacy
+            <NuxtLink :to="localePath('/privacy')" class="hover:text-gray-700 dark:hover:text-slate-200 transition-colors duration-200">
+              {{ $t('legalCommon.footerPrivacy') }}
             </NuxtLink>
             <span>•</span>
-            <NuxtLink to="/terms" class="hover:text-gray-700 dark:hover:text-slate-200 transition-colors duration-200">
-              Terms
+            <NuxtLink :to="localePath('/terms')" class="hover:text-gray-700 dark:hover:text-slate-200 transition-colors duration-200">
+              {{ $t('legalCommon.footerTerms') }}
             </NuxtLink>
             <span>•</span>
-            <NuxtLink to="/support" class="hover:text-gray-700 dark:hover:text-slate-200 transition-colors duration-200">
-              Support
+            <NuxtLink :to="localePath('/support')" class="hover:text-gray-700 dark:hover:text-slate-200 transition-colors duration-200">
+              {{ $t('legalCommon.footerSupport') }}
             </NuxtLink>
           </div>
         </div>

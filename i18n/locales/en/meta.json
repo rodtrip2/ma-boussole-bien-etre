@@ -45,16 +45,16 @@
       "description": "Virtual stress ball: drag, throw and bounce the ball to release tension. Free."
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "description": "Privacy policy for Ma boussole bien-être. Learn how we protect your data with minimal analytics and local-only storage."
+      "title": "Privacy and personal data",
+      "description": "No account, no cookies, no analytics: what Ma boussole bien-être does (and does not do) with your data, in line with the GDPR."
     },
     "terms": {
-      "title": "Terms of Service",
-      "description": "Terms of service for Ma boussole bien-être. Open source GPL licensed anxiety management application."
+      "title": "Legal notice and terms of use",
+      "description": "Publisher, host, medical disclaimer and open-source licence of Ma boussole bien-être."
     },
     "support": {
-      "title": "Support",
-      "description": "Get help with Ma boussole bien-être. FAQ, contact information, and troubleshooting for our anxiety management app."
+      "title": "Help and contact",
+      "description": "FAQ and contact for Ma boussole bien-être, a free site with no sign-up."
     },
     "mobile": {
       "title": "Mobile Apps",

@@ -1,0 +1,251 @@
+{
+  "legalCommon": {
+    "lastUpdated": "Dernière mise à jour :",
+    "date": "24 octobre 2026",
+    "toc": "Sommaire",
+    "footerPrivacy": "Confidentialité",
+    "footerTerms": "Mentions légales",
+    "footerSupport": "Aide et contact",
+    "seeResources": "Trouver de l'aide en France",
+    "privacyLink": "Lire la page Confidentialité"
+  },
+  "privacy": {
+    "title": "Confidentialité et données personnelles",
+    "intro": "Ma boussole bien-être a été conçu pour ne rien savoir de vous. Cette page explique, conformément au Règlement général sur la protection des données (RGPD), ce qui se passe — et surtout ce qui ne se passe pas — quand vous utilisez le site.",
+    "sections": [
+      {
+        "title": "En bref",
+        "list": [
+          "Aucun compte, aucune inscription.",
+          "Aucun cookie, aucune statistique de visite, aucune publicité.",
+          "Vos réponses aux questionnaires et exercices restent sur votre appareil : elles ne sont ni transmises ni enregistrées.",
+          "Le site ne charge aucune ressource extérieure (polices, scripts, icônes) : tout est servi par le site lui-même."
+        ]
+      },
+      {
+        "title": "Qui est responsable du site ?",
+        "paragraphs": [
+          "Le site est édité à titre personnel et non professionnel par Roddy Ricart, sans but lucratif. L'éditeur ne collecte ni ne conserve aucune donnée personnelle des visiteurs.",
+          "Contact : par les discussions du dépôt GitHub du projet (voir la page Aide et contact)."
+        ]
+      },
+      {
+        "title": "Vos réponses aux questionnaires et aux exercices",
+        "paragraphs": [
+          "Les réponses aux questionnaires d'auto-évaluation, les pensées notées dans les exercices et les fiches remplies sont traitées uniquement dans votre navigateur, en mémoire. Elles ne quittent jamais votre appareil et disparaissent quand vous fermez ou rechargez la page.",
+          "Les documents PDF que vous choisissez de télécharger sont créés sur votre appareil, sans passer par internet. Une fois téléchargés, ils sont sous votre seule responsabilité : sur un appareil partagé, pensez à les supprimer et à fermer l'onglet du navigateur."
+        ]
+      },
+      {
+        "title": "Ce qui est conservé sur votre appareil",
+        "paragraphs": [
+          "Le site ne dépose aucun cookie. Il utilise seulement l'espace de stockage de votre navigateur pour quelques réglages et pour fonctionner hors ligne. Ces informations restent sur votre appareil et ne sont jamais envoyées :"
+        ],
+        "list": [
+          "votre choix « Plus tard » lorsque le site vous propose de l'installer (conservé 30 jours) ;",
+          "le réglage du son de la toupie anti-stress ;",
+          "votre préférence d'affichage (clair ou sombre), le cas échéant ;",
+          "une copie des pages du site, pour qu'il fonctionne sans connexion."
+        ],
+        "after": [
+          "Ces éléments servent uniquement au fonctionnement et à la personnalisation de l'interface : ils ne nécessitent pas votre consentement, selon les règles de la CNIL. Vous pouvez les effacer à tout moment depuis les réglages de votre navigateur (« Effacer les données du site »)."
+        ]
+      },
+      {
+        "title": "Hébergement du site",
+        "paragraphs": [
+          "Le site est hébergé par GitHub Pages (GitHub, Inc. et GitHub B.V.). Comme tout hébergeur, GitHub enregistre l'adresse IP des visiteurs à des fins de sécurité. Ces journaux sont gérés par GitHub, sous sa responsabilité ; l'éditeur du site n'y a pas accès.",
+          "Les données peuvent être traitées aux États-Unis. GitHub indique encadrer ces transferts par les clauses contractuelles types de la Commission européenne et adhérer au cadre de protection des données UE–États-Unis (Data Privacy Framework). Délégué à la protection des données de GitHub : dpo{'@'}github.com."
+        ],
+        "link": {
+          "label": "Déclaration de confidentialité de GitHub",
+          "url": "https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement"
+        }
+      },
+      {
+        "title": "Liens vers d'autres sites",
+        "paragraphs": [
+          "Le site renvoie vers des sites extérieurs (3114, ameli.fr, Psycom, articles scientifiques…). Une fois sur ces sites, ce sont leurs propres règles de confidentialité qui s'appliquent."
+        ]
+      },
+      {
+        "title": "Vos droits",
+        "paragraphs": [
+          "Le RGPD vous donne des droits sur vos données : accès, rectification, effacement, limitation, opposition et portabilité. L'éditeur ne détenant aucune donnée vous concernant, il n'a aucune information à vous communiquer ou à effacer. Pour les journaux de connexion conservés par l'hébergeur, adressez-vous à GitHub.",
+          "Si vous estimez que vos droits ne sont pas respectés, vous pouvez adresser une réclamation à la CNIL (www.cnil.fr)."
+        ],
+        "link": {
+          "label": "Adresser une réclamation à la CNIL",
+          "url": "https://www.cnil.fr/fr/plaintes"
+        }
+      },
+      {
+        "title": "Modifications",
+        "paragraphs": [
+          "Cette page peut être mise à jour, par exemple si le site évolue. La date de dernière mise à jour figure en haut de la page."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Mentions légales et conditions d'utilisation",
+    "intro": "Cette page présente l'éditeur et l'hébergeur du site, ainsi que les conditions dans lesquelles vous pouvez l'utiliser.",
+    "sections": [
+      {
+        "title": "Éditeur du site",
+        "paragraphs": [
+          "Roddy Ricart, à titre personnel et non professionnel. Ce site est un projet indépendant : il n'engage aucun établissement de santé ni aucun employeur.",
+          "Responsable de la publication : Roddy Ricart.",
+          "Contact : par les discussions du dépôt GitHub du projet."
+        ],
+        "link": {
+          "label": "Discussions GitHub",
+          "url": "https://github.com/rodtrip2/ma-boussole-bien-etre/discussions"
+        }
+      },
+      {
+        "title": "Hébergeur",
+        "paragraphs": [
+          "GitHub, Inc. — 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis — téléphone : +1 877 448 4820 — github.com"
+        ]
+      },
+      {
+        "title": "Objet du site",
+        "paragraphs": [
+          "Ma boussole bien-être propose gratuitement des exercices d'apaisement, des informations sur l'anxiété et des questionnaires d'auto-évaluation. Le site est accessible sans inscription et sans publicité."
+        ]
+      },
+      {
+        "title": "Avertissement médical",
+        "paragraphs": [
+          "Les contenus du site ont une visée d'information et de bien-être. Ils ne remplacent pas un avis, un diagnostic ou un traitement médical. Le site n'est pas un dispositif médical.",
+          "Les résultats des questionnaires ne constituent pas un diagnostic : seul un professionnel de santé peut les interpréter dans votre situation.",
+          "Le site n'est pas un service d'urgence. En cas de détresse ou de danger : 3114 (numéro national de prévention du suicide, 24 h/24), 15 (SAMU) ou 112."
+        ]
+      },
+      {
+        "title": "Questionnaires d'auto-évaluation",
+        "paragraphs": [
+          "Les questionnaires (PHQ-9, GAD-7, WHO-5, AUDIT, échelle de Rosenberg) sont reproduits dans leurs versions françaises validées, conformément aux conditions d'utilisation de leurs auteurs, indiquées sur chaque questionnaire. Ils restent la propriété de leurs auteurs."
+        ]
+      },
+      {
+        "title": "Propriété intellectuelle et licence",
+        "paragraphs": [
+          "Le code du site est un logiciel libre, distribué sous licence GNU GPL version 3 : vous pouvez l'utiliser, l'étudier, le modifier et le redistribuer, à condition de conserver la même licence.",
+          "Le site est dérivé du projet libre Anxiety Aid Tools (Alvin Unreal et contributeurs), dont il reprend notamment les illustrations et les narrations audio, distribuées sous la même licence."
+        ],
+        "link": {
+          "label": "Code source sur GitHub",
+          "url": "https://github.com/rodtrip2/ma-boussole-bien-etre"
+        }
+      },
+      {
+        "title": "Responsabilité",
+        "paragraphs": [
+          "Le site est fourni gratuitement, « en l'état », sans garantie de disponibilité ni d'absence d'erreur. L'éditeur s'efforce de vérifier les informations publiées et leurs sources, mais ne peut garantir qu'elles conviennent à chaque situation. Les exercices proposés sont des outils généraux de bien-être : arrêtez un exercice s'il vous met mal à l'aise, et parlez-en à un professionnel de santé."
+        ]
+      },
+      {
+        "title": "Liens vers d'autres sites",
+        "paragraphs": [
+          "Les liens vers des sites extérieurs sont fournis à titre d'information. L'éditeur n'est pas responsable de leur contenu."
+        ]
+      },
+      {
+        "title": "Droit applicable",
+        "paragraphs": [
+          "Les présentes conditions sont soumises au droit français."
+        ]
+      },
+      {
+        "title": "Modifications",
+        "paragraphs": [
+          "Ces conditions peuvent être modifiées à tout moment. La date de dernière mise à jour figure en haut de la page."
+        ]
+      }
+    ]
+  },
+  "support": {
+    "title": "Aide et contact",
+    "intro": "Une question sur le site, une erreur à signaler, une idée d'amélioration ? Voici comment obtenir de l'aide.",
+    "sections": [
+      {
+        "title": "À propos du site",
+        "paragraphs": [
+          "Ma boussole bien-être est un site gratuit et libre, sans compte, sans publicité et sans suivi. Il propose des exercices pour apprivoiser l'anxiété, des explications et des questionnaires d'auto-évaluation validés en français. Il s'utilise dans un navigateur, et peut s'installer sur l'écran d'accueil d'un smartphone."
+        ]
+      },
+      {
+        "title": "Ce que vous trouverez sur le site",
+        "list": [
+          "Des exercices de respiration, dont la cohérence cardiaque",
+          "L'ancrage 5-4-3-2-1 et la relaxation musculaire progressive",
+          "Des visualisations apaisantes narrées en français",
+          "L'étiquetage des pensées, les feuilles sur la rivière et la fiche « Questionner une pensée »",
+          "Le temps d'inquiétude et la pause d'autocompassion",
+          "Des outils sensoriels (bulles, balle anti-stress, toupie) et une thérapie sonore",
+          "Des questionnaires d'auto-évaluation, avec export PDF",
+          "Une page pour comprendre l'anxiété et une page pour trouver de l'aide en France"
+        ]
+      },
+      {
+        "title": "Nous contacter",
+        "paragraphs": [
+          "Le contact se fait par le dépôt GitHub du projet. Un compte GitHub (gratuit) est nécessaire pour écrire ; les messages sont publics : n'y indiquez aucune information personnelle ou de santé.",
+          "Ce contact ne permet pas de suivi médical ni de réponse rapide. Si vous allez mal, appelez le 3114 (24 h/24) ou, en cas de danger immédiat, le 15 ou le 112."
+        ],
+        "links": [
+          {
+            "label": "Poser une question ou proposer une idée (Discussions)",
+            "url": "https://github.com/rodtrip2/ma-boussole-bien-etre/discussions"
+          },
+          {
+            "label": "Signaler un problème technique (Issues)",
+            "url": "https://github.com/rodtrip2/ma-boussole-bien-etre/issues"
+          }
+        ]
+      },
+      {
+        "title": "Questions fréquentes",
+        "faq": [
+          {
+            "q": "Le site est-il gratuit ?",
+            "a": "Oui, entièrement : pas d'option payante, pas de publicité, pas de frais cachés."
+          },
+          {
+            "q": "Faut-il créer un compte ?",
+            "a": "Non. Le site s'utilise immédiatement, sans inscription."
+          },
+          {
+            "q": "Mes réponses sont-elles enregistrées ?",
+            "a": "Non. Elles restent sur votre appareil, en mémoire, et disparaissent quand vous quittez la page. Seul un PDF que vous choisissez de télécharger est conservé, sur votre appareil. Voir la page Confidentialité."
+          },
+          {
+            "q": "Le site fonctionne-t-il sans connexion ?",
+            "a": "Oui, après une première visite, les pages en français fonctionnent hors ligne. Les narrations audio des visualisations nécessitent en revanche une connexion la première fois."
+          },
+          {
+            "q": "Comment l'installer sur mon téléphone ?",
+            "a": "Sur smartphone, un bandeau vous le propose ; vous pouvez aussi passer par le menu ☰, puis « Installer l'application »."
+          },
+          {
+            "q": "Par quel exercice commencer ?",
+            "a": "Quand l'anxiété monte, essayez la respiration en 2 minutes ou l'ancrage 5-4-3-2-1. Pour mieux comprendre ce qui se passe, lisez la page « Comprendre l'anxiété »."
+          },
+          {
+            "q": "Un soignant peut-il recommander le site à ses patients ?",
+            "a": "Oui, le site est libre et gratuit. Les questionnaires et exercices ne remplacent pas une évaluation clinique ; les fiches PDF peuvent servir de support à un échange en consultation."
+          }
+        ]
+      },
+      {
+        "title": "Information importante",
+        "paragraphs": [
+          "Ce site propose des informations générales et des outils de bien-être. Il ne remplace pas un avis, un diagnostic ou un traitement médical. Si l'anxiété persiste ou vous gêne au quotidien, parlez-en à votre médecin traitant ou à un professionnel de santé mentale."
+        ],
+        "help": "1"
+      }
+    ]
+  }
+}
