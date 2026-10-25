@@ -58,6 +58,7 @@
     "gsap": "^3.13.0",
     "import-in-the-middle": "^1.14.2",
     "jspdf": "^2.5.2",
+    "qrcode-generator": "^1.5.2",
     "three": "^0.179.1"
   },
   "pnpm": {

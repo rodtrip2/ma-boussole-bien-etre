@@ -22,6 +22,7 @@ const head = useLocaleHead()
         </main>
         <AppFooter />
         <InstallBanner />
+        <ShareSite />
       </Body>
     </Html>
   </div>
