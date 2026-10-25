@@ -6,7 +6,9 @@
     "menu": "Menu",
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu",
-    "skipToMain": "Aller au contenu principal"
+    "skipToMain": "Aller au contenu principal",
+    "language": "Langue",
+    "selectLanguage": "Choisir la langue"
   },
   "header": {
     "title": "Ma boussole bien-être",
@@ -50,5 +52,34 @@
       "Touchez « Installer l'application » ou « Ajouter à l'écran d'accueil ».",
       "Confirmez : l'icône apparaît sur votre écran d'accueil."
     ]
+  },
+  "share": {
+    "nav": "Partager",
+    "menu": "Partager le site",
+    "title": "Partager le site",
+    "close": "Fermer",
+    "intro": "Faites connaître Ma boussole bien-être : gratuit, sans inscription et sans publicité.",
+    "copyLink": "Copier",
+    "copied": "Copié",
+    "shareLink": "Partager le lien",
+    "shareText": "Ma boussole bien-être : des exercices simples pour apprivoiser son anxiété. Gratuit, sans inscription.",
+    "qrTitle": "QR code en plein écran",
+    "qrText": "À montrer pour qu'une personne ouvre le site en le scannant avec son téléphone.",
+    "qrOpen": "Afficher le QR code",
+    "scan": "Scannez pour ouvrir le site",
+    "cardTitle": "Carte à partager (JPG)",
+    "cardText": "Une image avec le QR code, à envoyer par message, publier ou imprimer.",
+    "preview": "Aperçu de la carte",
+    "cardShare": "Partager l'image",
+    "cardDownload": "Télécharger le JPG",
+    "sheetTitle": "Planche de cartes (PDF)",
+    "sheetText": "10 cartes au format carte de visite (85 × 55 mm) sur une page A4, à imprimer à 100 % puis découper.",
+    "sheetDownload": "Télécharger le PDF",
+    "sheetHeader": "10 cartes 85 x 55 mm - imprimer à 100 % (taille réelle), puis découper le long des pointillés",
+    "features": "Gratuit · Sans inscription · Sans publicité",
+    "fileName": "carte-ma-boussole-bien-etre",
+    "sheetFileName": "planche-cartes-ma-boussole-bien-etre",
+    "generating": "Préparation…",
+    "error": "Impossible de préparer ce fichier sur ce navigateur."
   }
 }

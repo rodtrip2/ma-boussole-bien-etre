@@ -52,5 +52,34 @@
       "Tap 'Install app' or 'Add to Home screen'.",
       "Confirm: the icon appears on your home screen."
     ]
+  },
+  "share": {
+    "nav": "Share",
+    "menu": "Share the site",
+    "title": "Share the site",
+    "close": "Close",
+    "intro": "Spread the word about Ma boussole bien-être: free, no sign-up and no ads.",
+    "copyLink": "Copy",
+    "copied": "Copied",
+    "shareLink": "Share the link",
+    "shareText": "Ma boussole bien-être: simple exercises to befriend your anxiety. Free, no sign-up.",
+    "qrTitle": "Full-screen QR code",
+    "qrText": "Show it so someone can open the site by scanning it with their phone.",
+    "qrOpen": "Show the QR code",
+    "scan": "Scan to open the site",
+    "cardTitle": "Shareable card (JPG)",
+    "cardText": "An image with the QR code, to send by message, post or print.",
+    "preview": "Card preview",
+    "cardShare": "Share the image",
+    "cardDownload": "Download the JPG",
+    "sheetTitle": "Sheet of cards (PDF)",
+    "sheetText": "10 business-card size cards (85 × 55 mm) on one A4 page, to print at 100% and cut out.",
+    "sheetDownload": "Download the PDF",
+    "sheetHeader": "10 cards 85 x 55 mm - print at 100% (actual size), then cut along the dotted lines",
+    "features": "Free · No sign-up · No ads",
+    "fileName": "ma-boussole-bien-etre-card",
+    "sheetFileName": "ma-boussole-bien-etre-card-sheet",
+    "generating": "Preparing…",
+    "error": "This file could not be prepared in this browser."
   }
 }
