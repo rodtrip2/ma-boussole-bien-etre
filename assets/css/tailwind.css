@@ -52,3 +52,8 @@ li::marker {
 .scroll-offset {
   scroll-margin-top: 20px;
 }
+
+/* Mode intégré (page affichée dans Mon PCC) : uniquement l'exercice */
+html[data-integre] .mbb-chrome {
+  display: none !important;
+}

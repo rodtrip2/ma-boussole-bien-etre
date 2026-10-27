@@ -1,4 +1,22 @@
 import { defineNuxtConfig } from "nuxt/config";
+import { readdirSync, statSync, writeFileSync } from "node:fs";
+import { join, relative } from "node:path";
+
+/** Liste des fichiers audio français, pour une mise hors ligne complète (utilisée par Mon PCC) */
+function writeOfflineAudioList() {
+  const root = join(process.cwd(), "public");
+  const out = [];
+  const walk = (dir) => {
+    for (const name of readdirSync(dir)) {
+      const p = join(dir, name);
+      if (statSync(p).isDirectory()) walk(p);
+      else if (/\.(mp3|ogg|m4a|wav)$/i.test(name)) out.push(relative(root, p).split("\\").join("/"));
+    }
+  };
+  walk(join(root, "audios"));
+  const fr = out.filter((f) => !/\/en\//.test(f)).sort();
+  writeFileSync(join(root, "audios", "offline-fr.json"), JSON.stringify({ files: fr }, null, 2) + "\n");
+}
 
 export default defineNuxtConfig({
   ssr: true,
@@ -70,6 +88,12 @@ export default defineNuxtConfig({
           // Capte au plus tôt l'autorisation d'installer envoyée par Chrome / Edge (Android),
           // avant le chargement de l'application ; utilisée par composables/usePwaInstall.js
           innerHTML: "window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();window.__mbbInstall=e;window.dispatchEvent(new Event('mbb-installable'))});",
+          tagPosition: 'head',
+        },
+        {
+          // Mode intégré : page affichée dans une autre application (ex. Mon PCC, même site).
+          // On masque immédiatement l'en-tête, le pied de page et les bandeaux (attribut data-integre).
+          innerHTML: "try{if(window.self!==window.top||/[?&]integre=1/.test(location.search))document.documentElement.setAttribute('data-integre','')}catch(e){document.documentElement.setAttribute('data-integre','')}",
           tagPosition: 'head',
         },
       ],
@@ -221,14 +245,33 @@ export default defineNuxtConfig({
 
   compatibilityDate: "2024-12-26",
 
+  hooks: {
+    "build:before": writeOfflineAudioList,
+  },
+
   pwa: {
     registerType: 'autoUpdate',
     workbox: {
       navigateFallback: null,
-      globPatterns: ['**/*.{js,css,html,png,svg,ico,woff2}'],
+      // _i18n/fr/messages.json : textes français, indispensables hors ligne
+      globPatterns: ['**/*.{js,css,html,png,svg,ico,woff2}', '_i18n/fr/*.json'],
       // Hors ligne : uniquement les pages françaises et les ressources communes
       globIgnores: ['en/**', '**/_payload.json', '200.html', '404.html'],
       maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
+      // ?integre=1 (mode intégré) ne doit pas empêcher l'usage hors ligne
+      ignoreURLParametersMatching: [/^utm_/, /^fbclid$/, /^integre$/],
+      // Sons et narrations : gardés en mémoire au premier usage (hors ligne ensuite)
+      runtimeCaching: [
+        {
+          urlPattern: ({ url }) => url.pathname.includes("/audios/") && !url.pathname.endsWith(".json"),
+          handler: "CacheFirst",
+          options: {
+            cacheName: "mbb-audios",
+            rangeRequests: true,
+            cacheableResponse: { statuses: [0, 200] },
+          },
+        },
+      ],
     },
     client: {
       // Invitation à l'installation gérée par components/InstallBanner.vue
