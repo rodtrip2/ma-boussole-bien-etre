@@ -14,15 +14,19 @@ const head = useLocaleHead()
         </template>
       </Head>
       <Body>
-        <AppHeader />
+        <!-- Mode intégré : quand la page est affichée dans une autre application (ex. Mon PCC),
+             l'en-tête, le pied de page et les bandeaux sont masqués (voir app.head et tailwind.css) -->
+        <div class="mbb-chrome"><AppHeader /></div>
         <main>
           <div class="">
             <slot />
           </div>
         </main>
-        <AppFooter />
-        <InstallBanner />
-        <ShareSite />
+        <div class="mbb-chrome">
+          <AppFooter />
+          <InstallBanner />
+          <ShareSite />
+        </div>
       </Body>
     </Html>
   </div>

@@ -1,5 +1,5 @@
 <template>
-  <section class="py-12">
+  <section class="mbb-chrome py-12">
     <div class="text-center">
       <h2 class="mb-6 text-4xl font-semibold text-gray-800 dark:text-slate-100">{{ $t('relatedTechniques.title') }}</h2>
       <p class="mb-8 text-gray-600 dark:text-slate-300">

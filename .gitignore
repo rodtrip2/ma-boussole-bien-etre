@@ -56,3 +56,6 @@ pages/og-*.vue
 .claude
 # Sentry Config File
 .env.sentry-build-plugin
+
+# Généré au build (liste des sons pour le hors ligne)
+public/audios/offline-fr.json
