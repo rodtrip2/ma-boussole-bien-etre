@@ -59,3 +59,4 @@ pages/og-*.vue
 
 # Généré au build (liste des sons pour le hors ligne)
 public/audios/offline-fr.json
+public/audios/offline-en.json

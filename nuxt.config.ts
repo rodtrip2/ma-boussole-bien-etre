@@ -15,7 +15,9 @@ function writeOfflineAudioList() {
   };
   walk(join(root, "audios"));
   const fr = out.filter((f) => !/\/en\//.test(f)).sort();
+  const en = out.filter((f) => !/\/fr\//.test(f)).sort();
   writeFileSync(join(root, "audios", "offline-fr.json"), JSON.stringify({ files: fr }, null, 2) + "\n");
+  writeFileSync(join(root, "audios", "offline-en.json"), JSON.stringify({ files: en }, null, 2) + "\n");
 }
 
 export default defineNuxtConfig({
@@ -262,6 +264,16 @@ export default defineNuxtConfig({
       ignoreURLParametersMatching: [/^utm_/, /^fbclid$/, /^integre$/],
       // Sons et narrations : gardés en mémoire au premier usage (hors ligne ensuite)
       runtimeCaching: [
+        // Pages et textes anglais : gardés au premier usage, ou préparés par Mon PCC
+        // (cache « mbb-pages-en ») pour un usage hors ligne en anglais
+        {
+          urlPattern: ({ url }) => /\/(en|_i18n\/en)\//.test(url.pathname) && !url.pathname.endsWith("_payload.json"),
+          handler: "StaleWhileRevalidate",
+          options: {
+            cacheName: "mbb-pages-en",
+            cacheableResponse: { statuses: [0, 200] },
+          },
+        },
         {
           urlPattern: ({ url }) => url.pathname.includes("/audios/") && !url.pathname.endsWith(".json"),
           handler: "CacheFirst",
